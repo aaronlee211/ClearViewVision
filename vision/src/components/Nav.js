@@ -8,7 +8,7 @@ function Nav() {
     <nav className="navbar navbar-expand-lg" data-bs-theme="dark">
         <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-                <NavLink className="nav-link active" to="home">Home</NavLink>
+                <NavLink className="nav-link active" to="/">Home</NavLink>
             </li>
             <li className="nav-item">
                 <NavLink className="nav-link active" to="doctors">Doctors</NavLink>

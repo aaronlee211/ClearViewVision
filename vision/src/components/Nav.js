@@ -11,7 +11,7 @@ function Nav() {
                 <NavLink className="nav-link active" to="home">Home</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link active" to="doctor">Doctors</NavLink>
+                <NavLink className="nav-link active" to="doctors">Doctors</NavLink>
             </li>
             <li className="nav-item">
                 <NavLink className="nav-link active" to="location">Location</NavLink>

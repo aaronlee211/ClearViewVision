@@ -1,0 +1,55 @@
+h2 {
+    color: white;
+}
+
+.doctors-header {
+    padding: 20px 5px 30px 5px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.doctor {
+    padding: 20px 5px;
+}
+
+.doctor-text {
+    background-color: #AFDCEB;
+    padding: 10px 30px;
+    display: table;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.text {
+    display: table-cell;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.doctor-image {
+    background-color: #AFDCEB;
+    padding: 30px;
+    text-align: center;
+}
+
+.circle-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.transparent {
+    opacity: 0;
+}
+
+.right {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.left {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+ 

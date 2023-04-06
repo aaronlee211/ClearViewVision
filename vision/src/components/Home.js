@@ -4,7 +4,7 @@ import React from 'react'
 function Home() {
   return (
     <>
-      <video src="../videos/video-2.mp4" autoPlay loop muted/>
+      <img src={require("../images/cmd.jpg")} />
     </>
   )
 }

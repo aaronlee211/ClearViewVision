@@ -1,3 +1,15 @@
 .navbar {
-    margin-right: 2px;
+    padding: 5px 40px 5px;
+    background-color: #AFDCEB;
+    color: #AFDCEB;
+}
+
+.nav-item {
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-link {
+    color: black !important;
 }

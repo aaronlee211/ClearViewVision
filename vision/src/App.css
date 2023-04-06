@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-image: url('./images/darkbackground.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 80vh;
+  z-index: -1;
+}
+
+.home-container > h1, p {
+  color: white;
+}

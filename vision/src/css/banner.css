@@ -1,0 +1,45 @@
+#banner-grid {
+    display: flex;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    justify-content: space-between;
+}
+
+#first-col {
+    width: 20%;
+    margin-left: 10%;
+}
+
+#second-col {
+    display: flex;
+    color: #003554;
+    font-weight: bold;
+    width: 50%;
+    text-align: end;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+
+.banner-container::after {
+    content: "";
+    display: block;
+    border-bottom: 6px solid black;
+    transform: scaleX(0.25);
+    transform-origin: left;
+    transition: 500ms ease-in-out;
+    opacity: 1;
+}
+
+.banner-container:hover::after {
+    content: "";
+    display: block;
+    transform: scaleX(1);
+    opacity: 1;
+}
+
+#banner-logo {
+    width: 50%;
+    height: auto
+}

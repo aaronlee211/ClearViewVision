@@ -1,8 +1,8 @@
 .navbar {
     padding: 5px 40px 5px;
-    margin: 10px;
-    background-color: #AFDCEB;
-    color: #AFDCEB;
+    background-color: skyblue;
+    color: skyblue;
+    /* #AFDCEB */
 }
 
 .nav-item {
@@ -12,5 +12,5 @@
 }
 
 .nav-link {
-    color: black !important;
+    color: #003554 !important;
 }

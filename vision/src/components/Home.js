@@ -9,8 +9,8 @@ function Hero() {
           <div class="row">
             <div class="col-lg-1 transparent"></div>
             <div class="col-lg-5">
-              <h1>Bringing Austin Into Focus</h1>
-              <p>Conveniently located in North Austin, Hamilton Eye Associates is a locally-owned, community conscious business that has been serving Austin for almost three decades. Our knowledgeable and caring doctors use state of the art diagnostic equipment to provide you with the best eye care in central Texas.</p>
+              <h1>Our vision is your vision.</h1>
+              <p>Here at Clearview Vision in Austin, TX, we are committed to providing comprehensive and personalized eye care services to patients of all ages.  With a team of experienced and friendly optometrists, Clearview Vision offers a range of services, including routine eye exams, contact lens fittings, consultation for eye diseases and infences, and partnerships for eye surgeries.</p>
             </div>
           </div>
         </div>

@@ -3,6 +3,7 @@ import Home from './components/Home.js';
 import Nav from './components/Nav.js';
 import Footer from './components/Footer.js';
 import Contact from './components/Contact.js';
+import Banner from './components/Banner';
 import Doctors from './components/Doctors.js';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+        <Banner />
         <Nav />
         <div>
           <Routes>

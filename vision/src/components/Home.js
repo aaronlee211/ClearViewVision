@@ -1,4 +1,5 @@
 import React from 'react'
+import '../App.css'
 
 
 function Hero() {
@@ -6,13 +7,11 @@ function Hero() {
     <>
       <div className="image-container">
         <div class="container home-container">
-          <div class="row">
             <div class="col-lg-1 transparent"></div>
             <div class="col-lg-5">
               <h1>Our vision is your vision.</h1>
               <p>Here at Clearview Vision in Austin, TX, we are committed to providing comprehensive and personalized eye care services to patients of all ages.  With a team of experienced and friendly optometrists, Clearview Vision offers a range of services, including routine eye exams, contact lens fittings, consultation for eye diseases and infences, and partnerships for eye surgeries.</p>
             </div>
-          </div>
         </div>
         <img src={require("../images/darkbackground.jpg")} />
       </div>

@@ -33,11 +33,13 @@ code {
 }
 .container {
   width: auto;
-  max-width: 1300px;
-  padding-right: var(--bs-gutter-x,.75rem);
-  padding-left: var(--bs-gutter-x,.75rem);
+  max-width: 2000px;
+  /* padding-right: var(--bs-gutter-x,.75rem);
+  padding-left: var(--bs-gutter-x,.75rem); */
   margin-right: auto;
   margin-left: auto;
+  /* margin-right: 0px;
+  margin-left: 0px; */
 }
 .contact .row {
   width: 100%;
@@ -72,9 +74,6 @@ code {
 
 .col-md-12 {
   width: 100%;
-}
-.col-md-6 {
-  width: 49.9%;
 }
 .col-md-3 {
   margin: 0 1rem!important;
@@ -263,7 +262,6 @@ footer .logo {
   color: rgb(243, 243, 243);
   letter-spacing: 2px;
   font-weight: 400;
-
   font-size: 28px;
 }
 .logo a{
@@ -563,9 +561,6 @@ ul li a {
     font-weight: 500;
   
   }
-  .col-md-6 {
-    width: 100%;
-  }
   .row {
     display: inline-block;
   }
@@ -578,9 +573,58 @@ ul li a {
   margin-bottom: 1rem!important;
 }
 
+/* ------------------------------------------------------- */
+/* ------------------------------------------------------- */
 /* This starts the section of custom css for website needs */
+/* ------------------------------------------------------- */
+/* ------------------------------------------------------- */
+
+/* This section is for the Header */
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* This section is for the Footer */
+
+.ft-items {
+  margin: 4px 0px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 2px;
+}
+
+.ft-icon {
+  width: red;
+}
+
+#copyright {
+  font-size: 0.75rem;
+}
+
+h5 > a, p {
+  margin: 0px;
+  margin-left: 8px;
+  display: inline;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+h5 > a:hover {
+  color: #003554 !important;
+}
+
+h5 > p:hover {
+  color: #003554 !important;
+}
+
+h5 {
+  font-size: 1rem;
+}
 
 
+/* This section is predominantly for the Reviews Section */
 .image-container > img {
   background-size: cover;
   background-position: center;
@@ -635,3 +679,5 @@ ul li a {
     font-size: 40px;
   }
 }
+
+/*  */

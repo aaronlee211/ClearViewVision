@@ -40,7 +40,7 @@ function Navbar() {
             </Link>
           </h1>
           <ul className="bar">
-            
+
             {/* This style is to move to a component div on the same page */}
             <li>
               <Link to="headerbg" onClick={openBar} activeClass="active" spy={true} smooth={true} duration={1000}>

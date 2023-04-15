@@ -1,3 +1,27 @@
+/* Tags */
+
+h5 > a, p {
+  margin: 0px;
+  margin-left: 8px;
+  display: inline;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+h5 > a:hover {
+  color: #003554 !important;
+}
+
+h5 > p:hover {
+  color: #003554 !important;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+/* Classes */
+
 .App {
   text-align: center;
 }
@@ -95,3 +119,21 @@
     font-size: 40px;
   }
 }
+
+.ft-items {
+  margin: 4px 0px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 2px;
+}
+
+.ft-icon {
+  width: red;
+}
+
+/*  IDs */
+
+#copyright {
+  font-size: 0.75rem;
+}
+

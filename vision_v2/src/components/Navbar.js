@@ -1,4 +1,5 @@
 import { Link } from "react-scroll";
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
   document.addEventListener("scroll", function (e) {
@@ -34,64 +35,32 @@ function Navbar() {
       <div className="container">
         <div className="row">
           <h1 className="logo">
-            <Link
-              spy={true}
-              smooth={true}
-              duration={1000}
-              to="headerbg"
-              style={{ cursor: "pointer" }}
-            >
-              DarkLeas
+            <Link to="headerbg" spy={true} smooth={true} duration={1000} style={{ cursor: "pointer" }}>
+              ClearView Vision
             </Link>
           </h1>
           <ul className="bar">
+            
+            {/* This style is to move to a component div on the same page */}
             <li>
-              <Link
-                onClick={openBar}
-                activeClass="active"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                to="headerbg"
-              >
+              <Link to="headerbg" onClick={openBar} activeClass="active" spy={true} smooth={true} duration={1000}>
                 Home
               </Link>
             </li>
             <li>
-              <Link
-                onClick={openBar}
-                activeClass="active"
-                to="services"
-                spy={true}
-                smooth={true}
-                duration={1000}
-              >
-                Services
+              <Link to="doctors" onClick={openBar} activeClass="active" spy={true} smooth={true} duration={1000}>
+                Doctors
               </Link>
             </li>
             <li>
-              <Link
-                onClick={openBar}
-                to="about-scroll"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                activeClass="active"
-              >
-                About
+              <Link to="reviews" onClick={openBar} activeClass="active" spy={true} smooth={true} duration={1000}>
+                Reviews
               </Link>
             </li>
-            <li>
-              <Link
-                onClick={openBar}
-                to="contact"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                activeClass="active"
-              >
-                Contact
-              </Link>
+
+            {/* This style is to move to a different page */}
+            <li className="nav-item">
+                <NavLink className="nav-link active" to="contact">Contact</NavLink>
             </li>
           </ul>
           <div className="button" onClick={openBar}>

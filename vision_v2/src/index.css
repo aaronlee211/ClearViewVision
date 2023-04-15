@@ -577,3 +577,61 @@ ul li a {
 .mb-1 {
   margin-bottom: 1rem!important;
 }
+
+/* This starts the section of custom css for website needs */
+
+
+.image-container > img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 70vh;
+  z-index: -1;
+}
+
+.carousel-item {
+  background-color: skyblue;
+  height: 200px;
+}
+
+.carousel-caption > p {
+  color: #003554 !important;
+  font-weight: bold;
+}
+
+.carousel-caption > h1 {
+  color: #996515 !important;
+}
+
+.col-lg-5 > h1 {
+  color: whitesmoke !important;
+  margin-top: 30%;
+  font-size: 45px;
+}
+
+.col-lg-5 > p {
+  color: white !important;
+}
+
+.col-lg-5 {
+  margin-left: 25%;
+}
+
+#secondary-image {
+  width: 65%;
+  height: auto;
+  padding-top: 225px;
+}
+
+.carousel-card {
+  position: relative;
+  background-color: red;
+}
+
+@media only screen and (max-width: 450px) {
+  .col-lg-5 > h1 {
+    padding-top: 50px;
+    font-size: 40px;
+  }
+}

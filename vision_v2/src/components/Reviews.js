@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Review() {
+function Reviews() {
     return (
         <>
             <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -43,10 +43,13 @@ function Review() {
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
+                <div class='text-center'>
+                    <a id='review-btn' class="btn btn-lg btn-primary" href="#">Leave a Review</a>
+                </div>
             </div>
-            <p><a class="btn btn-lg btn-primary" href="#">Leave a Review</a></p>
+
         </>
     )
 }
 
-export default Review
+export default Reviews

@@ -34,12 +34,8 @@ code {
 .container {
   width: auto;
   max-width: 2000px;
-  /* padding-right: var(--bs-gutter-x,.75rem);
-  padding-left: var(--bs-gutter-x,.75rem); */
   margin-right: auto;
   margin-left: auto;
-  /* margin-right: 0px;
-  margin-left: 0px; */
 }
 .contact .row {
   width: 100%;
@@ -47,6 +43,7 @@ code {
 .row {
   display: flex;
   z-index: 1;
+  flex-wrap: nowrap;
 }
 .img-fluid {
   max-width: 60%;
@@ -115,7 +112,7 @@ code {
   top: 0;
   width: 100% ;
   padding: 0.5rem;
-  background-color: transparent;
+  background-color: skyblue;
   z-index: 2;
   backdrop-filter: blur(2px);
 }
@@ -134,7 +131,7 @@ code {
 .navbar ul { 
   transition: all 0.2s;
 
-  margin-left: 17rem;
+  margin: 2rem 0rem 0rem 8rem;
   list-style: none;
 }
 .navbar ul li {
@@ -215,7 +212,7 @@ header h1 {
   font-weight: 500;
 }
 main {
-  padding: 3rem 0;
+  padding: 3rem 0px 0rem;
   background-color: #fafafa;
   width: 100%;
 }
@@ -579,7 +576,17 @@ ul li a {
 /* ------------------------------------------------------- */
 /* ------------------------------------------------------- */
 
+
+/* This section is for the Navbar */
+
+#navbar-logo {
+  height: 6rem;
+  width: 12rem;
+  display: flex;
+}
+
 /* This section is for the Header */
+
 .center {
   text-align: center;
   margin-left: auto;
@@ -634,6 +641,18 @@ h5 {
   z-index: -1;
 }
 
+#myCarousel {
+  background-color: skyblue;
+}
+
+#review-btn {
+  align-items: center;
+}
+
+.carousel-indicators {
+  padding-bottom: 2.5rem;
+}
+
 .carousel-item {
   background-color: skyblue;
   height: 200px;
@@ -680,4 +699,65 @@ h5 {
   }
 }
 
-/*  */
+/* This section is for contact */
+
+.contact {
+  margin-top: 10rem;
+}
+
+/* This section is for Doctors */
+
+h2 {
+  color: white;
+}
+
+.doctors-header {
+  padding: 20px 5px 30px 5px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.doctor {
+  padding: 20px 5px;
+}
+
+.doctor-text {
+  background-color: #AFDCEB;
+  padding: 10px 30px;
+  display: table;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.text {
+  display: table-cell;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.doctor-image {
+  background-color: #AFDCEB;
+  padding: 30px;
+  text-align: center;
+}
+
+.circle-image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.transparent {
+  opacity: 0;
+}
+
+.right {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.left {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}

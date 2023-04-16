@@ -1,7 +1,7 @@
 function Header() {
   return (
     <header>
-      <video src="./video.mp4" loop autoPlay muted></video>
+      {/* <img class="circle-image" src={require("../images/ClearViewLogo.png")}></img> */}
       <h1>Our vision is your vision.</h1>
       <div className="row">
         <div class='col-sm-10 center'>

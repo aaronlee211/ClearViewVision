@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 import Contact from './components/Contact.js';
+import Doctors from './components/Doctors.js';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           {/* Multiple Components in a route path can be concatenated in a fragment */}
           <Route path='/' element={<><Header/><Main/></>}/>
           <Route path='contact' element={<Contact />}/>
+          <Route path='doctors' element={<Doctors />}/>
         </Routes>
       </div>
       <Footer />

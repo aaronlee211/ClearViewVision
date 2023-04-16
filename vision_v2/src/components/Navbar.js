@@ -34,24 +34,20 @@ function Navbar() {
     <nav className="navbar">
       <div className="container">
         <div className="row">
-          <h1 className="logo">
-            <Link to="headerbg" spy={true} smooth={true} duration={1000} style={{ cursor: "pointer" }}>
-              ClearView Vision
-            </Link>
-          </h1>
+          <img id="navbar-logo" src={require("../images/ClearViewLogo.png")}></img>
           <ul className="bar">
 
+            {/* This style is to move to a different page */}
+            <li className="nav-item">
+                <NavLink className="nav-link active" to="/">Home</NavLink>
+            </li>
+
+            {/* This style is to move to a different page */}
+            <li className="nav-item">
+                <NavLink className="nav-link active" to="doctors">Doctors</NavLink>
+            </li>
+
             {/* This style is to move to a component div on the same page */}
-            <li>
-              <Link to="headerbg" onClick={openBar} activeClass="active" spy={true} smooth={true} duration={1000}>
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link to="doctors" onClick={openBar} activeClass="active" spy={true} smooth={true} duration={1000}>
-                Doctors
-              </Link>
-            </li>
             <li>
               <Link to="reviews" onClick={openBar} activeClass="active" spy={true} smooth={true} duration={1000}>
                 Reviews
@@ -62,6 +58,7 @@ function Navbar() {
             <li className="nav-item">
                 <NavLink className="nav-link active" to="contact">Contact</NavLink>
             </li>
+
           </ul>
           <div className="button" onClick={openBar}>
             <div className="burger"></div>

@@ -585,9 +585,10 @@ ul li a {
 /* This section is for the Navbar */
 
 #navbar-logo {
-  height: 6rem;
-  width: 12rem;
+  width: 10rem;
+  height: auto;
   display: flex;
+  margin-right: 14rem;
 }
 
 /* This section is for the Header */

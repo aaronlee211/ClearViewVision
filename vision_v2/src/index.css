@@ -113,7 +113,7 @@ code {
   top: 0;
   width: 100% ;
   padding: 0.5rem;
-  background-color: skyblue;
+  background-color: #5B75EA;
   z-index: 2;
   backdrop-filter: blur(2px);
 }
@@ -660,8 +660,16 @@ h5 {
   z-index: -1;
 }
 
+.reviewsbg {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  opacity: 0.0;
+}
+
 #myCarousel {
-  background-color: skyblue;
+  background-color: #AFDCEB;
+  padding-bottom: 1.5rem;
 }
 
 #review-btn {
@@ -669,12 +677,12 @@ h5 {
 }
 
 .carousel-indicators {
-  padding-bottom: 2.5rem;
+  padding-bottom: 4.25rem;
 }
 
 .carousel-item {
-  background-color: skyblue;
-  height: 200px;
+  background-color: #AFDCEB;
+  height: 14rem;
 }
 
 .carousel-caption > p {
@@ -727,22 +735,55 @@ h5 {
 /* This section is for Doctors */
 
 h2 {
+  color: #20379E
+}
+
+.text h2 {
   color: white;
 }
 
+.container-fluid {
+  background-color: #F9F7F7;
+}
+
+.doctors-desc {
+  padding: 6rem 14rem;
+  text-align: left;
+}
+
+.doctors-desc h5 {
+  color: black;
+}
+
 .doctors-header {
+  margin-top: 6rem;
   padding: 20px 5px 30px 5px;
   color: white;
   font-size: 50px;
   text-align: center;
 }
 
+.doctor-header-image {
+  position: absolute;
+  display: inline;
+  width: 30%;
+  height: 30%;
+  z-index: 0;
+  top: 18%;
+  right: 10%;
+}
+
 .doctor {
   padding: 20px 0px;
 }
 
+.doctor-row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
 .doctor-text {
-  background-color: #AFDCEB;
+  background-color: #5B75EA;
   padding: 10px 30px;
   margin-left: 0px;
   margin-right: 0px;
@@ -752,13 +793,14 @@ h2 {
 }
 
 .text {
+  color: white;
   display: table-cell;
   align-items: center;
   vertical-align: middle;
 }
 
 .doctor-image {
-  background-color: #AFDCEB;
+  background-color: #EDD2CA;
   padding: 30px;
   text-align: center;
 }

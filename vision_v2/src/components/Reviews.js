@@ -44,7 +44,7 @@ function Reviews() {
                     <span class="visually-hidden">Next</span>
                 </button>
                 <div class='text-center'>
-                    <a id='review-btn' class="btn btn-lg btn-primary" href="#">Leave a Review</a>
+                    <a id='review-btn' class="btn btn-lg btn-primary" href="https://search.google.com/local/writereview?placeid=ChIJK_GCrudLW4YRcphauNK_WX8">Leave a Review</a>
                 </div>
                 <div class='reviewsbg'></div>
             </div>

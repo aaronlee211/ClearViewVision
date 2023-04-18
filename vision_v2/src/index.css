@@ -859,3 +859,20 @@ div > h3 {
 .prop-button {
   margin-bottom: 5%;
 }
+
+.navlink-container::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid black;
+  transform: scaleX(0.25);
+  transform-origin: left;
+  transition: 500ms ease-in-out;
+  opacity: 1;
+}
+
+.navlink-container:hover::after {
+  content: "";
+  display: block;
+  transform: scaleX(1);
+  opacity: 1;
+}

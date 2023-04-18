@@ -38,25 +38,25 @@ function Navbar() {
           <ul className="bar">
 
             {/* This style is to move to a different page */}
-            <li className="nav-item">
+            <li className="nav-item navlink-container">
                 <NavLink className="nav-link active" to="/">Home</NavLink>
             </li>
 
             {/* This style is to move to a different page */}
-            <li className="nav-item">
+            <li className="nav-item navlink-container">
                 <NavLink className="nav-link active" to="doctors">Doctors</NavLink>
             </li>
 
             {/* This style is to move to a component div on the same page */}
             <li>
-              <Link to="reviewsbg" onClick={openBar} activeClass="active" spy={true} smooth={true} duration={1000}>
+              <Link to="reviewsbg" className="navlink-container" onClick={openBar} activeClass="active" spy={true} smooth={true} duration={50}>
                 Reviews
               </Link>
             </li>
 
             {/* This style is to move to a different page */}
             <li className="nav-item">
-                <NavLink className="nav-link active" to="contact">Contact</NavLink>
+                <NavLink className="nav-link active navlink-container" to="contact">Contact</NavLink>
             </li>
 
           </ul>

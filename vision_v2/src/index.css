@@ -734,12 +734,14 @@ h2 {
 }
 
 .doctor {
-  padding: 20px 5px;
+  padding: 20px 0px;
 }
 
 .doctor-text {
   background-color: #AFDCEB;
   padding: 10px 30px;
+  margin-left: 0px;
+  margin-right: 0px;
   display: table;
   align-items: center;
   vertical-align: middle;
@@ -775,8 +777,4 @@ h2 {
 .left {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
-}
-
-* {
-  outline: 1px solid #f00 !important;
 }

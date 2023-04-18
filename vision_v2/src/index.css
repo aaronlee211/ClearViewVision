@@ -129,7 +129,7 @@ code {
   font-size: 28px;
   padding-top: 10px;
 }
-.navbar ul { 
+.navbar ul {
   transition: all 0.2s;
 
   margin: 2rem 0rem 0rem 8rem;
@@ -206,7 +206,7 @@ header h1 {
 /* main */
 .main-title {
   font-size: 48px;
-  color: #01bf71;
+  color: #000000;
 }
 .main-p {
   font-size: 22px;
@@ -265,7 +265,7 @@ footer .logo {
 .logo a{
   text-decoration: none;
   color: #fafafa;
-  
+
 }
 .footer-title {
   color: #fafafa;
@@ -301,18 +301,21 @@ footer ul li a {
   color: white;
   bottom: 20px;
   right: 15px;
-  
+
 }
 /* Services */
 .card-title {
-  color: #01bf71;
+  color: #ffffff;
   font-size: 24px;
+  text-align: left;
+  margin-left: 50%;
 }
 .p-3 {
   padding: 0.2rem 1rem;
 }
 .card-text {
   padding: 0rem 0rem 1rem 0rem;
+  color: rgb(255, 255, 255);
   font-weight: 500;
   font-size: 18px;
 
@@ -325,6 +328,7 @@ footer ul li a {
   transition: all 0.2s;
   background-color: white;
   box-shadow: 5px 5px 5px 5px #e5e5e5;
+  z-index: 0;
 }
 .card:hover {
   transform:scale(1.03);
@@ -427,7 +431,7 @@ ul li a {
   }
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
   header h1 {
     text-align: center;
     font-size: 44px!important;
@@ -435,7 +439,7 @@ ul li a {
   .container {
     max-width: 720px;
   }
-  .navbar ul { 
+  .navbar ul {
     margin-left: 0rem;
     list-style: none;
   }
@@ -444,14 +448,14 @@ ul li a {
   }
 
 }
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
   .col-md-4:first-child {
     margin-right: 0;
-  
+
   }
   .col-md-4:last-child {
     margin-left: 0;
-  
+
   }
   .services .col-md-4 {
     margin: 2rem auto!important;
@@ -459,11 +463,11 @@ ul li a {
 
   }
   .col-md-4 {
-    
+
     width: 100%!important;
   }
   .contact .col-md-4 {
-    
+
     margin: none!important;
     }
   .col-md-3 {
@@ -478,7 +482,7 @@ ul li a {
   }
   .side2 {
     width: 100%;
-  
+
   }
    .navopened ul {
     top: 55px!important;
@@ -509,7 +513,7 @@ ul li a {
 
   }
   .container {
-      max-width: 540px; 
+      max-width: 540px;
   }
 
   .button {
@@ -530,7 +534,7 @@ ul li a {
     backdrop-filter: none;
     padding: 10px 0;
   }
-  .navbar ul { 
+  .navbar ul {
     backdrop-filter: blur(20px);
 
     z-index: -1;
@@ -557,7 +561,7 @@ ul li a {
     text-decoration: none;
     color: #fafafa;
     font-weight: 500;
-  
+
   }
   .row {
     display: inline-block;
@@ -777,4 +781,39 @@ h2 {
 .left {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
+}
+
+.services-container{
+  justify-content: center;
+}
+
+.propcard-title {
+  padding-top: 5%;
+  background-color: #607CEA;
+}
+
+div > h3 {
+  position: relative;
+  top: 25%;
+}
+
+.prop-image {
+  position: absolute;
+  width: 15%;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.propcard-title > img {
+  width: 25%;
+  height: auto;
+}
+
+#prop-body {
+  background-color: #1c3879;
+  padding-top: 40px;
+}
+
+.prop-button {
+  margin-bottom: 5%;
 }

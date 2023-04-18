@@ -8,6 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 .hidescroll {
   overflow: hidden!important;
 }
@@ -33,7 +34,7 @@ code {
 }
 .container {
   width: auto;
-  max-width: 2000px;
+  max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -182,9 +183,9 @@ video {
   z-index: 0;
   top: 0;
   background-color: black;
-  opacity: 0.7;
-
+  opacity: 0.10;
 }
+
 header {
   height: 100vh;
   width: 100%;
@@ -593,6 +594,20 @@ ul li a {
   margin-right: auto;
 }
 
+.header {
+  text-align: center;
+  height: 5px;
+  position: absolute;
+}
+
+.header-image {
+  display: inline;
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  z-index: -10;
+}
+
 /* This section is for the Footer */
 
 .ft-items {
@@ -760,4 +775,8 @@ h2 {
 .left {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
+}
+
+* {
+  outline: 1px solid #f00 !important;
 }

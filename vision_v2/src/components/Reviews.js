@@ -46,8 +46,8 @@ function Reviews() {
                 <div class='text-center'>
                     <a id='review-btn' class="btn btn-lg btn-primary" href="#">Leave a Review</a>
                 </div>
+                <div class='reviewsbg'></div>
             </div>
-
         </>
     )
 }

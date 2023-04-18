@@ -49,7 +49,7 @@ function Navbar() {
 
             {/* This style is to move to a component div on the same page */}
             <li>
-              <Link to="reviews" onClick={openBar} activeClass="active" spy={true} smooth={true} duration={1000}>
+              <Link to="reviewsbg" onClick={openBar} activeClass="active" spy={true} smooth={true} duration={1000}>
                 Reviews
               </Link>
             </li>

@@ -15,9 +15,8 @@ function App() {
       <div>
         <Routes>
           {/* Multiple Components in a route path can be concatenated in a fragment */}
-          <Route path='/' element={<><Header/><Main/></>}/>
+          <Route path='/' element={<><Header/><Main/><Reviews /></>}/>
           <Route path='contact' element={<Contact />}/>
-          <Route path='reviews' element={<Reviews />}/>
           <Route path='doctors' element={<Doctors />}/>
         </Routes>
       </div>

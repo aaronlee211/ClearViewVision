@@ -6,7 +6,6 @@ function Main() {
     <>
       <main>
         <Services />
-        <Reviews />
       </main>
     </>
   );

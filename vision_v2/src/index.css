@@ -183,7 +183,7 @@ video {
   z-index: 0;
   top: 0;
   background-color: black;
-  opacity: 0.10;
+  opacity: 0;
 }
 
 header {
@@ -604,12 +604,20 @@ ul li a {
   position: absolute;
 }
 
+.header h1, h4 {
+  padding-left: 15%;
+  padding-right: 15%;
+  color: #C2765D;
+  font-weight: bold;
+}
+
 .header-image {
   display: inline;
   position: absolute;
   width: inherit;
   height: inherit;
-  z-index: -10;
+  top: 5%;
+  z-index: -1;
 }
 
 /* This section is for the Footer */

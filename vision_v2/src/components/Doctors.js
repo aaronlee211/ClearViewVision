@@ -4,6 +4,7 @@ function Doctors() {
   return (
     <>
         <div class='container-fluid doctors-header'>
+            {/* <img class="doctor-header-image2" src={require("../images/glasses_contacts.jpg")}></img> */}
             <div class='col-lg-8 doctors-desc'>
                 <h5>
                     Our experienced team of optometrists is dedicated to providing you with the highest level of eye care and vision correction services. 

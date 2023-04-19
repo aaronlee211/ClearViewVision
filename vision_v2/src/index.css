@@ -1,3 +1,11 @@
+:root {
+  --first: #505A8F;
+  --second: #7683C2;
+  --third: #9ED5F5;
+  --fourth: #F6DDCC;
+  --gray: #F9F7F7;
+}
+
 body {
   overflow: auto;
   margin: 0;
@@ -755,7 +763,7 @@ h2 {
 }
 
 .container-fluid {
-  background-color: #F9F7F7;
+  background-color: var(--gray);
 }
 
 .doctors-desc {

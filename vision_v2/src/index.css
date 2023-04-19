@@ -1,3 +1,11 @@
+:root {
+  --first: #505A8F;
+  --second: #7683C2;
+  --third: #9ED5F5;
+  --fourth: #F6DDCC;
+  --gray: #F9F7F7;
+}
+
 body {
   overflow: auto;
   margin: 0;
@@ -681,9 +689,39 @@ h5 {
   padding-bottom: 1.5rem;
 }
 
-#review-btn {
+.button-wrapper {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
+
+#review-btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.review-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 20px;
+  z-index: 9999;
+}
+
+/* #review-btn {
+  align-items: center;
+  z-index: 1000;
+  margin-left: auto !important;
+  margin-right: auto !important;
+} */
 
 .carousel-indicators {
   padding-bottom: 4.25rem;
@@ -752,7 +790,7 @@ h2 {
 }
 
 .container-fluid {
-  background-color: #F9F7F7;
+  background-color: var(--gray);
 }
 
 .doctors-desc {

@@ -43,8 +43,8 @@ function Reviews() {
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-                <div class='text-center'>
-                    <a id='review-btn' class="btn btn-lg btn-primary" href="https://search.google.com/local/writereview?placeid=ChIJK_GCrudLW4YRcphauNK_WX8">Leave a Review</a>
+                <div class="button-wrapper">
+                    <a href='https://google.com'><button type="button" class="btn">Leave a Review!</button></a>
                 </div>
                 <div class='reviewsbg'></div>
             </div>

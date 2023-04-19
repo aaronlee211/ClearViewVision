@@ -1,6 +1,6 @@
 :root {
-  --first: #505A8F;
-  --second: #7683C2;
+  --first: #1C3879;
+  --second: #607CEA;
   --third: #9ED5F5;
   --fourth: #F6DDCC;
   --gray: #F9F7F7;
@@ -70,10 +70,10 @@ code {
   font-size: 20px;
   border-radius: 5px;
   text-decoration: none;
-  color:white;
+  color:var(--first);
   font-weight: 500;
   z-index: 1;
-  background-color: #01bf71;
+  background-color: var(--fourth);
   padding:  10px 50px;
   margin: 0 0.5rem;
 }
@@ -121,7 +121,7 @@ code {
   top: 0;
   width: 100% ;
   padding: 0.5rem;
-  background-color: #5B75EA;
+  background-color: var(--second);
   z-index: 2;
   backdrop-filter: blur(2px);
 }
@@ -685,7 +685,7 @@ h5 {
 }
 
 #myCarousel {
-  background-color: #AFDCEB;
+  background-color: var(--second);
   padding-bottom: 1.5rem;
 }
 
@@ -696,22 +696,23 @@ h5 {
 
 .button-container {
   text-align: center;
-  background-color: #AFDCEB;
+  background-color: var(--second);
   padding-bottom: 1rem;
 }
 
 .carousel-item {
-  background-color: #AFDCEB;
+  background-color: var(--second);
   height: 14rem;
 }
 
 .carousel-caption > p {
-  color: #003554 !important;
+  color: var(--first) !important;
   font-weight: bold;
 }
 
 .carousel-caption > h1 {
-  color: #996515 !important;
+  color: var(--fourth) !important;
+  font-size: 1.5rem;
 }
 
 .col-lg-5 > h1 {
@@ -755,46 +756,56 @@ h5 {
 /* This section is for Doctors */
 
 h2 {
-  color: #20379E
+  color: var(--first);
 }
 
 .text h2 {
-  color: white;
-}
-
-.container-fluid {
-  background-color: var(--gray);
+  color: var(--fourth);
 }
 
 .doctors-desc {
   padding: 6rem 14rem;
   text-align: left;
+  background-color: var(--gray);
 }
 
 .doctors-desc h5 {
   color: black;
+  text-align: center;
 }
 
 .doctors-header {
   margin-top: 6rem;
   padding: 20px 5px 30px 5px;
-  color: white;
   font-size: 50px;
   text-align: center;
+  background-color: var(--gray);
 }
 
 .doctor-header-image {
   position: absolute;
   display: inline;
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: auto;
   z-index: 0;
   top: 18%;
-  right: 10%;
+  right: 16%;
+}
+
+.doctor-header-image2 {
+  position: absolute;
+  display: inline;
+  width: 100%;
+  height: auto;
+  left: 0%;
+  top: 0%;
+  z-index: -1;
 }
 
 .doctor {
   padding: 20px 0px;
+  background-color: var(--gray);
+  z-index: 1;
 }
 
 .doctor-row {
@@ -803,7 +814,7 @@ h2 {
 }
 
 .doctor-text {
-  background-color: #5B75EA;
+  background-color: var(--second);
   padding: 10px 30px;
   margin-left: 0px;
   margin-right: 0px;
@@ -820,7 +831,7 @@ h2 {
 }
 
 .doctor-image {
-  background-color: #EDD2CA;
+  background-color: var(--fourth);
   padding: 30px;
   text-align: center;
 }
@@ -853,7 +864,7 @@ h2 {
 
 .propcard-title {
   padding-top: 5%;
-  background-color: #607CEA;
+  background-color: var(--second);
 }
 
 div > h3 {
@@ -874,7 +885,7 @@ div > h3 {
 }
 
 #prop-body {
-  background-color: #1c3879;
+  background-color: var(--first);
   padding-top: 40px;
 }
 

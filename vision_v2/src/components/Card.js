@@ -8,7 +8,7 @@ function Card(props) {
         </div>
       </div>
       <div id="prop-body">
-      <div className="p-3">
+      <div className="p-3 text-container">
         <h5 className="card-text">
            {props.text}
         </h5>

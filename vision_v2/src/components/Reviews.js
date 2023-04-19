@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function Reviews() {
     return (
@@ -43,10 +44,10 @@ function Reviews() {
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-                <div class="button-wrapper">
-                    <a href='https://google.com'><button type="button" class="btn">Leave a Review!</button></a>
-                </div>
                 <div class='reviewsbg'></div>
+            </div>
+            <div class='button-container'>
+                    <a href="https://search.google.com/local/writereview?placeid=ChIJK_GCrudLW4YRcphauNK_WX8" exact="true" target="_blank"><button type="button" class="btn btn-info review-btn">Leave a Review</button></a>
             </div>
         </>
     )

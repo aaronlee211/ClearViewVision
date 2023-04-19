@@ -689,42 +689,15 @@ h5 {
   padding-bottom: 1.5rem;
 }
 
-.button-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#review-btn {
-  display: inline-block;
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 4px;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-.review-button {
-  display: inline-block;
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 4px;
-  text-decoration: none;
-  font-size: 20px;
-  z-index: 9999;
-}
-
-/* #review-btn {
-  align-items: center;
-  z-index: 1000;
-  margin-left: auto !important;
-  margin-right: auto !important;
-} */
-
 .carousel-indicators {
-  padding-bottom: 4.25rem;
+  position: absolute;
+  padding-bottom: 0.5rem;
+}
+
+.button-container {
+  text-align: center;
+  background-color: #AFDCEB;
+  padding-bottom: 1rem;
 }
 
 .carousel-item {
@@ -872,6 +845,8 @@ h2 {
   border-bottom-left-radius: 50px;
 }
 
+/* CSS for Services Component */
+
 .services-container{
   justify-content: center;
 }
@@ -906,6 +881,13 @@ div > h3 {
 .prop-button {
   margin-bottom: 5%;
 }
+
+.text-container {
+  width: 100%;
+  height: 7em;
+}
+
+/* CSS for Nav Component */
 
 .navlink-container::after {
   content: "";

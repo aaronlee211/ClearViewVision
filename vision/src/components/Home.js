@@ -10,7 +10,11 @@ function Hero() {
             <div class="col-lg-1 transparent"></div>
             <div class="col-lg-5">
               <h1>Our vision is your vision.</h1>
-              <p>Here at Clearview Vision in Austin, TX, we are committed to providing comprehensive and personalized eye care services to patients of all ages.  With a team of experienced and friendly optometrists, Clearview Vision offers a range of services, including routine eye exams, contact lens fittings, consultation for eye diseases and infences, and partnerships for eye surgeries.</p>
+              <p>
+                Here at Clearview Vision in Austin, TX, we are committed to providing comprehensive and personalized eye care services to patients of all ages. 
+                With a team of experienced and friendly optometrists, Clearview Vision offers a range of services, including routine eye exams, contact lens fittings, 
+                consultation for eye diseases and infections, and surgical co-managements for eye surgeries.
+              </p>
             </div>
         </div>
         <img src={require("../images/darkbackground.jpg")} />

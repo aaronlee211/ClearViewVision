@@ -2,3 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+#mission {
+    background-color: var(--gray);
+}
+
+#missionTitle {
+    color: var(--dark-green);
+}
+
+#missionContent {
+    color: black;
+}
+
+#optometryPartner {
+    background-color: var(--beige);
+}
+
+#optometryPartnerText {
+    color: var(--dark-green);
+    text-align: center;
+}
+
+#serviceCards {
+    background-color: var(--gray);
+}

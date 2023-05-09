@@ -16,9 +16,9 @@ code {
 
 :root {
   --dark-green: #014548;
-  --light-green: #b5d699;
-  --beige: #f9edd6;
-  --gray: #f5f5f5;
+  --light-green: #B5D699;
+  --beige: #F9EDD6;
+  --gray: #F5F5F5;
 }
 /* To use colors, use: */
 /* background-color: var(--dark-green); */

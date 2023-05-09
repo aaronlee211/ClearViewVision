@@ -2,16 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-img {
+.header-img {
     height: 120px;
     width: auto;
 }
 
+.header-div > p {
+    color: var(--dark-green);
+}
+
 .badge {
-    height: fit-content;
+    height: fit-content !important;
+}
+
+.badge-outline {
+    color: var(--dark-green) !important;
+    border-width: 0.25rem !important;
 }
 
 .bottom-nav{
-    background-color: green;
+    background-color: var(--light-green);
 }
-

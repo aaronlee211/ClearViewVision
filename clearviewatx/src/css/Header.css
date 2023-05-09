@@ -11,8 +11,32 @@
     color: var(--dark-green);
 }
 
+.navlink-header > p {
+    color: var(--dark-green);
+}
+
 .badge {
     height: fit-content !important;
+    transition: 1s ease-in;
+    transition: delay
+}
+
+.badge:hover {
+    transition: 1s ease-in;
+    background-color: var(--dark-green);
+}
+
+.badge:not(:hover) {
+    transition-delay: 1s;
+    background-color: white;
+  }
+
+.badge p {
+    transition: color 1s ease-in;
+}
+
+.badge p:hover {
+    color: white;
 }
 
 .badge-outline {
@@ -22,4 +46,29 @@
 
 .bottom-nav{
     background-color: var(--light-green);
+}
+
+div p {
+    cursor: pointer;
+    position: relative;
+
+}
+
+p.active::after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 100%;
+    background-color: var(--dark-green);
+    left: 0;
+    bottom: -5px;
+    animation: appear 1s linear;
+}
+@keyframes appear {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
 }

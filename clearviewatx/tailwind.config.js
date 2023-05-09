@@ -11,7 +11,11 @@ module.exports = {
         '2xl': '7rem',
       },
     },
-    extend: {},
+    extend: {
+      spacing: {
+        '128': '32rem',
+      }
+    },
   },
   plugins: [require("daisyui")],
 }

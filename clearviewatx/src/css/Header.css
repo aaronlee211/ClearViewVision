@@ -2,4 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+img {
+    height: 120px;
+    width: auto;
+}
+
+.badge {
+    height: fit-content;
+}
+
+.bottom-nav{
+    background-color: green;
+}
 

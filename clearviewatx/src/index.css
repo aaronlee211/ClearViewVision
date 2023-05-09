@@ -20,3 +20,5 @@ code {
   --beige: #f9edd6;
   --gray: #f5f5f5;
 }
+/* To use colors, use: */
+/* background-color: var(--dark-green); */

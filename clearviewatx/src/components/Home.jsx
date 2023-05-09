@@ -34,40 +34,52 @@ function Home() {
 
       {/* Cards of Services */}
       <div className="flex justify-between mx-auto 2xl:h-128" id="serviceCards">
-        
-        <div class="max-w-sm rounded overflow-hidden shadow-lg my-28 mx-32">
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2 poppins">Card Title 1</div>
-            <p class="text-gray-700 text-base poppins">Card description goes here.</p>
-          </div>
-          <div class="px-6 py-4">
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-              Learn More
-            </button>
-          </div>
-        </div>
-
-        <div class="max-w-sm rounded overflow-hidden shadow-lg my-28 mx-32">
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2 poppins">Card Title 1</div>
-            <p class="text-gray-700 text-base poppins">Card description goes here.</p>
-          </div>
-          <div class="px-6 py-4">
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-              Learn More
-            </button>
+        <div className="sm:w-1/3 flex items-center">
+          <div class="max-w-md max-h-64 rounded overflow-hidden shadow-lg mx-auto">
+            <div class="px-6 py-4">
+              <div class="font-bold poppins cardTitle text-center text-2xl mb-4">Eye Exams</div>
+              <p class="poppins cardText text-center">
+                Get a comprehensive eye exam from our experienced optometrists to prolong your vision and eye health.
+              </p>
+            </div>
+            <div class="px-6 py-4 flex justify-center">
+              <button class="py-2 px-4 rounded-full cardButtons">
+                View Services
+              </button>
+            </div>
           </div>
         </div>
 
-        <div class="max-w-sm rounded overflow-hidden shadow-lg my-28 mx-32">
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2 poppins">Card Title 1</div>
-            <p class="text-gray-700 text-base poppins">Card description goes here.</p>
+        <div className="sm:w-1/3 flex items-center">
+          <div class="max-w-md max-h-64 rounded overflow-hidden shadow-lg mx-auto">
+            <div class="px-6 py-4">
+              <div class="font-bold poppins cardTitle text-center text-2xl mb-4">Appointments</div>
+              <p class="poppins cardText text-center">
+                Schedule an appointment for an eye exam, contact lens fitting, or other eye care services at our convenient location.
+              </p>
+            </div>
+            <div class="px-6 py-4 flex justify-center">
+              <button class="py-2 px-4 rounded-full cardButtons flex items-end">
+                Book an Appointment
+              </button>
+            </div>
           </div>
-          <div class="px-6 py-4">
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-              Learn More
-            </button>
+        </div>
+
+        <div className="sm:w-1/3 flex items-center">
+          <div class="max-w-md max-h-64 rounded overflow-hidden shadow-lg mx-auto">
+            <div class="px-6 py-4">
+              <div class="font-bold poppins cardTitle text-center text-2xl mb-4">Insurance</div>
+              <p class="poppins cardText text-center">
+                We accept most insurance plans to help you save money on your eye care services.
+                Contact us to learn more about your coverage options.
+              </p>
+            </div>
+            <div class="px-6 py-4 flex justify-center relative">
+              <button class="py-2 px-4 rounded-full cardButtons">
+                View Insurance Plans
+              </button>
+            </div>
           </div>
         </div>
 

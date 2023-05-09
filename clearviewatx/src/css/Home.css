@@ -26,3 +26,12 @@
 #serviceCards {
     background-color: var(--gray);
 }
+
+.cardTitle, .cardText {
+    color: var(--dark-green);
+}
+
+.cardButtons {
+    background-color: var(--dark-green);
+    color: white;
+}

@@ -20,3 +20,23 @@ code {
   --beige: #f9edd6;
   --gray: #f5f5f5;
 }
+/* To use colors, use: */
+/* background-color: var(--dark-green); */
+
+.hind {
+  font-family: 'Hind', sans-serif;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Banner Portion */
+.banner {
+  background-color: var(--dark-green);
+  color: white;
+}

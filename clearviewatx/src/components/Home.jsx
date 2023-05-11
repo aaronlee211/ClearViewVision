@@ -57,15 +57,15 @@ function Home() {
         </div>
 
         <div className="sm:w-1/3 flex items-center">
-          <div class="max-w-md max-h-64 rounded overflow-hidden shadow-lg mx-auto">
-            <div class="px-6 py-4">
-              <div class="font-bold poppins cardTitle text-center text-2xl mb-4">Appointments</div>
-              <p class="poppins cardText text-center">
+          <div className="max-w-md max-h-64 rounded overflow-hidden shadow-lg mx-auto">
+            <div className="px-6 py-4">
+              <div className="font-bold poppins cardTitle text-center text-2xl mb-4">Appointments</div>
+              <p className="poppins cardText text-center">
                 Schedule an appointment for an eye exam, contact lens fitting, or other eye care services at our convenient location.
               </p>
             </div>
-            <div class="px-6 py-4 flex justify-center">
-              <button class="py-2 px-4 rounded-full cardButtons flex items-end">
+            <div className="px-6 py-4 flex justify-center">
+              <button className="py-2 px-4 rounded-full cardButtons flex items-end">
                 Book an Appointment
               </button>
             </div>
@@ -73,16 +73,16 @@ function Home() {
         </div>
 
         <div className="sm:w-1/3 flex items-center">
-          <div class="max-w-md max-h-64 rounded overflow-hidden shadow-lg mx-auto">
-            <div class="px-6 py-4">
-              <div class="font-bold poppins cardTitle text-center text-2xl mb-4">Insurance</div>
-              <p class="poppins cardText text-center">
+          <div className="max-w-md max-h-64 rounded overflow-hidden shadow-lg mx-auto">
+            <div className="px-6 py-4">
+              <div className="font-bold poppins cardTitle text-center text-2xl mb-4">Insurance</div>
+              <p className="poppins cardText text-center">
                 We accept most insurance plans to help you save money on your eye care services.
                 Contact us to learn more about your coverage options.
               </p>
             </div>
-            <div class="px-6 py-4 flex justify-center relative">
-              <button class="py-2 px-4 rounded-full cardButtons">
+            <div className="px-6 py-4 flex justify-center relative">
+              <button className="py-2 px-4 rounded-full cardButtons">
                 View Insurance Plans
               </button>
             </div>

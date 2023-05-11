@@ -14,6 +14,9 @@ module.exports = {
     extend: {
       spacing: {
         '128': '32rem',
+      }, 
+      top: {
+        '1/8': '12.5%',
       }
     },
   },

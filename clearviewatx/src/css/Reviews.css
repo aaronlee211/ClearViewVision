@@ -4,9 +4,9 @@
 }
 
 .btn-reviews {
-    background-color: var(--beige);
-    border-color: var(--beige);
-    color: black;
+    background-color: var(--beige) !important;
+    border-color: var(--beige) !important;
+    color: black !important;
 }
 
 .btn-reviews:hover {

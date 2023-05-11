@@ -1,5 +1,7 @@
 import React from 'react'
-import '../css/Home.css'
+import '../css/Home.css'  
+import Reviews from './Reviews.jsx';
+import ContactForm from './ContactForm.jsx';
 
 function Home() {
   return (
@@ -37,6 +39,7 @@ function Home() {
 
       {/* Cards of Services */}
       <div className="flex justify-between mx-auto 2xl:h-128" id="serviceCards">
+
         <div className="sm:w-1/3 flex items-center">
           <div className="max-w-md max-h-64 rounded overflow-hidden shadow-lg mx-auto">
             <div className="px-6 py-4">
@@ -87,6 +90,12 @@ function Home() {
         </div>
 
       </div>
+
+      {/* Reviews Carousel */}
+      <Reviews/>
+
+      {/* Contact Us Form */}
+      <ContactForm/>
     </>
   )
 }

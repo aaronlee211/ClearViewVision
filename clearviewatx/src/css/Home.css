@@ -34,4 +34,5 @@
 .cardButtons {
     background-color: var(--dark-green);
     color: white;
+    font-family: poppins;
 }

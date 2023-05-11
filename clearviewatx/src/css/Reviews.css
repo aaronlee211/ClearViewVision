@@ -1,0 +1,39 @@
+#carouselSection {
+    background-color: var(--beige);
+    overflow: hidden;
+}
+
+.btn-reviews {
+    background-color: var(--beige);
+    border-color: var(--beige);
+    color: black;
+}
+
+.btn-reviews:hover {
+    background-color: var(--beige);
+    border-color: var(--beige);
+    font-size: larger;
+}
+
+#customerReviews {
+    color: #565656;
+}
+
+.carousel-item > p {
+    color: #565656;
+}
+
+.carousel-item {
+    overflow: hidden;
+}
+
+#carouselIndicators > a {
+    border-color: #CCCCCC;
+    background-color: #CCCCCC;
+    color: #CCCCCC;
+}
+
+a.reviewActive {
+    background-color: var(--dark-green) !important;
+    color: var(--dark-green) !important;
+}

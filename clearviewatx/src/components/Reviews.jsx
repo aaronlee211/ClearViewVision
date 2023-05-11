@@ -60,9 +60,7 @@ function Reviews() {
         </div>
         <div className="flex justify-center">
           <ExternalLink href="https://search.google.com/local/writereview?placeid=ChIJK_GCrudLW4YRcphauNK_WX8">
-            <button className="py-2 px-12 rounded-full cardButtons mx-auto mt-10 poppins">
-              Leave a Review
-            </button>
+            <button className="py-2 px-12 rounded-full cardButtons mx-auto mt-10 poppins">Leave a Review</button>
           </ExternalLink>
         </div>
       </div>

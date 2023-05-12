@@ -84,6 +84,35 @@ function Home() {
         </div>
 
       </div>
+
+      <div className='relative'>
+        <div className="relative flex w-1/2 2xl:h-128" id="visitUs">
+          <div className="my-auto ml-auto 2xl:mr-16" id="visitUsText">
+            <h1 className="poppins 2xl:text-4xl leading-10">
+              Visit Us!
+            </h1>
+            <p>Address:</p>
+            <p>5017 W US Hwy 290, Austin, TX 78735</p>
+            <p>{"(located inside Walmart)"}</p>
+            <br />
+            <p>Phone:</p>
+            <p>XXX-XXX-XXXX</p>
+            <br />
+            <p>Hours:<br />
+            Monday<br />
+            Tuesday<br />
+            Wednesday<br />
+            Thursday<br />
+            Friday<br />
+            Saturday<br />
+            Sunday</p>
+          </div>
+        </div>
+        <div className="absolute w-full" id="visitUsImage">
+          <img className="object-cover 2xl:h-128 2xl:w-[48rem]" src={require("../images/headerbg3.jpg")} alt=''></img>
+        </div>
+      </div>
+
     </>
   )
 }

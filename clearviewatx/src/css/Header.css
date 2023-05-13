@@ -7,11 +7,19 @@
     width: auto;
 }
 
+.navbar-bg {
+    background-color: var(--gray);
+}
+
 .header-div > p {
     color: var(--dark-green);
 }
 
 .navlink-header > p {
+    color: var(--dark-green);
+}
+
+.banner-nav {
     color: var(--dark-green);
 }
 

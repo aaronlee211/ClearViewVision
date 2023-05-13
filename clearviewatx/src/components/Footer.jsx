@@ -39,13 +39,13 @@ function Footer() {
           </ExternalLink>
           <p className="footerText">
             Hours: <br/>
-            Sunday: <br/>
-            Monday: <br/>
-            Tuesday: <br/>
-            Wednesday: <br/>
-            Thursday: <br/>
-            Friday: <br/>
-            Saturday: 
+            Sunday: Closed<br/>
+            Monday: Closed<br/>
+            Tuesday: 10AM - 6PM<br/>
+            Wednesday: 10AM - 6PM<br/>
+            Thursday: 10AM - 6PM<br/>
+            Friday: 10AM - 6PM<br/>
+            Saturday: 10AM - 6PM
           </p>
         </div>
       </footer>

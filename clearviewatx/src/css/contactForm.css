@@ -1,0 +1,15 @@
+#contactForm {
+    background-color: var(--gray);
+}
+
+#contactForm > h1, h2 {
+    color: var(--dark-green);
+}
+
+.contactFormInputs {
+    background-color: #E2E2E2;
+}
+
+#contactFormSubmit {
+    background-color: var(--light-green);
+}

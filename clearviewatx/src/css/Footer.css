@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.footer-img {
+    height: 120px;
+    width: auto;
+    filter: invert(1);
+}
+
+#footerBackground {
+    background-color: var(--dark-green) !important;
+}
+
+.footerTitle {
+    color: var(--light-green);
+}
+
+.footerText {
+    color: white;
+}

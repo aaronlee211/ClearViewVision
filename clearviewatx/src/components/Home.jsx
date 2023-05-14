@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/Home.css'  
 import Reviews from './Reviews.jsx';
+import ReviewsReact from './ReviewsReact.jsx';
 import ContactForm from './ContactForm.jsx';
 
 function Home() {
@@ -92,7 +93,7 @@ function Home() {
       </div>
 
       {/* Reviews Carousel */}
-      <Reviews/>
+      <ReviewsReact/>
 
       {/* Contact Us Form */}
       <ContactForm/>

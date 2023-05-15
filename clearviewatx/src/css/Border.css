@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#separatingBorder {
+    background-color: #565656;
+}
+
+#separatingBorderBackground {
+    background-color: var(--gray);
+}

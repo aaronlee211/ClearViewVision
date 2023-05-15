@@ -62,19 +62,19 @@ function ContactForm() {
         <h2 className="poppins text-xl my-10 text-center">We look forward to receiving your thoughts and feedback.</h2>
         <form onSubmit={handleSubmit}>
           <div className="flexbox text-center my-6">
-            <input className="contactFormInputs w-1/4 h-12 mx-[2%] ps-4" type="text" placeholder="First Name*" name="firstName" required 
+            <input className="contactFormInputs lg:w-1/4 md:w-1/3 w-[40%] h-12 mx-[2%] ps-4" type="text" placeholder="First Name*" name="firstName" required 
             onChange={(e) => onFormUpdate(e.target.name, e.target.value)}/>
-            <input className="contactFormInputs w-1/4 h-12 mx-[2%] ps-4" type="text" placeholder="Last Name*" name="lastName" required
-            onChange={(e) => onFormUpdate(e.target.name, e.target.value)}/>
-          </div>
-          <div className="flexbox text-center my-6">
-            <input className="contactFormInputs w-1/4 h-12 mx-[2%] ps-4" type="text" placeholder="Email*" name="email" required
-            onChange={(e) => onFormUpdate(e.target.name, e.target.value)}/>
-            <input className="contactFormInputs w-1/4 h-12 mx-[2%] ps-4" type="text" placeholder="Phone Number" name="phoneNumber"
+            <input className="contactFormInputs lg:w-1/4 md:w-1/3 w-[40%] h-12 mx-[2%] ps-4" type="text" placeholder="Last Name*" name="lastName" required
             onChange={(e) => onFormUpdate(e.target.name, e.target.value)}/>
           </div>
           <div className="flexbox text-center my-6">
-            <textarea className="contactFormInputs w-[54%] ps-4 pt-4" rows="8" type="text" placeholder="Message*" name="message"
+            <input className="contactFormInputs lg:w-1/4 md:w-1/3 w-[40%] h-12 mx-[2%] ps-4" type="text" placeholder="Email*" name="email" required
+            onChange={(e) => onFormUpdate(e.target.name, e.target.value)}/>
+            <input className="contactFormInputs lg:w-1/4 md:w-1/3 w-[40%] h-12 mx-[2%] ps-4" type="text" placeholder="Phone Number" name="phoneNumber"
+            onChange={(e) => onFormUpdate(e.target.name, e.target.value)}/>
+          </div>
+          <div className="flexbox text-center my-6">
+            <textarea className="contactFormInputs lg:w-[54%] md:w-[70.67%] w-[84%] ps-4 pt-4" rows="8" type="text" placeholder="Message*" name="message"
             onChange={(e) => onFormUpdate(e.target.name, e.target.value)}/>
           </div>
           <div className="flex justify-center mb-10">

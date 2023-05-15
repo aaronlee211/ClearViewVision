@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/About.css'
 import ReviewsReact from './ReviewsReact.jsx';
+import Border from './Border.jsx'
 
 function About() {
   return (
@@ -26,9 +27,7 @@ function About() {
       </div>
 
       {/* Border */}
-      <div className="w-full h-px mx-auto" id="separatingBorderBackground">
-        <div className="w-[88%] h-px mx-auto" id="separatingBorder" />
-      </div>
+      <Border/>
 
       {/* Doctors */}
       <div className="w-full h-fit" id="doctorBackground">

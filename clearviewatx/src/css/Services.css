@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#servicesBackground {
+    background-color: var(--gray);
+}
+
+#numberList {
+    list-style-type: decimal;
+}
+
+#svgicon {
+    color: red;
+}
+
+.serviceName {
+    color: var(--dark-green);
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+.serviceButtons > p {
+    color: var(--dark-green);
+}

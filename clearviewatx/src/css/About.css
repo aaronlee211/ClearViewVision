@@ -13,3 +13,27 @@
 #ourTeamContent {
     color: black;
 }
+
+#doctorBackground {
+    background-color: var(--gray);
+}
+
+#separatingBorder {
+    background-color: #565656;
+}
+
+#separatingBorderBackground {
+    background-color: var(--gray);
+}
+
+.doctorImage {
+    border-radius: 50%;
+}
+
+.doctorName {
+    color: var(--dark-green);
+}
+
+.doctorBio {
+    color: black;
+}

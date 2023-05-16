@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/Services.css'
+import Border from './Border.jsx'
 import phoneicon from '../images/phoneicon.svg'
 
 function Services() {
@@ -9,7 +10,7 @@ function Services() {
             Our Services
       </div>
 
-      <div id="servicesBackground">
+      <div className="servicesBackground">
         {/* Comprehensive Eye Exams */}
         <div className="w-full h-fit">
           <div className="md:flex lg:px-14 lg:py-20 md:px-10 md:py-16 px-8 py-12">
@@ -71,20 +72,64 @@ function Services() {
           </div>
         </div>
 
+        <Border />
+
+        <div className='flex items-center justify-center servicesBackground mt-10 mb-10'>
+          <p className='serviceName poppins font-bold lg:text-3xl md:text-2xl text-xl'>Insurance</p>
+        </div>
+        <p className='poppins ml-14 lg:text-xl md:text-lg text-base'>We accept the following vision plans:</p>
+        <div className='flex items-center justify-center'>
+          <div className='w-180 h-180' id="temporarybg"></div>
+        </div>
+        <p className='poppins ml-14 lg:text-xl md:text-lg text-base mt-10'>We're here to help. If your vision plan is not listed, please contact us to discuss your coverage.</p>
+
         {/* Service Buttons */}
-        <div className='flex flex-row items-center justify-center gap-x-16' id="buttonContainer">
-          <div className='badge badge-outline badge-lg serviceButtons'>
+        <div className='flex flex-row items-center justify-center gap-x-16 mt-10 pb-10' id="buttonContainer">
+          <div className='badge badge-outline badge-lg w-1/4 serviceButtons'>
               <p className='mr-2 ml-2 2xl:text-3xl'>Book an Appointment</p>
           </div>
-          <div className='flex badge badge-outline badge-lg serviceButtons'>
+          <div className='flex badge badge-outline badge-lg w-1/4 serviceButtons'>
             <img id="svgicon" src={phoneicon}/>
             <p className='mr-2 ml-2 2xl:text-3xl'>Call Us XXX-XXX-XXXX</p>
           </div>
         </div>
+        
+        <Border />
+        <div className='pb-10 mt-10'>
+          <div className='flex items-center justify-center servicesBackground mt-10 pb-10'>
+              <p className='serviceName poppins font-bold lg:text-3xl md:text-2xl text-xl'>
+                Frequently Asked Questions (FAQ's)
+              </p>
+          </div>
 
-      </div>
-      <div>
-        Insurance
+          <div className='flex w-[60%] mx-auto faqBorder mb-10 pb-10 justify-between'>
+            <p className='serviceName poppins lg:text-3xl md:text-2xl text-xl'>
+                Are contacts compatible with my eyes?
+            </p>
+            <button>Drop down</button>
+          </div>
+
+          <div className='flex w-[60%] mx-auto faqBorder mb-10 pb-10 justify-between'>
+            <p className='serviceName poppins lg:text-3xl md:text-2xl text-xl'>
+                Are contacts compatible with my eyes?
+            </p>
+            <button>Drop down</button>
+          </div>
+
+          <div className='flex w-[60%] mx-auto faqBorder mb-10 pb-10 justify-between'>
+            <p className='serviceName poppins lg:text-3xl md:text-2xl text-xl'>
+                Are contacts compatible with my eyes?
+            </p>
+            <button>Drop down</button>
+          </div>
+
+          <div className='flex w-[60%] mx-auto faqBorder pb-10 justify-between'>
+            <p className='serviceName poppins lg:text-3xl md:text-2xl text-xl'>
+                Are contacts compatible with my eyes?
+            </p>
+            <button>Drop down</button>
+          </div>
+        </div>
       </div>
     </>
   )

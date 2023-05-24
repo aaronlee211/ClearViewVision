@@ -78,7 +78,7 @@ function Services() {
           </div>
           <div className='flex badge badge-outline badge-lg serviceButtons'>
             <img id="svgicon" src={phoneicon}/>
-            <p className='mr-2 ml-2 2xl:text-3xl'>Call Us XXX-XXX-XXXX</p>
+            <p className='mr-2 ml-2 2xl:text-3xl'>Call Us 512-957-6001</p>
           </div>
         </div>
 

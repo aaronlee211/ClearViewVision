@@ -22,8 +22,10 @@ function ContactPage() {
         <div className="h-fit w-1/2 py-14 px-32">
           <h1 className="poppins informationTitle">Address</h1>
           <p className="poppins informationContent">5017 W US Hwy 290, Austin, TX 78735<br/>(located inside Walmart)</p>
+          <br />
           <h1 className="poppins informationTitle">Contact</h1>
-          <p className="poppins informationContent">XXX-XXX-XXXX<br/>info@clearviewatx.com</p>
+          <p className="poppins informationContent">512-957-6001<br/>info@clearviewatx.com</p>
+          <br />
           <h1 className="poppins informationTitle">Hours: </h1>
           <p className="poppins informationContent">
             Sunday:  Closed<br/>

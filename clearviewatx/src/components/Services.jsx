@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/Services.css'
 import Border from './Border.jsx'
 import phoneicon from '../images/phoneicon.svg'
+import Spectra from '../images/Spectra.jpg'
 
 function Services() {
   return (
@@ -20,14 +21,14 @@ function Services() {
                 Comprehensive Eye Exams
               </h1>
               <p className="poppins lg:text-xl md:text-lg text-base">
-                During an eye exam, your eye doctor will use a variety of tests and procedures to determine the clarity of your vision, assess your eye health, and check for any signs of eye disease or other issues. <br /><br />
+                During an eye exam, your eye doctor will use a variety of tests and procedures to determine the clarity of your vision, assess your eye health, and check for any signs of eye disease or other conditions. <br /><br />
                 Some of the tests and procedures that may be performed during an eye exam include: <br/>
                 <ul>
-                  <li>A visual acuity test to measure the sharpness of your vision</li>
                   <li>A refraction test to determine your eyeglass prescription</li>
-                  <li>An eye muscle test to evaluate the movement and alignment of your eyes</li>
-                  <li>A dilated eye exam to examine the retina and other internal structures of your eyes</li>
+                  <li>A visual acuity test to measure the sharpness of your vision</li>
                   <li>A tonometry test to measure the pressure inside your eyes and screen for glaucoma</li>
+                  <li>An eye muscle test to evaluate the movement and alignment of your eyes</li>
+                  <li>A dilated eye exam to examine the retina and rule-out common eye conditions including d-something retinopathy, glaucoma, and macular degeneration</li>
                 </ul>
               </p>
             </div>
@@ -39,12 +40,12 @@ function Services() {
             <img class="lg:h-80 lg:w-80 md:h-56 md:w-56 h-40 w-40 my-auto mx-auto md:mb-0 mb-10" src={require("../images/LensFittings.png")}></img>
             <div className="lg:pl-14 md:pl-10 pl-8 my-auto">
               <h1 className="serviceName poppins font-bold lg:text-3xl md:text-2xl text-xl lg:mb-4 mb-2">
-                Comprehensive Eye Exams
+                Contact Lens Exams
               </h1>
               <p className="poppins lg:text-xl md:text-lg text-base">
-              The optometrist will measure the curvature and size of the patient's cornea and evaluate the health of the eye to determine the best type of contact lens for the patient. They will also consider the patient's lifestyle, occupation, and activities to determine the appropriate wearing schedule and replacement frequency for the lenses.
-              After selecting the appropriate type of contact lens, the optometrist will provide a trial pair for the patient to wear and evaluate the fit and comfort. The patient will be instructed on proper insertion and removal of the lenses, as well as proper care and maintenance.
-              If the trial lenses fit well and provide clear and comfortable vision, the optometrist will finalize the prescription and order the lenses. The patient will then have a follow-up appointment to ensure that the lenses are still fitting properly and to address any concerns or issues.
+              Your optometrist will measure the curvature and size of the patient's cornea and evaluate the health of the eye to determine the best type of contact lens for the patient. They will also consider the patient's lifestyle, occupation, and activities to determine the appropriate wearing schedule and replacement frequency for the lenses.
+              The patient will be instructed on proper insertion and removal of the lenses, as well as proper care and maintenance.
+              Prior to finalizing the prescription, a trial of contacts will be provided to the patient to evaluate the fit and comfort to ensure the patient satisfaction.
               </p>
             </div>
           </div>
@@ -55,12 +56,11 @@ function Services() {
             <img class="lg:h-80 lg:w-80 md:h-56 md:w-56 h-40 w-40 my-auto mx-auto md:mb-0 mb-10" src={require("../images/EyeTreatments.png")}></img>
             <div className="lg:pl-14 md:pl-10 pl-8 my-auto">
               <h1 className="serviceName poppins font-bold lg:text-3xl md:text-2xl text-xl lg:mb-4 mb-2">
-                Comprehensive Eye Exams
+                Eye Disease Management
               </h1>
               <p className="poppins lg:text-xl md:text-lg text-base">
                 The type of eye treatment recommended will depend on the underlying cause of the condition, as well as the patient's overall health and medical history. Some common eye conditions that may require treatment include:<br/>
                 <ul id="numberList">
-                  <li>Refractive errors such as nearsightedness, farsightedness, and astigmatism.</li>
                   <li>Eye infections, such as conjunctivitis or corneal ulcers.</li>
                   <li>Glaucoma, a group of eye conditions that can damage the optic nerve and cause vision loss.</li>
                   <li>Cataracts, a clouding of the lens of the eye that can cause blurry vision.</li>
@@ -79,7 +79,9 @@ function Services() {
         </div>
         <p className='poppins ml-14 lg:text-xl md:text-lg text-base'>We accept the following vision plans:</p>
         <div className='flex items-center justify-center'>
-          <div className='w-180 h-180' id="temporarybg"></div>
+          <div className='w-180 h-180'>
+            <img src={Spectra}  id="temporarybg" />
+          </div>
         </div>
         <p className='poppins ml-14 lg:text-xl md:text-lg text-base mt-10'>We're here to help. If your vision plan is not listed, please contact us to discuss your coverage.</p>
 
@@ -93,7 +95,7 @@ function Services() {
             <p className='mr-2 ml-2 2xl:text-3xl'>Call Us 512-957-6001</p>
           </div>
         </div>
-        
+
         <Border />
         <div className='pb-10 mt-10'>
           <div className='flex items-center justify-center servicesBackground mt-10 pb-10'>

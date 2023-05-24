@@ -2,14 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-#numberList {
-    list-style-type: decimal;
+#insuranceplanbg {
+    background-color: var(--dark-green);
 }
 
-#temporarybg {
-    background-color: gray;
+#listcontainer {
+    width: 70%;
+}
+
+.temporarybg {
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
     width: auto;
     height:  15vh;
+}
+
+.bulletList {
+    list-style-type: circle;
+    margin-left: 2rem
 }
 
 .faqBorder {
@@ -27,11 +38,14 @@
     color: var(--dark-green);
 }
 
-ul {
-    list-style-type: disc;
-    margin-left: 2rem;
-}
-
 .serviceButtons > p {
     color: var(--dark-green);
+}
+
+.invertdropdown {
+    transition: 0.25s ease-in;
+}
+.invertdropdown:hover {
+    width: 100%;
+    filter: invert(0.5)
 }

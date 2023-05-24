@@ -8,16 +8,16 @@ function Reviews() {
                           From the moment you walk into her office, you feel welcomed and at ease.
                           Dr. Lee takes the time to listen to your concerns and provides a thorough eye examination that leaves you feeling confident in her diagnosis and treatment plan.
                           I highly recommend Dr. Lee to anyone in need of an optometrist!`,
-                          'review2': `I was very impressed with the level of care I received during my eye exam at Clearview Vision.
+                          'review2': `I was very impressed with the level of care I received during my eye exam at ClearView Vision.
                           The optometrist was patient and attentive, and made sure to address all of my concerns.
                           They used the latest technology to perform the exam, which gave me peace of mind that my vision was being accurately measured.
                           The staff was also very friendly and helpful, which made the entire experience a pleasure.
-                          I would definitely recommend Clearview Vision to anyone in need of an eye exam.`,
-                          'review3': `I had a great experience at Clearview Vision's optometrist eye exam.
+                          I would definitely recommend ClearView Vision to anyone in need of an eye exam.`,
+                          'review3': `I had a great experience at ClearView Vision's optometrist eye exam.
                           The staff was friendly and welcoming, and the optometrist was extremely knowledgeable and professional.
                           They took the time to thoroughly explain every step of the exam and answer all of my questions.
                           The exam itself was very comprehensive and I felt confident that my vision was accurately assessed.
-                          I would highly recommend Clearview Vision for anyone in need of an eye exam.`}
+                          I would highly recommend ClearView Vision for anyone in need of an eye exam.`}
 
   const [activeTag, setActiveTag] = useState(1);
   const [activeContent, setActiveContent] = useState(reviewsContent['review1'])

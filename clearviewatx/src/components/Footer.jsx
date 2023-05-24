@@ -10,7 +10,7 @@ function Footer() {
         <div>
           <img className='m5-5 footer-img' src={require("../images/ClearViewLogo.png")} alt=''></img>
           <p className="footerText">
-            &copy; 2023 Clearview Vision ATX.<br />
+            &copy; 2023 ClearView Vision ATX.<br />
             All rights reserved.
           </p>
         </div>
@@ -35,7 +35,7 @@ function Footer() {
           <p className="footerText">Address:</p>
           <ExternalLink className="footerText link link-hover"
           href="https://www.google.com/maps/place/ClearView+Vision/@30.2328086,-97.8277622,17z/data=!3m1!4b1!4m6!3m5!1s0x865b4be7ae82f12b:0x7f59bfd2b85a9872!8m2!3d30.2328041!4d-97.8228859!16s%2Fg%2F11khzp9p6g">
-            5017 W US Hwy 290, Austin, TX 78735 <br/> (located at Walmart)
+            5017 W US 290 Hwy, Austin, TX 78735 <br/> (located at Walmart)
           </ExternalLink>
           <p className="footerText">
             Hours: <br/>

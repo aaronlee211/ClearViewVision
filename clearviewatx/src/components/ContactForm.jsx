@@ -38,7 +38,7 @@ function ContactForm() {
       templateID,
       {
         from_name: `${formDetails.firstName} ${formDetails.lastName}`,
-        to_name: "Info @ Clearview Vision",
+        to_name: "Info @ ClearView Vision",
         from_email: formDetails.email,
         to_email: testEmail,
         message: formDetails.message
@@ -70,7 +70,7 @@ function ContactForm() {
           <div className="flexbox text-center my-6">
             <input className="contactFormInputs lg:w-1/4 md:w-1/3 w-[40%] h-12 mx-[2%] ps-4" type="text" placeholder="Email*" name="email" required
             onChange={(e) => onFormUpdate(e.target.name, e.target.value)}/>
-            <input className="contactFormInputs lg:w-1/4 md:w-1/3 w-[40%] h-12 mx-[2%] ps-4" type="text" placeholder="Phone Number" name="phoneNumber"
+            <input className="contactFormInputs lg:w-1/4 md:w-1/3 w-[40%] h-12 mx-[2%] ps-4" type="text" placeholder="Phone Number*" name="phoneNumber"
             onChange={(e) => onFormUpdate(e.target.name, e.target.value)}/>
           </div>
           <div className="flexbox text-center my-6">

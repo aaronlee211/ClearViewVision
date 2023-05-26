@@ -1,11 +1,15 @@
-import React from 'react'
+import {React, useMemo} from 'react'
 import ContactForm from './ContactForm.jsx'
 import Border from './Border.jsx'
 import '../css/ContactPage.css'
-import { GoogleMap, LoadScript } from '@react-google-maps/api';
+import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api"
 
 function ContactPage() {
-  const {} = useLoadScript({googleMapsApiKey: })
+  const { isLoaded } = useLoadScript({
+    googleMapsApiKey: process.env.REACT_APP_API_KEY
+  })
+
+  if (!isLoaded) return <div>Loading ...</div>
 
   return (
     <>
@@ -41,7 +45,7 @@ function ContactPage() {
           </p>
         </div>
         <div className="h-fit w-1/2 py-auto px-32">
-          This is the Google Maps.
+          <Map />
         </div>
       </div>
 
@@ -49,6 +53,16 @@ function ContactPage() {
       <Border />
 
     </>
+  )
+}
+
+function Map () {
+  const center = useMemo(() => ({lat: 30.232216733507702, lng: -97.8232699617968}), [])
+
+  return (
+    <GoogleMap zoom={17} center={center} mapContainerClassName='mapcontainer'>
+      <MarkerF position={center} />
+    </GoogleMap>
   )
 }
 

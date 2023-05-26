@@ -121,13 +121,14 @@ function Home() {
             </div>
           </div>
         </div>
-
       </div>
 
-      <div className='relative'>
-        <div className="relative flex w-1/2 2xl:h-128" id="visitUs">
-          <div className="my-auto ml-auto 2xl:mr-16" id="visitUsText">
-            <h1 className="poppins 2xl:text-4xl leading-10">
+      {/* Visit Us */}
+
+      <div className='lg:flex relative justify-between align-center'>
+        <div className="lg:w-1/2 h-fit py-14 w-full" id="visitUs">
+          <div className="my-auto mx-auto" id="visitUsText">
+            <h1 className="poppins lg:text-4xl  text-2xl leading-10 mb-4">
               Visit Us!
             </h1>
             <p>Address:</p>
@@ -148,8 +149,8 @@ function Home() {
             </p>
           </div>
         </div>
-        <div className="absolute w-full" id="visitUsImage">
-          <img className="object-cover 2xl:h-128 2xl:w-[48rem]" src={require("../images/headerbg3.jpg")} alt=''></img>
+        <div className="lg:absolute h-full lg:w-1/2 lg:top-[-5%] lg:right-0 relative">
+          <img className="h-[110%] w-full" id="visitUsImage" src={require("../images/phoropter.png")} alt=''></img>
         </div>
       </div>
 

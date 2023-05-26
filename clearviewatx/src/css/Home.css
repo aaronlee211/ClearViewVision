@@ -30,30 +30,16 @@
 #visitUs {
     background-color: var(--dark-green);
     position: relative;
-  }
+}
 
-  #visitUsText {
+#visitUsText {
     color: white;
     text-align: center;
     margin: auto;
-  }
+}
 
-  #visitUsImage {
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    z-index: 20;
-  }
-
-  #visitUsImage img {
-    height: 90%;
-    width: calc(100vw*(772/1512));
-    transform: translate(94%, -10%);
-
-  }
-
-.cardTitle, .cardText {
+.cardTitle,
+.cardText {
     color: var(--dark-green);
 }
 

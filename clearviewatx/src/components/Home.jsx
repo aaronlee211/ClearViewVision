@@ -1,12 +1,39 @@
 import React from 'react'
-import '../css/Home.css'
+import '../css/Home.css'  
 import Reviews from './Reviews.jsx';
 import ReviewsReact from './ReviewsReact.jsx';
 import ContactForm from './ContactForm.jsx';
-import { NavLink } from 'react-router-dom'
-
 
 function Home() {
+
+  // Setting cards equal heights
+  useEffect(() => {
+    const setEqualCardHeights = () => {
+      const cards = document.querySelectorAll(".card p");
+      let maxHeight = 0;
+
+      Array.from(cards).forEach((card) => {
+        const cardHeight = card.offsetHeight;
+        if (cardHeight > maxHeight) {
+          maxHeight = cardHeight;
+        }
+      });
+
+      Array.from(cards).forEach((card) => {
+        card.style.height = `${maxHeight}px`;
+      });
+
+      console.log(`${maxHeight}`)
+    };
+
+    window.addEventListener('load', setEqualCardHeights);
+    // Make sure to remove the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('load', setEqualCardHeights);
+    };
+  }, []);
+
+
   return (
     <>
       {/* Banner */}
@@ -41,11 +68,12 @@ function Home() {
       </div>
 
       {/* Cards of Services */}
-      <div className="flex justify-between mx-auto 2xl:h-128" id="serviceCards">
 
-        <div className="sm:w-1/3 flex items-center">
-          <div className="max-w-md max-h-64 rounded overflow-hidden shadow-lg mx-auto">
-            <div className="px-6 py-4">
+      <div className="lg:flex lg:justify-between md:mx-auto h-fit lg:py-20 py-14" id="serviceCards">
+
+        <div className="lg:w-1/3 w-full flex items-center my-4">
+          <div className="max-w-md h-fit rounded overflow-hidden shadow-lg mx-auto">
+            <div className="card px-6 py-4">
               <div className="font-bold poppins cardTitle text-center text-2xl mb-4">Eye Exams</div>
               <p className="poppins cardText text-center">
                 Get a comprehensive eye exam from our experienced optometrists to prolong your vision and eye health.
@@ -61,9 +89,9 @@ function Home() {
           </div>
         </div>
 
-        <div className="sm:w-1/3 flex items-center">
+        <div className="lg:w-1/3 w-full flex items-center my-4">
           <div className="max-w-md max-h-64 rounded overflow-hidden shadow-lg mx-auto">
-            <div className="px-6 py-4">
+            <div className="card px-6 py-4">
               <div className="font-bold poppins cardTitle text-center text-2xl mb-4">Appointments</div>
               <p className="poppins cardText text-center">
                 Schedule an appointment for an eye exam, contact lens fitting, or other eye care services at our convenient location.
@@ -78,10 +106,10 @@ function Home() {
             </div>
           </div>
         </div>
-
-        <div className="sm:w-1/3 flex items-center">
+        
+        <div className="lg:w-1/3 w-full flex items-center my-4">
           <div className="max-w-md max-h-64 rounded overflow-hidden shadow-lg mx-auto">
-            <div className="px-6 py-4">
+            <div className="card px-6 py-4">
               <div className="font-bold poppins cardTitle text-center text-2xl mb-4">Insurance</div>
               <p className="poppins cardText text-center">
                 We accept most insurance plans to help you save money on your eye care services.
@@ -131,10 +159,10 @@ function Home() {
 
 
       {/* Reviews Carousel */}
-      <ReviewsReact/>
+      <ReviewsReact />
 
       {/* Contact Us Form */}
-      <ContactForm/>
+      <ContactForm />
     </>
   )
 }

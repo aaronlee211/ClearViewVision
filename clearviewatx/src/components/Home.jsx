@@ -107,20 +107,21 @@ function Home() {
               Visit Us!
             </h1>
             <p>Address:</p>
-            <p>5017 W US Hwy 290, Austin, TX 78735</p>
+            <p>5017 W US 290 Hwy Service Road, Austin, TX 78735</p>
             <p>{"(located inside Walmart)"}</p>
             <br />
             <p>Phone:</p>
-            <p>XXX-XXX-XXXX</p>
+            <p>512-957-6001</p>
             <br />
             <p>Hours:<br />
-            Monday<br />
-            Tuesday<br />
-            Wednesday<br />
-            Thursday<br />
-            Friday<br />
-            Saturday<br />
-            Sunday</p>
+            Sunday:  Closed<br />
+            Monday:  Closed<br />
+            Tuesday:  10AM - 6PM<br />
+            Wednesday:  10AM - 6PM<br />
+            Thursday:  10AM - 6PM<br />
+            Friday:  10AM - 6PM<br />
+            Saturday:  10AM - 6PM<br />
+            </p>
           </div>
         </div>
         <div className="absolute w-full" id="visitUsImage">

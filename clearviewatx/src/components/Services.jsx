@@ -36,22 +36,23 @@ function Services() {
 
   return (
     <>
-      <div className="flex justify-center items-center mx-auto banner hind lg:h-56 lg:text-5xl md:h-36 md:text-3xl h-24 text-xl" id="services">
+      <div className="flex justify-center items-center mx-auto banner hind lg:h-96 lg:text-7xl md:h-64 md:text-4xl h-40 text-2xl" id="services">
         Our Services
       </div>
 
       <div className="servicesBackground">
+
         {/* Comprehensive Eye Exams */}
         <div className="w-full h-fit">
-          <div className="md:flex lg:px-14 lg:py-20 md:px-10 md:py-16 px-8 py-12">
-            <img class="lg:h-80 lg:w-80 md:h-56 md:w-56 h-40 w-40 my-auto mx-auto md:mb-0 mb-10" src={require("../images/ComprehensiveEyeExams.png")}></img>
+          <div className="md:flex lg:px-14 lg:py-20 md:px-10 md:py-16 px-8 py-12 items-center">
+            <img className="lg:h-80 lg:w-80 md:h-56 md:w-56 h-40 w-40 md:py-auto md:px-auto md:mx-0 md:my-0 mx-auto my-auto md:mb-0 mb-10" src={require("../images/ComprehensiveEyeExams.png")}></img>
             <div className="lg:pl-14 md:pl-10 pl-8 my-auto">
               <h1 className="serviceName poppins font-bold lg:text-3xl md:text-2xl text-xl lg:mb-4 mb-2">
                 Comprehensive Eye Exams
               </h1>
               <p className="poppins lg:text-xl md:text-lg text-base">
                 During an eye exam, your eye doctor will use a variety of tests and procedures to determine the clarity of your vision, assess your eye health, and check for any signs of eye disease or other conditions. <br /><br />
-                Some of the tests and procedures that may be performed during an eye exam include: <br/>
+                Some of the tests and procedures that may be performed during an eye exam include: <br />
                 <div id="listcontainer">
                   <ul className="bulletList">
                     <li>A refraction test to determine your eyeglass prescription</li>
@@ -65,32 +66,34 @@ function Services() {
             </div>
           </div>
         </div>
+
         {/* Contact Lens Fittings */}
         <div className="w-full h-fit">
-          <div className="md:flex lg:px-14 lg:py-20 md:px-10 md:py-16 px-8 py-12">
-            <img class="lg:h-80 lg:w-80 md:h-56 md:w-56 h-40 w-40 my-auto mx-auto md:mb-0 mb-10" src={require("../images/LensFittings.png")}></img>
+          <div className="md:flex lg:px-14 lg:py-20 md:px-10 md:py-16 px-8 py-12 items-center">
+            <img className="lg:h-80 lg:w-80 md:h-56 md:w-56 h-40 w-40 md:py-auto md:px-auto md:mx-0 md:my-0 mx-auto my-auto md:mb-0 mb-10" src={require("../images/LensFittings.png")}></img>
             <div className="lg:pl-14 md:pl-10 pl-8 my-auto">
               <h1 className="serviceName poppins font-bold lg:text-3xl md:text-2xl text-xl lg:mb-4 mb-2">
                 Contact Lens Exams
               </h1>
               <p className="poppins lg:text-xl md:text-lg text-base">
-              Your optometrist will measure the curvature and size of the patient's cornea and evaluate the health of the eye to determine the best type of contact lens for the patient. They will also consider the patient's lifestyle, occupation, and activities to determine the appropriate wearing schedule and replacement frequency for the lenses.
-              The patient will be instructed on proper insertion and removal of the lenses, as well as proper care and maintenance.
-              Prior to finalizing the prescription, a trial of contacts will be provided to the patient to evaluate the fit and comfort to ensure the patient satisfaction.
+                Your optometrist will measure the curvature and size of the patient's cornea and evaluate the health of the eye to determine the best type of contact lens for the patient. They will also consider the patient's lifestyle, occupation, and activities to determine the appropriate wearing schedule and replacement frequency for the lenses.
+                The patient will be instructed on proper insertion and removal of the lenses, as well as proper care and maintenance.
+                Prior to finalizing the prescription, a trial of contacts will be provided to the patient to evaluate the fit and comfort to ensure the patient satisfaction.
               </p>
             </div>
           </div>
         </div>
+
         {/* Eye Treatments */}
         <div className="w-full h-fit">
-          <div className="md:flex lg:px-14 lg:py-20 md:px-10 md:py-16 px-8 py-12">
-            <img class="lg:h-80 lg:w-80 md:h-56 md:w-56 h-40 w-40 my-auto mx-auto md:mb-0 mb-10" src={require("../images/EyeTreatments.png")}></img>
+          <div className="md:flex lg:px-14 lg:py-20 md:px-10 md:py-16 px-8 py-12 items-center">
+            <img className="lg:h-80 lg:w-80 md:h-56 md:w-56 h-40 w-40 md:py-auto md:px-auto md:mx-0 md:my-0 mx-auto my-auto md:mb-0 mb-10" src={require("../images/EyeTreatments.png")}></img>
             <div className="lg:pl-14 md:pl-10 pl-8 my-auto">
               <h1 className="serviceName poppins font-bold lg:text-3xl md:text-2xl text-xl lg:mb-4 mb-2">
                 Eye Disease Management
               </h1>
               <p className="poppins lg:text-xl md:text-lg text-base">
-                The type of eye treatment recommended will depend on the underlying cause of the condition, as well as the patient's overall health and medical history. Some common eye conditions that may require treatment include:<br/>
+                The type of eye treatment recommended will depend on the underlying cause of the condition, as well as the patient's overall health and medical history. Some common eye conditions that may require treatment include:<br />
                 <ul className="bulletList">
                   <li>Eye infections, such as conjunctivitis or corneal ulcers.</li>
                   <li>Glaucoma, a group of eye conditions that can damage the optic nerve and cause vision loss.</li>
@@ -111,13 +114,13 @@ function Services() {
         <p className='poppins ml-14 lg:text-xl md:text-lg text-base'>We accept the following vision plans:</p>
         <div className='flex flex-row items-center justify-center gap-x-16 mt-10 pb-10'>
           <div>
-            <img src={Spectra} className="temporarybg" />
+            <img src={Spectra} className="insurancebg mx-[5%]" />
           </div>
           <div>
-            <img src={Aetna} className="temporarybg" />
+            <img src={Aetna} className="insurancebg mx-[5%]" />
           </div>
           <div>
-            <img src={Ambetter} className="temporarybg" />
+            <img src={Ambetter} className="insurancebg mx-[5%]" />
           </div>
         </div>
         <p className='poppins ml-14 lg:text-xl md:text-lg text-base mt-10'>We're here to help. If your vision plan is not listed, please contact us to discuss your coverage.</p>
@@ -125,7 +128,7 @@ function Services() {
         {/* Service Buttons */}
         <div className='flex flex-row items-center justify-center gap-x-16 mt-10 pb-10' id="buttonContainer">
           <div className='badge badge-outline badge-lg w-1/4 serviceButtons'>
-              <p className='mr-2 ml-2 2xl:text-3xl'>Book an Appointment</p>
+            <p className='mr-2 ml-2 2xl:text-3xl'>Book an Appointment</p>
           </div>
           <div className='flex badge badge-outline badge-lg w-1/4 serviceButtons'>
             <p className='mr-2 ml-2 2xl:text-3xl'>Call Us 512-957-6001</p>
@@ -133,11 +136,14 @@ function Services() {
         </div>
 
         <Border />
+
+        {/* FAQ Section */}
+        
         <div className='pb-10 mt-10' id="FAQ">
           <div className='flex items-center justify-center servicesBackground mt-10 pb-10'>
-              <p className='serviceName poppins font-bold lg:text-3xl md:text-2xl text-xl'>
-                Frequently Asked Questions (FAQ's)
-              </p>
+            <p className='serviceName poppins font-bold lg:text-3xl md:text-2xl text-xl'>
+              Frequently Asked Questions (FAQ's)
+            </p>
           </div>
 
           <div className='flex w-[60%] grid grid-cols-6 mx-auto faqBorder mb-10 pb-10 justify-between'>
@@ -145,7 +151,7 @@ function Services() {
               How often should I have an eye exam, and what is involved in a comprehensive eye examination?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
-            <div className='col-start-1 col-end-7 mt-10 faqHide'>
+            <div className='col-start-1 col-end-7 mt-10 faqHide poppins'>
               It is recommended to have a comprehensive eye examination every year (12 months). However, the frequency may vary depending on your age, overall health, and any existing eye conditions. For certain individuals, such as those with diabetes or a family history of eye diseases, more frequent examinations may be necessary.
 
               During a comprehensive eye examination, your optometrist will perform various tests and evaluations to assess your overall eye health and detect any potential issues. The examination typically includes:
@@ -172,7 +178,7 @@ function Services() {
               What are the signs and symptoms of dry eye syndrome?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
-            <div className='col-start-1 col-end-7 mt-10 faqHide'>
+            <div className='col-start-1 col-end-7 mt-10 faqHide poppins'>
               If you frequently experience a gritty, burning sensation in your eyes or notice redness and blurred vision, you might be suffering from dry eyes. Dry eye syndrome is a common condition that occurs when your eyes do not produce enough tears or when the tears evaporate too quickly. There are several causes of dry eyes, including aging, hormonal changes, environmental factors, certain medications, and underlying health conditions. Common symptoms include dryness, itching, sensitivity to light, and discomfort. If you suspect you have dry eyes, it is essential to visit an optometry practice for a comprehensive eye examination and personalized treatment options.
             </div>
           </div>
@@ -182,7 +188,7 @@ function Services() {
               Are there any lifestyle changes or dietary recommendations that can improve my eye health?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
-            <div className='col-start-1 col-end-7 mt-10 faqHide'>
+            <div className='col-start-1 col-end-7 mt-10 faqHide poppins'>
               Absolutely! Making certain lifestyle changes and incorporating specific nutrients into your diet can help improve your overall eye health. Here are some recommendations:
 
               <ul className="numberList">
@@ -206,7 +212,7 @@ function Services() {
               How can I prevent and manage eye allergies?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
-            <div className='col-start-1 col-end-7 mt-10 faqHide'>
+            <div className='col-start-1 col-end-7 mt-10 faqHide poppins'>
               If you're experiencing eye allergies, there are several steps you can take to prevent and manage them effectively. Here are some recommendations:
               <ul className="numberList">
                 <br />
@@ -228,7 +234,7 @@ function Services() {
               Can you explain the different types of refractive surgery, such as LASIK, and determine if I'm a suitable candidate?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
-            <div className='col-start-1 col-end-7 mt-10 faqHide'>
+            <div className='col-start-1 col-end-7 mt-10 faqHide poppins'>
               Refractive surgery, such as LASIK (Laser-Assisted in Situ Keratomileusis), is a popular procedure designed to correct common vision problems, including nearsightedness, farsightedness, and astigmatism. Here are some details about different types of refractive surgeries:
               <ul className="bulletList">
                 <br />
@@ -249,7 +255,7 @@ function Services() {
               What is the best way to protect my eyes from digital eye strain?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
-            <div className='col-start-1 col-end-7 mt-10 faqHide'>
+            <div className='col-start-1 col-end-7 mt-10 faqHide poppins'>
             Protecting your eyes from digital eye strain is crucial, especially with the increasing use of digital devices in our daily lives. Here are some effective strategies to minimize digital eye strain:
               <ul className="numberList">
                 <br />
@@ -274,7 +280,7 @@ function Services() {
               Are contacts compatible with my eyes?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
-            <div className='col-start-1 col-end-7 mt-10 faqHide'>
+            <div className='col-start-1 col-end-7 mt-10 faqHide poppins'>
               Determining if contact lenses are compatible with your eyes is an important consideration. Contact lenses can provide a convenient and effective alternative to glasses for vision correction. Here's what you need to consider:
               <ul className="bulletList">
                 <br />

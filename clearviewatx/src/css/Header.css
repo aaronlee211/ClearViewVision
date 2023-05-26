@@ -11,11 +11,11 @@
     background-color: var(--gray);
 }
 
-.header-div > p {
+.header-div>p {
     color: var(--dark-green);
 }
 
-.navlink-header > p {
+.navlink-header>p {
     color: var(--dark-green);
 }
 
@@ -37,7 +37,7 @@
 .badge:not(:hover) {
     transition-delay: 1s;
     background-color: white;
-  }
+}
 
 .badge p {
     transition: color 1s ease-in;
@@ -52,7 +52,7 @@
     border-width: 0.25rem !important;
 }
 
-.bottom-nav{
+.bottom-nav {
     background-color: var(--light-green);
 }
 
@@ -71,11 +71,33 @@ p.active::after {
     bottom: -5px;
     animation: appear 1s linear;
 }
+
 @keyframes appear {
     from {
         width: 0;
     }
+
     to {
         width: 100%;
     }
+}
+
+
+.hideMenuNav {
+    display: none;
+}
+
+.showMenuNav {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: white;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }

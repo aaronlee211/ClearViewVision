@@ -18,7 +18,7 @@ function About() {
   return (
     <>
       {/* Banner */}
-      <div className="flex justify-center items-center mx-auto banner hind lg:h-56 lg:text-5xl md:h-36 md:text-3xl h-24 text-xl" id="ClearView">
+      <div className="flex justify-center items-center mx-auto banner hind lg:h-96 lg:text-7xl md:h-64 md:text-4xl h-40 text-2xl" id="ClearView">
         About ClearView Vision
       </div>
 

@@ -56,10 +56,9 @@
     background-color: var(--light-green);
 }
 
-div p {
+.header-div p {
     cursor: pointer;
     position: relative;
-
 }
 
 p.active::after {

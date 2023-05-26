@@ -1,13 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../css/About.css'
 import ReviewsReact from './ReviewsReact.jsx';
 import Border from './Border.jsx'
 
 function About() {
+
+  useEffect(() => {
+    const { hash } = window.location;
+    if (hash) {
+      const section = document.getElementById(hash.substring(1));
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, []);
+
   return (
     <>
       {/* Banner */}
-      <div className="flex justify-center items-center mx-auto banner hind lg:h-56 lg:text-5xl md:h-36 md:text-3xl h-24 text-xl">
+      <div className="flex justify-center items-center mx-auto banner hind lg:h-56 lg:text-5xl md:h-36 md:text-3xl h-24 text-xl" id="ClearView">
         About ClearView Vision
       </div>
 

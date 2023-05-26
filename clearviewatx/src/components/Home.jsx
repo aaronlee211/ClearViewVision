@@ -4,8 +4,7 @@ import Reviews from './Reviews.jsx';
 import { useEffect } from 'react'
 import ReviewsReact from './ReviewsReact.jsx';
 import ContactForm from './ContactForm.jsx';
-import { NavLink } from 'react-router-dom';
-import { useEffect } from 'react';
+import { NavLink, Link } from 'react-router-dom';
 
 function Home() {
 
@@ -34,8 +33,9 @@ function Home() {
     return () => {
       window.removeEventListener('load', setEqualCardHeights);
     };
-  }, []);
 
+
+  }, []);
 
   return (
     <>
@@ -81,7 +81,7 @@ function Home() {
               <p className="poppins cardText text-center">
                 Get a comprehensive eye exam from our experienced optometrists to prolong your vision and eye health.
               </p>
-              <NavLink className="navlink-header mx-auto w-[75%] my-4" to="services">
+              <NavLink className="navlink-header mx-auto w-[75%] my-4" to="services#services">
                 <button className="py-2 px-4 w-full rounded-full cardButtons">
                   View Services
                 </button>
@@ -114,11 +114,11 @@ function Home() {
                 We accept most insurance plans to help you save money on your eye care services.
                 Contact us to learn more about your coverage options.
               </p>
-              <NavLink className="navlink-header mx-auto w-[75%] my-4" to="services">
+              <Link className="navlink-header mx-auto w-[75%] my-4" to="/services#insurance">
                 <button className="py-2 px-4 w-full rounded-full cardButtons">
                   View Insurance Plans
                 </button>
-              </NavLink>
+              </Link>
             </div>
           </div>
         </div>
@@ -156,7 +156,7 @@ function Home() {
 
 
       {/* Reviews Carousel */}
-      <ReviewsReact />
+      <ReviewsReact id="reviews"/>
 
       {/* Contact Us Form */}
       <ContactForm />

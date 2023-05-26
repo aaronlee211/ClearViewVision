@@ -1,10 +1,21 @@
-import {React, useMemo} from 'react'
+import {React, useMemo, useEffect} from 'react'
 import ContactForm from './ContactForm.jsx'
 import Border from './Border.jsx'
 import '../css/ContactPage.css'
 import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api"
 
 function ContactPage() {
+
+  useEffect(() => {
+    const { hash } = window.location;
+    if (hash) {
+      const section = document.getElementById(hash.substring(1));
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, []);
+
   const { isLoaded } = useLoadScript({
     googleMapsApiKey: process.env.REACT_APP_API_KEY
   })
@@ -14,7 +25,7 @@ function ContactPage() {
   return (
     <>
       {/* Banner */}
-      <div className="flex justify-center items-center mx-auto banner hind lg:h-56 lg:text-5xl md:h-36 md:text-3xl h-24 text-xl">
+      <div className="flex justify-center items-center mx-auto banner hind lg:h-56 lg:text-5xl md:h-36 md:text-3xl h-24 text-xl" id="topsection">
         Contact Us
       </div>
 
@@ -44,7 +55,7 @@ function ContactPage() {
             Saturday:  10AM - 6PM
           </p>
         </div>
-        <div className="h-fit w-1/2 py-auto px-32">
+        <div className="mapcontainer mr-10">
           <Map />
         </div>
       </div>

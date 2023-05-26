@@ -14,7 +14,7 @@ function Header() {
 
   return (
     <>
-      <div className='flex flex-row justify-between py-5 navbar-bg'>
+      <div className='flex flex-row justify-between py-5 navbar-bg' id="topsection">
         <div>
           <img className='ml-5 header-img' src={require("../images/ClearViewLogo.png")} alt=''></img>
         </div>

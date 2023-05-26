@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/Footer.css'
 import { ExternalLink } from 'react-external-link';
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -16,19 +16,28 @@ function Footer() {
         </div>
         <div>
           <span className="footerTitle text-2xl">Resources</span>
-          <a className="link link-hover footerText">Insurance Plans</a>
-          <a className="link link-hover footerText">FAQ's</a>
-          <a className="link link-hover footerText">Customer Reviews</a>
+          <Link className="link link-hover footerText" to="/services#insurance">
+            Insurance Plans
+          </Link>
+          <Link className="link link-hover footerText" to="/services#FAQ">
+            Frequently Asked Questions
+          </Link>
+          {/* <Link className="link link-hover footerText" to="/#reviews">
+            Customer Reviews
+          </Link> */}
         </div>
         <div>
           <span className="footerTitle text-2xl">About ClearView</span>
-          <NavLink className="link link-hover footerText" to="/about">
+          <Link className="link link-hover footerText" to="/about#ClearView">
             About Us
-          </NavLink>
+          </Link>
           {/* <a className="">About Us</a> */}
-          <a className="link link-hover footerText">Our Services</a>
-          <a className="link link-hover footerText">Contact Us</a>
-          <a className="link link-hover footerText">Careers</a>
+          <Link className="link link-hover footerText" to="/services#services">
+            Our Services
+          </Link>
+          <Link className="link link-hover footerText" to="/contact">
+            Contact Us
+          </Link>
         </div>
         <div>
           <span className="footerTitle text-2xl">Location & Hours</span>

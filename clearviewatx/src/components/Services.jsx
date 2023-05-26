@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import '../css/Services.css'
 import Border from './Border.jsx'
 import phoneicon from '../images/phoneicon.svg'
@@ -9,6 +9,16 @@ import Ambetter from '../images/ambetter.png'
 import $ from 'jquery';
 
 function Services() {
+
+  useEffect(() => {
+    const { hash } = window.location;
+    if (hash) {
+      const section = document.getElementById(hash.substring(1));
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, []);
 
   $(document).ready(function() {
     $('.faqButton').click(function() {
@@ -26,8 +36,7 @@ function Services() {
 
   return (
     <>
-      {/* Banner */}
-      <div className="flex justify-center items-center mx-auto banner hind lg:h-96 lg:text-7xl md:h-64 md:text-4xl h-40 text-2xl">
+      <div className="flex justify-center items-center mx-auto banner hind lg:h-96 lg:text-7xl md:h-64 md:text-4xl h-40 text-2xl" id="services">
         Our Services
       </div>
 
@@ -99,7 +108,7 @@ function Services() {
 
         <Border />
 
-        <div className='flex items-center justify-center servicesBackground mt-10 mb-10'>
+        <div className='flex items-center justify-center servicesBackground mt-10 mb-10' id="insurance">
           <p className='serviceName poppins font-bold lg:text-3xl md:text-2xl text-xl'>Insurance</p>
         </div>
         <p className='poppins ml-14 lg:text-xl md:text-lg text-base'>We accept the following vision plans:</p>
@@ -129,8 +138,8 @@ function Services() {
         <Border />
 
         {/* FAQ Section */}
-
-        <div className='pb-10 mt-10'>
+        
+        <div className='pb-10 mt-10' id="FAQ">
           <div className='flex items-center justify-center servicesBackground mt-10 pb-10'>
             <p className='serviceName poppins font-bold lg:text-3xl md:text-2xl text-xl'>
               Frequently Asked Questions (FAQ's)
@@ -138,7 +147,7 @@ function Services() {
           </div>
 
           <div className='flex w-[60%] grid grid-cols-6 mx-auto faqBorder mb-10 pb-10 justify-between'>
-            <p className='serviceName poppins lg:text-3xl md:text-2xl text-xl col-start-1 col-end-6'>
+            <p className='serviceName poppins lg:text-2xl md:text-2xl text-xl col-start-1 col-end-6'>
               How often should I have an eye exam, and what is involved in a comprehensive eye examination?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
@@ -165,7 +174,7 @@ function Services() {
 
 
           <div className='flex w-[60%] grid grid-cols-6 mx-auto faqBorder mb-10 pb-10 justify-between'>
-            <p className='serviceName poppins lg:text-3xl md:text-2xl text-xl col-start-1 col-end-6'>
+            <p className='serviceName poppins lg:text-2xl md:text-2xl text-xl col-start-1 col-end-6'>
               What are the signs and symptoms of dry eye syndrome?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
@@ -175,7 +184,7 @@ function Services() {
           </div>
 
           <div className='flex w-[60%] grid grid-cols-6 mx-auto faqBorder mb-10 pb-10 justify-between'>
-            <p className='serviceName poppins lg:text-3xl md:text-2xl text-xl col-start-1 col-end-6'>
+            <p className='serviceName poppins lg:text-2xl md:text-2xl text-xl col-start-1 col-end-6'>
               Are there any lifestyle changes or dietary recommendations that can improve my eye health?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
@@ -199,7 +208,7 @@ function Services() {
           </div>
 
           <div className='flex w-[60%] grid grid-cols-6 mx-auto faqBorder mb-10 pb-10 justify-between'>
-            <p className='serviceName poppins lg:text-3xl md:text-2xl text-xl col-start-1 col-end-6'>
+            <p className='serviceName poppins lg:text-2xl md:text-2xl text-xl col-start-1 col-end-6'>
               How can I prevent and manage eye allergies?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
@@ -221,7 +230,7 @@ function Services() {
           </div>
 
           <div className='flex w-[60%] grid grid-cols-6 mx-auto faqBorder mb-10 pb-10 justify-between'>
-            <p className='serviceName poppins lg:text-3xl md:text-2xl text-xl col-start-1 col-end-6'>
+            <p className='serviceName poppins lg:text-2xl md:text-2xl text-xl col-start-1 col-end-6'>
               Can you explain the different types of refractive surgery, such as LASIK, and determine if I'm a suitable candidate?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
@@ -242,7 +251,7 @@ function Services() {
           </div>
 
           <div className='flex w-[60%] grid grid-cols-6 mx-auto faqBorder mb-10 pb-10 justify-between'>
-            <p className='serviceName poppins lg:text-3xl md:text-2xl text-xl col-start-1 col-end-6'>
+            <p className='serviceName poppins lg:text-2xl md:text-2xl text-xl col-start-1 col-end-6'>
               What is the best way to protect my eyes from digital eye strain?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
@@ -267,7 +276,7 @@ function Services() {
           </div>
 
           <div className='flex w-[60%] grid grid-cols-6 mx-auto faqBorder mb-10 pb-10 justify-between'>
-            <p className='serviceName poppins lg:text-3xl md:text-2xl text-xl col-start-1 col-end-6'>
+            <p className='serviceName poppins lg:text-2xl md:text-2xl text-xl col-start-1 col-end-6'>
               Are contacts compatible with my eyes?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>

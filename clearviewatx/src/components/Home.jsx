@@ -4,7 +4,8 @@ import Reviews from './Reviews.jsx';
 import { useEffect } from 'react'
 import ReviewsReact from './ReviewsReact.jsx';
 import ContactForm from './ContactForm.jsx';
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
+import { useEffect } from 'react';
 
 function Home() {
 
@@ -80,10 +81,8 @@ function Home() {
               <p className="poppins cardText text-center">
                 Get a comprehensive eye exam from our experienced optometrists to prolong your vision and eye health.
               </p>
-            </div>
-            <div className="px-6 py-4 flex justify-center">
-              <NavLink className="navlink-header" to="services">
-                <button className="py-2 px-4 rounded-full cardButtons">
+              <NavLink className="navlink-header mx-auto w-[75%] my-4" to="services">
+                <button className="py-2 px-4 w-full rounded-full cardButtons">
                   View Services
                 </button>
               </NavLink>
@@ -98,12 +97,10 @@ function Home() {
               <p className="poppins cardText text-center">
                 Schedule an appointment for an eye exam, contact lens fitting, or other eye care services at our convenient location.
               </p>
-            </div>
-            <div className="px-6 py-4 flex justify-center">
-              <NavLink className="navlink-header" to="book">
-              <button className="py-2 px-4 rounded-full cardButtons flex items-end">
-                Book an Appointment
-              </button>
+              <NavLink className="navlink-header mx-auto w-[75%] my-4" to="book">
+                <button className="py-2 px-4 w-full rounded-full cardButtons">
+                  Book an Appointment
+                </button>
               </NavLink>
             </div>
           </div>
@@ -117,10 +114,8 @@ function Home() {
                 We accept most insurance plans to help you save money on your eye care services.
                 Contact us to learn more about your coverage options.
               </p>
-            </div>
-            <div className="px-6 py-4 flex justify-center relative">
-              <NavLink className="navlink-header" to="services">
-                <button className="py-2 px-4 rounded-full cardButtons">
+              <NavLink className="navlink-header mx-auto w-[75%] my-4" to="services">
+                <button className="py-2 px-4 w-full rounded-full cardButtons">
                   View Insurance Plans
                 </button>
               </NavLink>
@@ -144,13 +139,13 @@ function Home() {
             <p>512-957-6001</p>
             <br />
             <p>Hours:<br />
-            Sunday:  Closed<br />
-            Monday:  Closed<br />
-            Tuesday:  10AM - 6PM<br />
-            Wednesday:  10AM - 6PM<br />
-            Thursday:  10AM - 6PM<br />
-            Friday:  10AM - 6PM<br />
-            Saturday:  10AM - 6PM<br />
+              Sunday:  Closed<br />
+              Monday:  Closed<br />
+              Tuesday:  10AM - 6PM<br />
+              Wednesday:  10AM - 6PM<br />
+              Thursday:  10AM - 6PM<br />
+              Friday:  10AM - 6PM<br />
+              Saturday:  10AM - 6PM<br />
             </p>
           </div>
         </div>

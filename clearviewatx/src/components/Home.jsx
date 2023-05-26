@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/Home.css'
 import Reviews from './Reviews.jsx';
+import { useEffect } from 'react'
 import ReviewsReact from './ReviewsReact.jsx';
 import ContactForm from './ContactForm.jsx';
 import { NavLink } from 'react-router-dom';

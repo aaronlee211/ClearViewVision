@@ -1,8 +1,10 @@
 import React from 'react'
-import '../css/Home.css'  
+import '../css/Home.css'
 import Reviews from './Reviews.jsx';
 import ReviewsReact from './ReviewsReact.jsx';
 import ContactForm from './ContactForm.jsx';
+import { NavLink } from 'react-router-dom'
+
 
 function Home() {
   return (
@@ -50,9 +52,11 @@ function Home() {
               </p>
             </div>
             <div className="px-6 py-4 flex justify-center">
-              <button className="py-2 px-4 rounded-full cardButtons">
-                View Services
-              </button>
+              <NavLink className="navlink-header" to="services">
+                <button className="py-2 px-4 rounded-full cardButtons">
+                  View Services
+                </button>
+              </NavLink>
             </div>
           </div>
         </div>
@@ -66,9 +70,11 @@ function Home() {
               </p>
             </div>
             <div className="px-6 py-4 flex justify-center">
+              <NavLink className="navlink-header" to="book">
               <button className="py-2 px-4 rounded-full cardButtons flex items-end">
                 Book an Appointment
               </button>
+              </NavLink>
             </div>
           </div>
         </div>
@@ -83,14 +89,46 @@ function Home() {
               </p>
             </div>
             <div className="px-6 py-4 flex justify-center relative">
-              <button className="py-2 px-4 rounded-full cardButtons">
-                View Insurance Plans
-              </button>
+              <NavLink className="navlink-header" to="services">
+                <button className="py-2 px-4 rounded-full cardButtons">
+                  View Insurance Plans
+                </button>
+              </NavLink>
             </div>
           </div>
         </div>
 
       </div>
+
+      <div className='relative'>
+        <div className="relative flex w-1/2 2xl:h-128" id="visitUs">
+          <div className="my-auto ml-auto 2xl:mr-16" id="visitUsText">
+            <h1 className="poppins 2xl:text-4xl leading-10">
+              Visit Us!
+            </h1>
+            <p>Address:</p>
+            <p>5017 W US 290 Hwy Service Road, Austin, TX 78735</p>
+            <p>{"(located inside Walmart)"}</p>
+            <br />
+            <p>Phone:</p>
+            <p>512-957-6001</p>
+            <br />
+            <p>Hours:<br />
+            Sunday:  Closed<br />
+            Monday:  Closed<br />
+            Tuesday:  10AM - 6PM<br />
+            Wednesday:  10AM - 6PM<br />
+            Thursday:  10AM - 6PM<br />
+            Friday:  10AM - 6PM<br />
+            Saturday:  10AM - 6PM<br />
+            </p>
+          </div>
+        </div>
+        <div className="absolute w-full" id="visitUsImage">
+          <img className="object-cover 2xl:h-128 2xl:w-[48rem]" src={require("../images/headerbg3.jpg")} alt=''></img>
+        </div>
+      </div>
+
 
       {/* Reviews Carousel */}
       <ReviewsReact/>

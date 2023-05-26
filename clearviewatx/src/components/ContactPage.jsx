@@ -28,7 +28,7 @@ function ContactPage() {
       <div className="flex h-fit w-full" id="informationBackground">
         <div className="h-fit w-1/2 py-14 px-32">
           <h1 className="poppins informationTitle">Address</h1>
-          <p className="poppins informationContent">5017 W US 290 Hwy, Austin, TX 78735<br/>(located inside Walmart)</p>
+          <p className="poppins informationContent">5017 W US 290 Hwy Service Road, Austin, TX 78735<br/>(located inside Walmart)</p>
           <br />
           <h1 className="poppins informationTitle">Contact</h1>
           <p className="poppins informationContent">512-957-6001<br/>info@clearviewatx.com</p>
@@ -57,7 +57,7 @@ function ContactPage() {
 }
 
 function Map () {
-  const center = useMemo(() => ({lat: 30.232216733507702, lng: -97.8232699617968}), [])
+  const center = useMemo(() => ({lat: 30.232531448374512, lng: -97.82296529141712}), [])
 
   return (
     <GoogleMap zoom={17} center={center} mapContainerClassName='mapcontainer'>

@@ -2,8 +2,11 @@ import React from 'react'
 import ContactForm from './ContactForm.jsx'
 import Border from './Border.jsx'
 import '../css/ContactPage.css'
+import { GoogleMap, LoadScript } from '@react-google-maps/api';
 
 function ContactPage() {
+  const {} = useLoadScript({googleMapsApiKey: })
+
   return (
     <>
       {/* Banner */}

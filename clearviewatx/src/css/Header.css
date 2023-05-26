@@ -56,7 +56,7 @@
     background-color: var(--light-green);
 }
 
-.header-div p {
+.headercontainer p {
     cursor: pointer;
     position: relative;
 }

@@ -1,11 +1,11 @@
 import React from 'react'
 import '../css/Home.css'
-import Reviews from './Reviews.jsx';
-import { useEffect } from 'react'
+// import Reviews from './Reviews.jsx';
 import ReviewsReact from './ReviewsReact.jsx';
 import ContactForm from './ContactForm.jsx';
 import { NavLink } from 'react-router-dom';
 import { useEffect } from 'react';
+import { ExternalLink } from 'react-external-link';
 
 function Home() {
 
@@ -133,8 +133,12 @@ function Home() {
               Visit Us!
             </h1>
             <p>Address:</p>
-            <p>5017 W US 290 Hwy Service Road, Austin, TX 78735</p>
-            <p>{"(located inside Walmart)"}</p>
+            <p>
+              <ExternalLink className="footerText link link-hover"
+                href="https://www.google.com/maps/place/ClearView+Vision/@30.2328086,-97.8277622,17z/data=!3m1!4b1!4m6!3m5!1s0x865b4be7ae82f12b:0x7f59bfd2b85a9872!8m2!3d30.2328041!4d-97.8228859!16s%2Fg%2F11khzp9p6g">
+                5017 W US 290 Hwy Service Road, Austin, TX 78735 <br /> (located at Walmart)
+              </ExternalLink>
+            </p>
             <br />
             <p>Phone:</p>
             <p>512-957-6001</p>

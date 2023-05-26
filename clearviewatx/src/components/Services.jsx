@@ -26,7 +26,8 @@ function Services() {
 
   return (
     <>
-      <div className="flex justify-center items-center mx-auto banner hind lg:h-56 lg:text-5xl md:h-36 md:text-3xl h-24 text-xl">
+      {/* Banner */}
+      <div className="flex justify-center items-center mx-auto banner hind lg:h-96 lg:text-7xl md:h-64 md:text-4xl h-40 text-2xl">
         Our Services
       </div>
 
@@ -104,13 +105,13 @@ function Services() {
         <p className='poppins ml-14 lg:text-xl md:text-lg text-base'>We accept the following vision plans:</p>
         <div className='flex flex-row items-center justify-center gap-x-16 mt-10 pb-10'>
           <div>
-            <img src={Spectra} className="temporarybg" />
+            <img src={Spectra} className="insurancebg mx-[5%]" />
           </div>
           <div>
-            <img src={Aetna} className="temporarybg" />
+            <img src={Aetna} className="insurancebg mx-[5%]" />
           </div>
           <div>
-            <img src={Ambetter} className="temporarybg" />
+            <img src={Ambetter} className="insurancebg mx-[5%]" />
           </div>
         </div>
         <p className='poppins ml-14 lg:text-xl md:text-lg text-base mt-10'>We're here to help. If your vision plan is not listed, please contact us to discuss your coverage.</p>
@@ -126,6 +127,9 @@ function Services() {
         </div>
 
         <Border />
+
+        {/* FAQ Section */}
+
         <div className='pb-10 mt-10'>
           <div className='flex items-center justify-center servicesBackground mt-10 pb-10'>
             <p className='serviceName poppins font-bold lg:text-3xl md:text-2xl text-xl'>
@@ -138,7 +142,7 @@ function Services() {
               How often should I have an eye exam, and what is involved in a comprehensive eye examination?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
-            <div className='col-start-1 col-end-7 mt-10 faqHide'>
+            <div className='col-start-1 col-end-7 mt-10 faqHide poppins'>
               It is recommended to have a comprehensive eye examination every year (12 months). However, the frequency may vary depending on your age, overall health, and any existing eye conditions. For certain individuals, such as those with diabetes or a family history of eye diseases, more frequent examinations may be necessary.
 
               During a comprehensive eye examination, your optometrist will perform various tests and evaluations to assess your overall eye health and detect any potential issues. The examination typically includes:
@@ -165,7 +169,7 @@ function Services() {
               What are the signs and symptoms of dry eye syndrome?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
-            <div className='col-start-1 col-end-7 mt-10 faqHide'>
+            <div className='col-start-1 col-end-7 mt-10 faqHide poppins'>
               If you frequently experience a gritty, burning sensation in your eyes or notice redness and blurred vision, you might be suffering from dry eyes. Dry eye syndrome is a common condition that occurs when your eyes do not produce enough tears or when the tears evaporate too quickly. There are several causes of dry eyes, including aging, hormonal changes, environmental factors, certain medications, and underlying health conditions. Common symptoms include dryness, itching, sensitivity to light, and discomfort. If you suspect you have dry eyes, it is essential to visit an optometry practice for a comprehensive eye examination and personalized treatment options.
             </div>
           </div>
@@ -175,7 +179,7 @@ function Services() {
               Are there any lifestyle changes or dietary recommendations that can improve my eye health?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
-            <div className='col-start-1 col-end-7 mt-10 faqHide'>
+            <div className='col-start-1 col-end-7 mt-10 faqHide poppins'>
               Absolutely! Making certain lifestyle changes and incorporating specific nutrients into your diet can help improve your overall eye health. Here are some recommendations:
 
               <ul className="numberList">
@@ -199,7 +203,7 @@ function Services() {
               How can I prevent and manage eye allergies?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
-            <div className='col-start-1 col-end-7 mt-10 faqHide'>
+            <div className='col-start-1 col-end-7 mt-10 faqHide poppins'>
               If you're experiencing eye allergies, there are several steps you can take to prevent and manage them effectively. Here are some recommendations:
               <ul className="numberList">
                 <br />
@@ -221,7 +225,7 @@ function Services() {
               Can you explain the different types of refractive surgery, such as LASIK, and determine if I'm a suitable candidate?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
-            <div className='col-start-1 col-end-7 mt-10 faqHide'>
+            <div className='col-start-1 col-end-7 mt-10 faqHide poppins'>
               Refractive surgery, such as LASIK (Laser-Assisted in Situ Keratomileusis), is a popular procedure designed to correct common vision problems, including nearsightedness, farsightedness, and astigmatism. Here are some details about different types of refractive surgeries:
               <ul className="bulletList">
                 <br />
@@ -242,7 +246,7 @@ function Services() {
               What is the best way to protect my eyes from digital eye strain?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
-            <div className='col-start-1 col-end-7 mt-10 faqHide'>
+            <div className='col-start-1 col-end-7 mt-10 faqHide poppins'>
             Protecting your eyes from digital eye strain is crucial, especially with the increasing use of digital devices in our daily lives. Here are some effective strategies to minimize digital eye strain:
               <ul className="numberList">
                 <br />
@@ -267,7 +271,7 @@ function Services() {
               Are contacts compatible with my eyes?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
-            <div className='col-start-1 col-end-7 mt-10 faqHide'>
+            <div className='col-start-1 col-end-7 mt-10 faqHide poppins'>
               Determining if contact lenses are compatible with your eyes is an important consideration. Contact lenses can provide a convenient and effective alternative to glasses for vision correction. Here's what you need to consider:
               <ul className="bulletList">
                 <br />

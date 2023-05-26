@@ -10,10 +10,9 @@
     width: 70%;
 }
 
-.temporarybg {
-    background-color: white;
-    margin-left: 5%;
-    margin-right: 5%;
+.insurancebg {
+    /* background-color: white; */
+    mix-blend-mode: multiply;
     width: auto;
     height:  15vh;
 }

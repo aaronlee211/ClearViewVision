@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 #carouselSection {
     background-color: var(--beige);
     overflow: hidden;

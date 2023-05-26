@@ -13,7 +13,7 @@ function Header() {
 
   return (
     <>
-    <div className='flex flex-row justify-between my-5'>
+    <div className='flex flex-row justify-between py-5 navbar-bg'>
       <div>
         <img className='ml-5 header-img'src={require("../images/ClearViewLogo.png")} alt=''></img>
       </div>
@@ -36,7 +36,7 @@ function Header() {
       </div>
     </div>
     <div className='flex justify-center items-center bottom-nav h-14'>
-      <p className='banner-nav text-2xl'>Call Us! XXX-XXX-XXXX or Book Online!</p>
+      <p className='banner-nav text-2xl'>Text or call us at 512-957-6001 or book online! &nbsp; HABLAMOS ESPAÑOL</p>
     </div>
     </>
   )

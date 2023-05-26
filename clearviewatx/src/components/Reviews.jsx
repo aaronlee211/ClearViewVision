@@ -28,11 +28,11 @@ function Reviews() {
           </div>
           <div id="slide2" className="carousel-item relative w-full">
             <p className="poppins mx-auto w-3/4">
-              I was very impressed with the level of care I received during my eye exam at Clearview Vision.
+              I was very impressed with the level of care I received during my eye exam at ClearView Vision.
               The optometrist was patient and attentive, and made sure to address all of my concerns.
               They used the latest technology to perform the exam, which gave me peace of mind that my vision was being accurately measured.
               The staff was also very friendly and helpful, which made the entire experience a pleasure.
-              I would definitely recommend Clearview Vision to anyone in need of an eye exam.
+              I would definitely recommend ClearView Vision to anyone in need of an eye exam.
             </p>
             <div className="absolute flex justify-between transform -translate-y-1/2 left-0 right-0 top-1/2">
               <a href="#slide1" className="btn btn-square btn-reviews h-screen w-[12%]" onClick={() => { handleClick(1) }}>❮</a>
@@ -41,7 +41,7 @@ function Reviews() {
           </div>
           <div id="slide3" className="carousel-item relative w-full">
             <p className="poppins mx-auto w-3/4">
-              I had a great experience at Clearview Vision's optometrist eye exam.
+              I had a great experience at ClearView Vision's optometrist eye exam.
               The staff was friendly and welcoming, and the optometrist was extremely knowledgeable and professional.
               They took the time to thoroughly explain every step of the exam and answer all of my questions.
               The exam itself was very comprehensive and I felt confident that my vision was accurately assessed.

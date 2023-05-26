@@ -1,7 +1,10 @@
 import React from 'react'
 import '../css/Home.css'
 import Reviews from './Reviews.jsx';
+import ReviewsReact from './ReviewsReact.jsx';
 import ContactForm from './ContactForm.jsx';
+import { NavLink } from 'react-router-dom'
+
 
 function Home() {
   return (
@@ -49,9 +52,11 @@ function Home() {
               </p>
             </div>
             <div className="px-6 py-4 flex justify-center">
-              <button className="py-2 px-4 rounded-full cardButtons">
-                View Services
-              </button>
+              <NavLink className="navlink-header" to="services">
+                <button className="py-2 px-4 rounded-full cardButtons">
+                  View Services
+                </button>
+              </NavLink>
             </div>
           </div>
         </div>
@@ -65,9 +70,11 @@ function Home() {
               </p>
             </div>
             <div className="px-6 py-4 flex justify-center">
+              <NavLink className="navlink-header" to="book">
               <button className="py-2 px-4 rounded-full cardButtons flex items-end">
                 Book an Appointment
               </button>
+              </NavLink>
             </div>
           </div>
         </div>
@@ -82,9 +89,11 @@ function Home() {
               </p>
             </div>
             <div className="px-6 py-4 flex justify-center relative">
-              <button className="py-2 px-4 rounded-full cardButtons">
-                View Insurance Plans
-              </button>
+              <NavLink className="navlink-header" to="services">
+                <button className="py-2 px-4 rounded-full cardButtons">
+                  View Insurance Plans
+                </button>
+              </NavLink>
             </div>
           </div>
         </div>
@@ -121,7 +130,7 @@ function Home() {
 
 
       {/* Reviews Carousel */}
-      <Reviews/>
+      <ReviewsReact/>
 
       {/* Contact Us Form */}
       <ContactForm/>

@@ -1,8 +1,10 @@
 import React from 'react'
-import '../css/Home.css'  
+import '../css/Home.css'
 import Reviews from './Reviews.jsx';
+import { useEffect } from 'react'
 import ReviewsReact from './ReviewsReact.jsx';
 import ContactForm from './ContactForm.jsx';
+import { NavLink } from 'react-router-dom'
 
 function Home() {
 
@@ -106,7 +108,7 @@ function Home() {
             </div>
           </div>
         </div>
-        
+
         <div className="lg:w-1/3 w-full flex items-center my-4">
           <div className="max-w-md max-h-64 rounded overflow-hidden shadow-lg mx-auto">
             <div className="card px-6 py-4">

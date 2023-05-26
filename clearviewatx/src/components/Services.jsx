@@ -8,6 +8,19 @@ import Dropdown from '../images/dropdown.png'
 import Ambetter from '../images/ambetter.png'
 
 function Services() {
+  
+  const FAQ = [`It is recommended to have a comprehensive eye examination every year (12 months). However, the frequency may vary depending on your age, overall health, and any existing eye conditions. For certain individuals, such as those with diabetes or a family history of eye diseases, more frequent examinations may be necessary.
+  During a comprehensive eye examination, your optometrist will perform various tests and evaluations to assess your overall eye health and detect any potential issues. The examination typically includes:
+  1. Case History: Your optometrist will ask you about your medical history, including any existing eye conditions, medications you're taking, and any specific concerns you may have.
+  2. Visual Acuity Test: This test measures how well you can see from a distance using an eye chart. It helps determine if you need corrective lenses.
+  3. Refraction Test: This test determines your exact eyeglass prescription, helping to correct any refractive errors such as nearsightedness, farsightedness, or astigmatism.
+  4. Eye Muscle and Pupil Response Test: This evaluation checks the movement and coordination of your eye muscles and examines how your pupils respond to light.
+  5. Slit Lamp Examination: Using a specialized microscope, your optometrist examines the front structures of your eye, including the cornea, iris, and lens, to detect any abnormalities or signs of disease.
+  6. Intraocular Pressure Measurement: This test, commonly known as the "puff of air" test, measures the pressure inside your eyes and helps screen for glaucoma.
+  7. Dilated Eye Examination: Your optometrist may administer eye drops to dilate your pupils, allowing for a more thorough examination of the retina, optic nerve, and blood vessels at the back of your eye.
+  8. Additional Tests: Depending on your individual needs, your optometrist may conduct additional tests, such as visual field testing, color vision testing, or imaging scans, to further assess your eye health.
+  Remember, a comprehensive eye examination not only determines your visual acuity but also plays a crucial role in detecting early signs of eye diseases or conditions that may not yet be causing noticeable symptoms. Regular eye exams are essential for maintaining optimal eye health and ensuring early intervention if necessary. Your optometrist will provide personalized recommendations based on the findings of your examination.`]
+
   return (
     <>
       <div className="flex justify-center items-center mx-auto banner hind lg:h-56 lg:text-5xl md:h-36 md:text-3xl h-24 text-xl">
@@ -116,9 +129,12 @@ function Services() {
 
           <div className='flex w-[60%] mx-auto faqBorder mb-10 pb-10 justify-between'>
             <p className='serviceName poppins lg:text-3xl md:text-2xl text-xl'>
-                Are contacts compatible with my eyes?
+            How often should I have an eye exam, and what is involved in a comprehensive eye examination?
             </p>
             <button><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
+            <div>
+
+            </div>
           </div>
 
           <div className='flex w-[60%] mx-auto faqBorder mb-10 pb-10 justify-between'>

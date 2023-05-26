@@ -23,7 +23,7 @@ function Services() {
       }
     });
   });
-  
+
   return (
     <>
       <div className="flex justify-center items-center mx-auto banner hind lg:h-56 lg:text-5xl md:h-36 md:text-3xl h-24 text-xl">

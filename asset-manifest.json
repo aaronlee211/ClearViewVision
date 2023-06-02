@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.31795270.css",
-    "main.js": "/static/js/main.6aa38c5a.js",
+    "main.css": "/static/css/main.c62395f0.css",
+    "main.js": "/static/js/main.003f2843.js",
     "static/js/787.88ec0c9a.chunk.js": "/static/js/787.88ec0c9a.chunk.js",
     "static/media/eyeglasses.png": "/static/media/eyeglasses.a9d99081adc594c5dba8.png",
     "static/media/EyeTreatments.png": "/static/media/EyeTreatments.15b1400a423210ad9dad.png",
@@ -9,17 +9,18 @@
     "static/media/LensFittings.png": "/static/media/LensFittings.c34a76a7964fa2229acf.png",
     "static/media/ComprehensiveEyeExams.png": "/static/media/ComprehensiveEyeExams.5446878fadb6bc3edfc9.png",
     "static/media/DrMicaelaLee2.jpg": "/static/media/DrMicaelaLee2.fcb1ae0b022687bdcffc.jpg",
-    "static/media/Spectra.jpg": "/static/media/Spectra.1a1b509b953c8bb5aa6b.jpg",
     "static/media/ambetter.png": "/static/media/ambetter.20462ce13c7cc72a7c19.png",
+    "static/media/superior.png": "/static/media/superior.506d4403b6599fda1777.png",
+    "static/media/Spectera.png": "/static/media/Spectera.99b572a36242b75a56ce.png",
     "static/media/ClearViewLogo.png": "/static/media/ClearViewLogo.2c3d668d15179ddb8455.png",
     "static/media/phoneicon.svg": "/static/media/phoneicon.4de845ef83fbd879bde790496269ab14.svg",
     "index.html": "/index.html",
-    "main.31795270.css.map": "/static/css/main.31795270.css.map",
-    "main.6aa38c5a.js.map": "/static/js/main.6aa38c5a.js.map",
+    "main.c62395f0.css.map": "/static/css/main.c62395f0.css.map",
+    "main.003f2843.js.map": "/static/js/main.003f2843.js.map",
     "787.88ec0c9a.chunk.js.map": "/static/js/787.88ec0c9a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31795270.css",
-    "static/js/main.6aa38c5a.js"
+    "static/css/main.c62395f0.css",
+    "static/js/main.003f2843.js"
   ]
 }

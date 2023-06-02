@@ -2,10 +2,12 @@ import React, { useState, useEffect } from 'react'
 import '../css/Services.css'
 import Border from './Border.jsx'
 import phoneicon from '../images/phoneicon.svg'
-import Spectra from '../images/Spectra.jpg'
+import Spectra from '../images/Spectera.png'
 import Aetna from '../images/aetna.png'
 import Dropdown from '../images/dropdown.png'
 import Ambetter from '../images/ambetter.png'
+import Davis from '../images/davis.png'
+import Superior from '../images/superior.png'
 import $ from 'jquery';
 
 function Services() {
@@ -55,10 +57,10 @@ function Services() {
                 Some of the tests and procedures that may be performed during an eye exam include: <br />
                 <div id="listcontainer">
                   <ul className="bulletList">
-                    <li>A refraction test to determine your eyeglass prescription</li>
+                    <li>A refraction test to determine your glasses prescription</li>
                     <li>A visual acuity test to measure the sharpness of your vision</li>
                     <li>A tonometry test to measure the pressure inside your eyes and screen for glaucoma</li>
-                    <li>An eye muscle test to evaluate the movement and alignment of your eyes</li>
+                    <li>An extraocular muscle test to evaluate the movement and alignment of your eyes</li>
                     <li>A dilated eye exam to examine the retina and rule-out common eye conditions including diabetic retinopathy, glaucoma, and macular degeneration</li>
                   </ul>
                 </div>
@@ -112,33 +114,64 @@ function Services() {
           <p className='serviceName poppins font-bold lg:text-3xl md:text-2xl text-xl'>Insurance</p>
         </div>
         <p className='poppins ml-14 lg:text-xl md:text-lg text-base'>We accept the following vision plans:</p>
-        <div className='flex flex-row items-center justify-center gap-x-16 mt-10 pb-10'>
-          <div>
-            <img src={Spectra} className="insurancebg mx-[5%]" />
+
+        <div className='hidden sm:block'>
+          <div className='grid grid-cols-3 items-center justify-between gap-x-16 mt-10 pb-10'>
+            <div>
+              <img src={Spectra} className="insurancebg m-auto h-[80%] w-auto" />
+            </div>
+            <div>
+              <img src={Aetna} className="insurancebg m-auto" />
+            </div>
+            <div>
+              <img src={Davis} className="insurancebg m-auto"/>
+            </div>
           </div>
-          <div>
-            <img src={Aetna} className="insurancebg mx-[5%]" />
+          <div className='grid grid-cols-2 items-center justify-between gap-x-16 mt-10 pb-10'>
+              <div>
+                <img src={Superior} className="insurancebg m-auto"/>
+              </div>
+              <div>
+                <img src={Ambetter} className="insurancebg m-auto" />
+              </div>
+            </div>
           </div>
-          <div>
-            <img src={Ambetter} className="insurancebg mx-[5%]" />
+
+        <div className='block sm:hidden'>
+          <div className='grid grid-cols-1 items-center justify-between gap-x-16 mt-10 pb-10'>
+            <div>
+              <img src={Spectra} className="insurancebg m-auto h-[80%] w-auto" />
+            </div>
+            <div>
+              <img src={Aetna} className="insurancebg m-auto" />
+            </div>
+            <div>
+              <img src={Davis} className="insurancebg m-auto"/>
+            </div>
+            <div>
+                <img src={Superior} className="insurancebg m-auto"/>
+              </div>
+              <div>
+                <img src={Ambetter} className="insurancebg m-auto mt-8" />
+              </div>
           </div>
         </div>
         <p className='poppins ml-14 lg:text-xl md:text-lg text-base mt-10'>We're here to help. If your vision plan is not listed, please contact us to discuss your coverage.</p>
 
         {/* Service Buttons */}
         <div className='flex flex-row items-center justify-center gap-x-16 mt-10 pb-10' id="buttonContainer">
-          <div className='badge badge-outline badge-lg w-1/4 serviceButtons'>
+          <div className='badge badge-outline badge-lg w-3/5 md:w-1/3 lg:w-1/4 serviceButtons'>
             <p className='mr-2 ml-2 2xl:text-3xl'>Book an Appointment</p>
           </div>
-          <div className='flex badge badge-outline badge-lg w-1/4 serviceButtons'>
+          {/* <div className='flex badge badge-outline badge-lg w-1/4 serviceButtons'>
             <p className='mr-2 ml-2 2xl:text-3xl'>Call Us 512-957-6001</p>
-          </div>
+          </div> */}
         </div>
 
         <Border />
 
         {/* FAQ Section */}
-        
+
         <div className='pb-10 mt-10' id="FAQ">
           <div className='flex items-center justify-center servicesBackground mt-10 pb-10'>
             <p className='serviceName poppins font-bold lg:text-3xl md:text-2xl text-xl'>
@@ -147,7 +180,7 @@ function Services() {
           </div>
 
           <div className='flex w-[60%] grid grid-cols-6 mx-auto faqBorder mb-10 pb-10 justify-between'>
-            <p className='serviceName poppins lg:text-2xl md:text-2xl text-xl col-start-1 col-end-6'>
+            <p className='serviceName poppins md:text-lg lg:text-2xl text-base col-start-1 col-end-6'>
               How often should I have an eye exam, and what is involved in a comprehensive eye examination?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
@@ -174,7 +207,7 @@ function Services() {
 
 
           <div className='flex w-[60%] grid grid-cols-6 mx-auto faqBorder mb-10 pb-10 justify-between'>
-            <p className='serviceName poppins lg:text-2xl md:text-2xl text-xl col-start-1 col-end-6'>
+            <p className='serviceName poppins md:text-lg lg:text-2xl text-base col-start-1 col-end-6'>
               What are the signs and symptoms of dry eye syndrome?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
@@ -184,7 +217,7 @@ function Services() {
           </div>
 
           <div className='flex w-[60%] grid grid-cols-6 mx-auto faqBorder mb-10 pb-10 justify-between'>
-            <p className='serviceName poppins lg:text-2xl md:text-2xl text-xl col-start-1 col-end-6'>
+            <p className='serviceName poppins md:text-lg lg:text-2xl text-base col-start-1 col-end-6'>
               Are there any lifestyle changes or dietary recommendations that can improve my eye health?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
@@ -208,7 +241,7 @@ function Services() {
           </div>
 
           <div className='flex w-[60%] grid grid-cols-6 mx-auto faqBorder mb-10 pb-10 justify-between'>
-            <p className='serviceName poppins lg:text-2xl md:text-2xl text-xl col-start-1 col-end-6'>
+            <p className='serviceName poppins md:text-lg lg:text-2xl text-base col-start-1 col-end-6'>
               How can I prevent and manage eye allergies?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
@@ -230,7 +263,7 @@ function Services() {
           </div>
 
           <div className='flex w-[60%] grid grid-cols-6 mx-auto faqBorder mb-10 pb-10 justify-between'>
-            <p className='serviceName poppins lg:text-2xl md:text-2xl text-xl col-start-1 col-end-6'>
+            <p className='serviceName poppins md:text-lg lg:text-2xl text-base col-start-1 col-end-6'>
               Can you explain the different types of refractive surgery, such as LASIK, and determine if I'm a suitable candidate?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
@@ -251,7 +284,7 @@ function Services() {
           </div>
 
           <div className='flex w-[60%] grid grid-cols-6 mx-auto faqBorder mb-10 pb-10 justify-between'>
-            <p className='serviceName poppins lg:text-2xl md:text-2xl text-xl col-start-1 col-end-6'>
+            <p className='serviceName poppins md:text-lg lg:text-2xl text-base col-start-1 col-end-6'>
               What is the best way to protect my eyes from digital eye strain?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
@@ -276,7 +309,7 @@ function Services() {
           </div>
 
           <div className='flex w-[60%] grid grid-cols-6 mx-auto faqBorder mb-10 pb-10 justify-between'>
-            <p className='serviceName poppins lg:text-2xl md:text-2xl text-xl col-start-1 col-end-6'>
+            <p className='serviceName poppins md:text-lg lg:text-2xl text-base col-start-1 col-end-6'>
               Are contacts compatible with my eyes?
             </p>
             <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>

@@ -21,7 +21,7 @@ function Booking() {
         {/* Cards */}
         <div className='grid grid-cols-1 mx-10 md:grid-cols-2 mb-10 mt-10'>
             <div
-            class=" w-[60%] m-auto block rounded-lg bg-white p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+            class="w-[80%] md:w-[60%] m-auto block rounded-lg bg-white p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
                 <h5
                     class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
                     Book your Appointment
@@ -34,7 +34,7 @@ function Booking() {
                 </div>
             </div>
             <div
-            class=" w-[60%] m-auto block rounded-lg bg-white p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+            class="w-[80%] md:w-[60%] m-auto mt-10 md:mt-0 block rounded-lg bg-white p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
                 <h5
                     class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
                     Have Questions?

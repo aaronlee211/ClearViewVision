@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import '../css/Services.css'
+import { NavLink } from 'react-router-dom';
 import Border from './Border.jsx'
 import phoneicon from '../images/phoneicon.svg'
 import Spectra from '../images/Spectera.png'
@@ -159,14 +160,11 @@ function Services() {
         <p className='poppins ml-14 lg:text-xl md:text-lg text-base mt-10'>We're here to help. If your vision plan is not listed, please contact us to discuss your coverage.</p>
 
         {/* Service Buttons */}
-        <div className='flex flex-row items-center justify-center gap-x-16 mt-10 pb-10' id="buttonContainer">
-          <div className='badge badge-outline badge-lg w-3/5 md:w-1/3 lg:w-1/4 serviceButtons'>
-            <p className='mr-2 ml-2 2xl:text-3xl'>Book an Appointment</p>
+          <div className='flex justify-center mt-10 mb-10'>
+            <NavLink className="navlink-header" to="/book">
+              <button className='px-5 hover:bg-[#014548] hover:text-white ease-in-out duration-500 border-solid border-4 border-[#014548] rounded-full 2xl:text-3xl'>Book an Appointment</button>
+            </NavLink>
           </div>
-          {/* <div className='flex badge badge-outline badge-lg w-1/4 serviceButtons'>
-            <p className='mr-2 ml-2 2xl:text-3xl'>Call Us 512-957-6001</p>
-          </div> */}
-        </div>
 
         <Border />
 

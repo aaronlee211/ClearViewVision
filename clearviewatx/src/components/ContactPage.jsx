@@ -37,8 +37,8 @@ function ContactPage() {
       <Border />
 
       {/* Information + Google Maps API */}
-      <div className="flex h-fit w-full" id="informationBackground">
-        <div className="h-fit w-1/2 py-14 px-32">
+      <div className="grid md:flex h-fit w-full pb-10" id="informationBackground">
+        <div className="h-fit w-full text-center md:w-1/2 py-14 px-0 md:px-32">
           <h1 className="poppins informationTitle">Address</h1>
           <p className="poppins informationContent">
             <ExternalLink className="footerText link link-hover informationContent"
@@ -60,13 +60,10 @@ function ContactPage() {
             Saturday:  10AM - 6PM
           </p>
         </div>
-        <div className="mapcontainer mr-10">
+        <div className="mapcontainer mr-0 md:mr-10">
           <Map />
         </div>
       </div>
-
-      {/* Border */}
-      <Border />
 
     </>
   )

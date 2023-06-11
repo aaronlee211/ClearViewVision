@@ -31,9 +31,12 @@ function Header() {
           <NavLink className="navlink-header" to="contact">
             <p className={`mr-2 ml-2 2xl:text-3xl ${activeTag === 3 ? 'active' : ''}`} onClick={() => { handleClick(3) }}>Contact Us</p>
           </NavLink>
-          <div className='badge badge-outline badge-lg header-div'>
-            <p className='mr-2 ml-2 2xl:text-3xl' onClick={handleClick}>Book an Appointment</p>
-          </div>
+
+          <NavLink className="navlink-header" to="book">
+            <div className='badge badge-outline badge-lg header-div'>
+              <p className='mr-2 ml-2 2xl:text-3xl' onClick={handleClick}>Book an Appointment</p>
+            </div>
+          </NavLink>
         </div>
 
         <div className="MOBILE-MENU flex md:hidden">

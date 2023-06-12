@@ -40,7 +40,7 @@ function Booking() {
                     Have Questions?
                 </h5>
                 <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-                    Feel free to contact us at by phone at 517-957-6001 or leave us a message on our contact page!
+                  Feel free to text or call us at 512-957-6001 or leave us a message on our contact page!
                 </p>
                 <div className='w-full flex justify-center'>
                     <button type="button" class="w-fit px-5 py-2.5 m-auto bg-[#B5D699] hover:bg-[#014548] hover:text-white ease-in-out duration-500 font-medium rounded-lg text-sm text-center">Contact Us!</button>

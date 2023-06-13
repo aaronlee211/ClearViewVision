@@ -1,7 +1,7 @@
 {
   "name": "companywebsite",
   "version": "0.1.0",
-  "homepage": "https://www.clearviewatx.com/",
+  "homepage": "https://clearviewatx.com/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",

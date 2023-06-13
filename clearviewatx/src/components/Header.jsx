@@ -88,6 +88,11 @@ function Header() {
                   <p className={`mx-1 2xl:text-3xl`} onClick={() => setIsNavOpen((prev) => !prev)}>Contact Us</p>
                 </NavLink>
               </li>
+              <li className="border-b border-gray-400 my-8 uppercase">
+                <NavLink className="navlink-header" to="book">
+                  <p className={`mx-1 2xl:text-3xl`} onClick={() => setIsNavOpen((prev) => !prev)}>Appointments</p>
+                </NavLink>
+              </li>
             </ul>
           </div>
         </div>

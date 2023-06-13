@@ -114,7 +114,7 @@ function Services() {
         <div className='flex items-center justify-center servicesBackground mt-10 mb-10' id="insurance">
           <p className='serviceName poppins font-bold lg:text-3xl md:text-2xl text-xl'>Insurance</p>
         </div>
-        <p className='poppins ml-14 lg:text-xl md:text-lg text-base'>We accept the following vision plans:</p>
+        <p className='text-center md:text-left poppins ml-14 lg:text-xl md:text-lg text-base'>We accept the following vision plans:</p>
 
         <div className='hidden sm:block'>
           <div className='grid grid-cols-3 items-center justify-between gap-x-16 mt-10 pb-10'>
@@ -157,7 +157,7 @@ function Services() {
               </div>
           </div>
         </div>
-        <p className='poppins ml-14 lg:text-xl md:text-lg text-base mt-10'>We're here to help. If your vision plan is not listed, please contact us to discuss your coverage.</p>
+        <p className='text-center md:text-left poppins ml-14 lg:text-xl md:text-lg text-base mt-10'>We're here to help. If your vision plan is not listed, please contact us to discuss your coverage.</p>
 
         {/* Service Buttons */}
           <div className='flex justify-center mt-10 mb-10'>
@@ -172,7 +172,7 @@ function Services() {
 
         <div className='pb-10 mt-10' id="FAQ">
           <div className='flex items-center justify-center servicesBackground mt-10 pb-10'>
-            <p className='serviceName poppins font-bold lg:text-3xl md:text-2xl text-xl'>
+            <p className='text-center serviceName poppins font-bold lg:text-3xl md:text-2xl text-xl'>
               Frequently Asked Questions (FAQ's)
             </p>
           </div>

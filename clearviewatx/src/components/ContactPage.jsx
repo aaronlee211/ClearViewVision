@@ -123,7 +123,7 @@ function ContactPage() {
             </ExternalLink></p>
           <br />
           <h1 className="poppins informationTitle">Contact</h1>
-          <p className="poppins informationContent">512-957-6001<br />info@clearviewatx.com</p>
+          <p className="poppins informationContent">512-957-6001<br />info.clearviewatx@gmail.com</p>
           <br />
           <h1 className="poppins informationTitle">Hours: </h1>
           <p className="poppins informationContent">

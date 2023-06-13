@@ -1,5 +1,6 @@
 import {React, useMemo } from 'react'
 import '../css/Booking.css'
+import { Link } from 'react-router-dom'
 import Border from './Border'
 import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api"
 
@@ -30,7 +31,9 @@ function Booking() {
                     Click here to navigate to our booking portal!
                 </p>
                 <div className='w-full flex justify-center'>
+                  <Link to='https://scheduleyourexam.com/v3/index.php/8751/'>
                     <button type="button" class="w-fit px-5 py-2.5 m-auto bg-[#B5D699] hover:bg-[#014548] hover:text-white ease-in-out duration-500 font-medium rounded-lg text-sm text-center">Schedule Here!</button>
+                  </Link>
                 </div>
             </div>
             <div

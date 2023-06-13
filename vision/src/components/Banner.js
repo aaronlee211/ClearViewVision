@@ -18,7 +18,7 @@ function Banner() {
                     <p>956-324-2598</p>
                 </div>
                 <div className='banner-container'>
-                    <p>5017 W US Hwy 290, Austin, TX 78735</p>
+                    <p>5017 W US Hwy 290 Service Road, Austin, TX 78735</p>
                 </div>
             </div>
         </div>

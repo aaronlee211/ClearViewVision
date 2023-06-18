@@ -60,14 +60,14 @@ function Home() {
       <div className="relative">
         <div className="flex mx-auto h-fit" id="optometryPartner">
           <div className="ml-auto lg:mr-16 lg:my-48 mx-auto my-10" id="optometryPartnerText">
-            <h1 className="poppins 2xl:text-4xl lg:text-3xl md:text-2xl text-2xl lg:leading-10 md:leading-6 leading-4">
+            <h1 className="poppins 2xl:text-4xl lg:text-3xl md:text-2xl text-2xl lg:leading-10 leading-6">
               Clear Vision, Bright Futures: <br /><br />
               Your Trusted Optometry Partner
             </h1>
           </div>
         </div>
         <div className="lg:absolute lg:top-[10%] lg:left-[5%] relative top-0 left-0">
-          <img className="object-cover lg:h-1/3 lg:w-1/2 md:w-screen" src={require("../images/eyeglasses.png")} alt=''></img>
+          <img className="object-cover lg:h-1/3 lg:w-1/2 md:w-screen" src={require("../images/eyeglasses.png")} alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"></img>
         </div>
       </div>
 
@@ -156,7 +156,7 @@ function Home() {
           </div>
         </div>
         <div className="lg:absolute h-full lg:w-1/2 lg:top-[-5%] lg:right-0 relative">
-          <img className="h-[110%] w-full" id="visitUsImage" src={require("../images/phoropter.png")} alt=''></img>
+          <img className="h-[110%] w-full" id="visitUsImage" src={require("../images/phoropter.png")} alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"></img>
         </div>
       </div>
 

@@ -8,7 +8,7 @@ function Footer() {
     <>
       <footer className="w-full h-fit footer py-10 px-20" id="footerBackground">
         <div>
-          <img className='m5-5 footer-img' src={require("../images/ClearViewLogo.png")} alt=''></img>
+          <img className='m5-5 footer-img' src={require("../images/ClearViewLogo.png")} alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"></img>
           <p className="footerText">
             &copy; 2023 ClearView Vision ATX.<br />
             All rights reserved.

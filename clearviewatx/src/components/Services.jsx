@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import '../css/Services.css'
 import { NavLink } from 'react-router-dom';
 import Border from './Border.jsx'
-import phoneicon from '../images/phoneicon.svg'
 import Spectra from '../images/Spectera.png'
 import Aetna from '../images/aetna.png'
 import Dropdown from '../images/dropdown.png'
@@ -48,7 +47,7 @@ function Services() {
         {/* Comprehensive Eye Exams */}
         <div className="w-full h-fit">
           <div className="md:flex lg:px-14 lg:py-20 md:px-10 md:py-16 px-8 py-12 items-center">
-            <img className="lg:h-80 lg:w-80 md:h-56 md:w-56 h-40 w-40 md:py-auto md:px-auto md:mx-0 md:my-0 mx-auto my-auto md:mb-0 mb-10" src={require("../images/ComprehensiveEyeExams.png")}></img>
+            <img className="lg:h-80 lg:w-80 md:h-56 md:w-56 h-40 w-40 md:py-auto md:px-auto md:mx-0 md:my-0 mx-auto my-auto md:mb-0 mb-10" src={require("../images/ComprehensiveEyeExams.png")} alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"></img>
             <div className="lg:pl-14 md:pl-10 pl-8 my-auto">
               <h1 className="serviceName poppins font-bold lg:text-3xl md:text-2xl text-xl lg:mb-4 mb-2">
                 Comprehensive Eye Exams
@@ -73,7 +72,7 @@ function Services() {
         {/* Contact Lens Fittings */}
         <div className="w-full h-fit">
           <div className="md:flex lg:px-14 lg:py-20 md:px-10 md:py-16 px-8 py-12 items-center">
-            <img className="lg:h-80 lg:w-80 md:h-56 md:w-56 h-40 w-40 md:py-auto md:px-auto md:mx-0 md:my-0 mx-auto my-auto md:mb-0 mb-10" src={require("../images/LensFittings.png")}></img>
+            <img className="lg:h-80 lg:w-80 md:h-56 md:w-56 h-40 w-40 md:py-auto md:px-auto md:mx-0 md:my-0 mx-auto my-auto md:mb-0 mb-10" src={require("../images/LensFittings.png")} alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"></img>
             <div className="lg:pl-14 md:pl-10 pl-8 my-auto">
               <h1 className="serviceName poppins font-bold lg:text-3xl md:text-2xl text-xl lg:mb-4 mb-2">
                 Contact Lens Exams
@@ -90,7 +89,7 @@ function Services() {
         {/* Eye Treatments */}
         <div className="w-full h-fit">
           <div className="md:flex lg:px-14 lg:py-20 md:px-10 md:py-16 px-8 py-12 items-center">
-            <img className="lg:h-80 lg:w-80 md:h-56 md:w-56 h-40 w-40 md:py-auto md:px-auto md:mx-0 md:my-0 mx-auto my-auto md:mb-0 mb-10" src={require("../images/EyeTreatments.png")}></img>
+            <img className="lg:h-80 lg:w-80 md:h-56 md:w-56 h-40 w-40 md:py-auto md:px-auto md:mx-0 md:my-0 mx-auto my-auto md:mb-0 mb-10" src={require("../images/EyeTreatments.png")} alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"></img>
             <div className="lg:pl-14 md:pl-10 pl-8 my-auto">
               <h1 className="serviceName poppins font-bold lg:text-3xl md:text-2xl text-xl lg:mb-4 mb-2">
                 Eye Disease Management
@@ -119,21 +118,21 @@ function Services() {
         <div className='hidden sm:block'>
           <div className='grid grid-cols-3 items-center justify-between gap-x-16 mt-10 pb-10'>
             <div>
-              <img src={Spectra} className="insurancebg m-auto h-[80%] w-auto" />
+              <img src={require("../images/Spectera.png")} className="insurancebg m-auto h-[80%] w-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div>
-              <img src={Aetna} className="insurancebg m-auto" />
+              <img src={Aetna} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div>
-              <img src={Davis} className="insurancebg m-auto"/>
+              <img src={Davis} className="insurancebg m-auto"alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
           </div>
           <div className='grid grid-cols-2 items-center justify-between gap-x-16 mt-10 pb-10'>
               <div>
-                <img src={Superior} className="insurancebg m-auto"/>
+                <img src={Superior} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
               </div>
               <div>
-                <img src={Ambetter} className="insurancebg m-auto" />
+                <img src={Ambetter} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
               </div>
             </div>
           </div>
@@ -141,19 +140,19 @@ function Services() {
         <div className='block sm:hidden'>
           <div className='grid grid-cols-1 items-center justify-between gap-x-16 mt-10 pb-10'>
             <div>
-              <img src={Spectra} className="insurancebg m-auto h-[80%] w-auto" />
+              <img src={Spectra} className="insurancebg m-auto h-[80%] w-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div>
-              <img src={Aetna} className="insurancebg m-auto" />
+              <img src={Aetna} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div>
-              <img src={Davis} className="insurancebg m-auto"/>
+              <img src={Davis} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div>
-                <img src={Superior} className="insurancebg m-auto"/>
+                <img src={Superior} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
               </div>
               <div>
-                <img src={Ambetter} className="insurancebg m-auto mt-8" />
+                <img src={Ambetter} className="insurancebg m-auto mt-8" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
               </div>
           </div>
         </div>
@@ -181,7 +180,7 @@ function Services() {
             <p className='serviceName poppins md:text-lg lg:text-2xl text-base col-start-1 col-end-6'>
               How often should I have an eye exam, and what is involved in a comprehensive eye examination?
             </p>
-            <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
+            <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown' alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/></button>
             <div className='col-start-1 col-end-7 mt-10 faqHide poppins'>
               It is recommended to have a comprehensive eye examination every year (12 months). However, the frequency may vary depending on your age, overall health, and any existing eye conditions. For certain individuals, such as those with diabetes or a family history of eye diseases, more frequent examinations may be necessary.
 
@@ -208,7 +207,7 @@ function Services() {
             <p className='serviceName poppins md:text-lg lg:text-2xl text-base col-start-1 col-end-6'>
               What are the signs and symptoms of dry eye syndrome?
             </p>
-            <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
+            <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown' alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/></button>
             <div className='col-start-1 col-end-7 mt-10 faqHide poppins'>
               If you frequently experience a gritty, burning sensation in your eyes or notice redness and blurred vision, you might be suffering from dry eyes. Dry eye syndrome is a common condition that occurs when your eyes do not produce enough tears or when the tears evaporate too quickly. There are several causes of dry eyes, including aging, hormonal changes, environmental factors, certain medications, and underlying health conditions. Common symptoms include dryness, itching, sensitivity to light, and discomfort. If you suspect you have dry eyes, it is essential to visit an optometry practice for a comprehensive eye examination and personalized treatment options.
             </div>
@@ -218,7 +217,7 @@ function Services() {
             <p className='serviceName poppins md:text-lg lg:text-2xl text-base col-start-1 col-end-6'>
               Are there any lifestyle changes or dietary recommendations that can improve my eye health?
             </p>
-            <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
+            <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown' alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/></button>
             <div className='col-start-1 col-end-7 mt-10 faqHide poppins'>
               Absolutely! Making certain lifestyle changes and incorporating specific nutrients into your diet can help improve your overall eye health. Here are some recommendations:
 
@@ -242,7 +241,7 @@ function Services() {
             <p className='serviceName poppins md:text-lg lg:text-2xl text-base col-start-1 col-end-6'>
               How can I prevent and manage eye allergies?
             </p>
-            <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
+            <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown' alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/></button>
             <div className='col-start-1 col-end-7 mt-10 faqHide poppins'>
               If you're experiencing eye allergies, there are several steps you can take to prevent and manage them effectively. Here are some recommendations:
               <ul className="numberList">
@@ -264,7 +263,7 @@ function Services() {
             <p className='serviceName poppins md:text-lg lg:text-2xl text-base col-start-1 col-end-6'>
               Can you explain the different types of refractive surgery, such as LASIK, and determine if I'm a suitable candidate?
             </p>
-            <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
+            <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown' alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/></button>
             <div className='col-start-1 col-end-7 mt-10 faqHide poppins'>
               Refractive surgery, such as LASIK (Laser-Assisted in Situ Keratomileusis), is a popular procedure designed to correct common vision problems, including nearsightedness, farsightedness, and astigmatism. Here are some details about different types of refractive surgeries:
               <ul className="bulletList">
@@ -285,7 +284,7 @@ function Services() {
             <p className='serviceName poppins md:text-lg lg:text-2xl text-base col-start-1 col-end-6'>
               What is the best way to protect my eyes from digital eye strain?
             </p>
-            <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
+            <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown' alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/></button>
             <div className='col-start-1 col-end-7 mt-10 faqHide poppins'>
             Protecting your eyes from digital eye strain is crucial, especially with the increasing use of digital devices in our daily lives. Here are some effective strategies to minimize digital eye strain:
               <ul className="numberList">
@@ -310,7 +309,7 @@ function Services() {
             <p className='serviceName poppins md:text-lg lg:text-2xl text-base col-start-1 col-end-6'>
               Are contacts compatible with my eyes?
             </p>
-            <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown'/></button>
+            <button className='justify-self-end faqButton'><img src={Dropdown} className='w-[85%] invertdropdown' alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/></button>
             <div className='col-start-1 col-end-7 mt-10 faqHide poppins'>
               Determining if contact lenses are compatible with your eyes is an important consideration. Contact lenses can provide a convenient and effective alternative to glasses for vision correction. Here's what you need to consider:
               <ul className="bulletList">

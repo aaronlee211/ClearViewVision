@@ -43,7 +43,7 @@ function About() {
       {/* Doctors */}
       <div className="w-full h-fit" id="doctorBackground">
         <div className="md:flex lg:px-14 lg:py-20 md:px-10 md:py-16 px-8 py-12">
-          <img class="doctorImage lg:h-80 lg:w-80 md:h-56 md:w-56 h-40 w-40 my-auto mx-auto md:mb-0 mb-10" src={require("../images/DrMicaelaLee2.jpg")}></img>
+          <img class="doctorImage lg:h-80 lg:w-80 md:h-56 md:w-56 h-40 w-40 my-auto mx-auto md:mb-0 mb-10" src={require("../images/DrMicaelaLee2.jpg")} alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"></img>
           <div className="lg:pl-14 md:pl-10 pl-8 my-auto">
             <h1 className="poppins font-bold doctorName lg:text-3xl md:text-2xl text-xl lg:mb-4 mb-2">
               Dr. Micaela Lee

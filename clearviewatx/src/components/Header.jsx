@@ -15,9 +15,11 @@ function Header() {
   return (
     <>
       <div className='flex flex-row justify-between py-5 navbar-bg' id="topsection">
-        <div>
-          <img className='ml-5 header-img' src={require("../images/ClearViewLogo.png")} alt=''></img>
-        </div>
+        <NavLink className="navlink-header" to="/">
+          <div onClick={() => { handleClick(0) }}>
+            <img className='ml-5 header-img' src={require("../images/ClearViewLogo.png")} alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"></img>
+          </div>
+        </NavLink>
         <div className='md:flex flex-row items-center mr-5 headercontainer hidden'>
           <NavLink className="navlink-header" to="/">
             <p className={`mr-2 2xl:text-3xl ${activeTag === 0 ? 'active' : ''}`} onClick={() => { handleClick(0) }}>Home</p>

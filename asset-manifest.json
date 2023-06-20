@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0de9abf2.css",
-    "main.js": "/static/js/main.5eec37ed.js",
+    "main.css": "/static/css/main.00efed6b.css",
+    "main.js": "/static/js/main.b6b74253.js",
     "static/js/787.88ec0c9a.chunk.js": "/static/js/787.88ec0c9a.chunk.js",
     "static/media/clearviewaustintexas-eyeglasses.png": "/static/media/clearviewaustintexas-eyeglasses.a9d99081adc594c5dba8.png",
     "static/media/EyeTreatments.png": "/static/media/EyeTreatments.15b1400a423210ad9dad.png",
@@ -16,12 +16,12 @@
     "static/media/ClearViewLogo.png": "/static/media/ClearViewLogo.2c3d668d15179ddb8455.png",
     "static/media/EyeMed_Vision.webp": "/static/media/EyeMed_Vision.991e9af23ab439998941.webp",
     "index.html": "/index.html",
-    "main.0de9abf2.css.map": "/static/css/main.0de9abf2.css.map",
-    "main.5eec37ed.js.map": "/static/js/main.5eec37ed.js.map",
+    "main.00efed6b.css.map": "/static/css/main.00efed6b.css.map",
+    "main.b6b74253.js.map": "/static/js/main.b6b74253.js.map",
     "787.88ec0c9a.chunk.js.map": "/static/js/787.88ec0c9a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0de9abf2.css",
-    "static/js/main.5eec37ed.js"
+    "static/css/main.00efed6b.css",
+    "static/js/main.b6b74253.js"
   ]
 }

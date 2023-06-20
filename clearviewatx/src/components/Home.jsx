@@ -67,7 +67,7 @@ function Home() {
           </div>
         </div>
         <div className="lg:absolute lg:top-[10%] lg:left-[5%] relative top-0 left-0">
-          <img className="object-cover lg:h-1/3 lg:w-1/2 md:w-screen" src={require("../images/eyeglasses.png")} alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"></img>
+          <img className="object-cover lg:h-1/3 lg:w-1/2 md:w-screen" src={require("../images/clearviewaustintexas-eyeglasses.png")} alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"></img>
         </div>
       </div>
 
@@ -156,7 +156,7 @@ function Home() {
           </div>
         </div>
         <div className="lg:absolute h-full lg:w-1/2 lg:top-[-5%] lg:right-0 relative">
-          <img className="h-[110%] w-full" id="visitUsImage" src={require("../images/phoropter.png")} alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"></img>
+          <img className="h-[110%] w-full" id="visitUsImage" src={require("../images/clearviewaustintexas-phoropter.png")} alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"></img>
         </div>
       </div>
 

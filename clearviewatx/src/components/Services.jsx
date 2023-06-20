@@ -8,6 +8,7 @@ import Dropdown from '../images/dropdown.png'
 import Ambetter from '../images/ambetter.png'
 import Davis from '../images/davis.png'
 import Superior from '../images/superior.png'
+import EyeMed from '../images/EyeMed_Vision.webp'
 import $ from 'jquery';
 
 function Services() {
@@ -127,12 +128,15 @@ function Services() {
               <img src={Davis} className="insurancebg m-auto"alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
           </div>
-          <div className='grid grid-cols-2 items-center justify-between gap-x-16 mt-10 pb-10'>
+          <div className='grid grid-cols-3 items-center justify-between gap-x-16 mt-10 pb-10'>
               <div>
                 <img src={Superior} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
               </div>
               <div>
                 <img src={Ambetter} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+              </div>
+              <div>
+                <img src={EyeMed} className="insurancebg md:w-[60%] lg:w-[50%] h-auto  m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
               </div>
             </div>
           </div>
@@ -153,6 +157,9 @@ function Services() {
               </div>
               <div>
                 <img src={Ambetter} className="insurancebg m-auto mt-8" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+              </div>
+              <div>
+                <img src={EyeMed} className="insurancebg w-[45%] h-auto m-auto mt-8" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
               </div>
           </div>
         </div>

@@ -114,7 +114,7 @@ function Services() {
         <div className='flex items-center justify-center servicesBackground mt-10 mb-10' id="insurance">
           <p className='serviceName poppins font-bold lg:text-3xl md:text-2xl text-xl'>Insurance</p>
         </div>
-        <p className='text-center md:text-left poppins ml-14 lg:text-xl md:text-lg text-base'>We accept the following vision plans:</p>
+        <p className='text-center md:text-left md:ml-14 poppins lg:text-xl md:text-lg text-base'>We accept the following vision plans:</p>
 
         <div className='hidden sm:block'>
           <div className='grid grid-cols-3 items-center justify-between gap-x-16 mt-10 pb-10'>
@@ -147,7 +147,7 @@ function Services() {
               <img src={Spectra} className="insurancebg m-auto h-[80%] w-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div>
-              <img src={Aetna} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+              <img src={Aetna} className="insurancebg m-auto mt-2" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div>
               <img src={Davis} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
@@ -163,7 +163,7 @@ function Services() {
               </div>
           </div>
         </div>
-        <p className='text-center md:text-left poppins ml-14 lg:text-xl md:text-lg text-base mt-10'>We're here to help. If your vision plan is not listed, please contact us to discuss your coverage.</p>
+        <p className='text-center md:text-left md:ml-14 poppins lg:text-xl md:text-lg text-base mt-10'>We're here to help. If your vision plan is not listed, please contact us to discuss your coverage.</p>
 
         {/* Service Buttons */}
           <div className='flex justify-center mt-10 mb-10'>

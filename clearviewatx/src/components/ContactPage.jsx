@@ -31,7 +31,7 @@ function ContactPage() {
   const infoEmail = "info.clearviewatx@gmail.com"
 
   const serviceID = "service_rmytzck";
-  const templateID = "template_swjw8d5";
+  const templateID = "template_jz94lrg";
   const apiKey = "vztP_uDMW7yJvbdeP";
 
   const handleSubmit = async (event) => {
@@ -42,10 +42,10 @@ function ContactPage() {
       templateID,
       {
         from_name: `${formDetails.firstName} ${formDetails.lastName}`,
-        to_name: "Info @ ClearView Vision",
+        to_name: "ClearView Vision",
         from_email: formDetails.email,
         to_email: infoEmail,
-        message: formDetails.message
+        message: `Message: ${formDetails.message} \n\n Email: ${formDetails.email} \n Phone Number: ${formDetails.phoneNumber}`
       },
       apiKey
     )
@@ -56,7 +56,7 @@ function ContactPage() {
       // setButtonText("Submit");
     }, (error) => {
       console.log(error);
-      alert('Sorry!  Something went wrong!')
+      alert('Sorry! Something went wrong, please try again!')
     })
   }
 

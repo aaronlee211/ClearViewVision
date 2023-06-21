@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.00efed6b.css",
-    "main.js": "/static/js/main.c1eaa864.js",
+    "main.js": "/static/js/main.b172f41f.js",
     "static/js/787.88ec0c9a.chunk.js": "/static/js/787.88ec0c9a.chunk.js",
     "static/media/clearviewaustintexas-eyeglasses.png": "/static/media/clearviewaustintexas-eyeglasses.a9d99081adc594c5dba8.png",
     "static/media/EyeTreatments.png": "/static/media/EyeTreatments.15b1400a423210ad9dad.png",
@@ -17,11 +17,11 @@
     "static/media/EyeMed_Vision.webp": "/static/media/EyeMed_Vision.991e9af23ab439998941.webp",
     "index.html": "/index.html",
     "main.00efed6b.css.map": "/static/css/main.00efed6b.css.map",
-    "main.c1eaa864.js.map": "/static/js/main.c1eaa864.js.map",
+    "main.b172f41f.js.map": "/static/js/main.b172f41f.js.map",
     "787.88ec0c9a.chunk.js.map": "/static/js/787.88ec0c9a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.00efed6b.css",
-    "static/js/main.c1eaa864.js"
+    "static/js/main.b172f41f.js"
   ]
 }

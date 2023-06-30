@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/Header.css'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom'
 
 
@@ -11,6 +11,22 @@ function Header() {
   const handleClick = (value) => {
     setActiveTag(value);
   };
+
+  const handleScrollToInsurance = () => {
+    const insuranceSection = document.getElementById('insurance');
+    if (insuranceSection) {
+      window.scrollTo({
+        top: insuranceSection.offsetTop,
+        behavior: 'smooth',
+      });
+    }
+  };
+
+  useEffect(() => {
+    if (activeTag === 3) {
+      handleScrollToInsurance();
+    }
+  }, [activeTag]);
 
   return (
     <>
@@ -30,8 +46,11 @@ function Header() {
           <NavLink className="navlink-header" to="services">
             <p className={`mr-2 ml-2 2xl:text-3xl ${activeTag === 2 ? 'active' : ''}`} onClick={() => { handleClick(2) }}>Services</p>
           </NavLink>
+          <NavLink className="navlink-header" to="/services#insurance">
+            <p className={`mr-2 ml-2 2xl:text-3xl ${activeTag === 3 ? 'active' : ''}`} onClick={() => { handleClick(3) }}>Insurance</p>
+          </NavLink>
           <NavLink className="navlink-header" to="contact">
-            <p className={`mr-2 ml-2 2xl:text-3xl ${activeTag === 3 ? 'active' : ''}`} onClick={() => { handleClick(3) }}>Contact Us</p>
+            <p className={`mr-2 ml-2 2xl:text-3xl ${activeTag === 4 ? 'active' : ''}`} onClick={() => { handleClick(4) }}>Contact Us</p>
           </NavLink>
 
           <NavLink className="navlink-header" to="book">
@@ -83,6 +102,11 @@ function Header() {
               <li className="border-b border-gray-400 my-8 uppercase">
                 <NavLink className="navlink-header" to="services">
                   <p className={`mx-1 2xl:text-3xl`} onClick={() => setIsNavOpen((prev) => !prev)}>Services</p>
+                </NavLink>
+              </li>
+              <li className="border-b border-gray-400 my-8 uppercase">
+                <NavLink className="navlink-header" to="/services#insurance" onClick={() => { handleScrollToInsurance() }}>
+                  <p className={`mx-1 2xl:text-3xl`} onClick={() => setIsNavOpen((prev) => !prev)}>Insurance</p>
                 </NavLink>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">

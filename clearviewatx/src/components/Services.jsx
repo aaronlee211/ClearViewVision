@@ -9,6 +9,8 @@ import Ambetter from '../images/ambetter.png'
 import Davis from '../images/davis.png'
 import Superior from '../images/superior.png'
 import EyeMed from '../images/EyeMed_Vision.webp'
+import Avesis from '../images/Avesis.png'
+import BCBS from '../images/BCBS.webp'
 import $ from 'jquery';
 
 function Services() {
@@ -111,6 +113,8 @@ function Services() {
 
         <Border />
 
+        {/* Insurance */}
+
         <div className='flex items-center justify-center servicesBackground mt-10 mb-10' id="insurance">
           <p className='serviceName poppins font-bold lg:text-3xl md:text-2xl text-xl'>Insurance</p>
         </div>
@@ -138,8 +142,17 @@ function Services() {
               <div>
                 <img src={EyeMed} className="insurancebg md:w-[60%] lg:w-[50%] h-auto  m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
               </div>
-            </div>
           </div>
+          <div className='grid grid-cols-2 items-center justify-between gap-x-16 mt-10 pb-10'>
+              <div>
+                <img src={Avesis} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+              </div>
+              <div>
+                <img src={BCBS} className="insurancebg scale-125 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+              </div>
+          </div>
+        </div>
+
 
         <div className='block sm:hidden'>
           <div className='grid grid-cols-1 items-center justify-between gap-x-16 mt-10 pb-10'>
@@ -159,7 +172,13 @@ function Services() {
                 <img src={Ambetter} className="insurancebg m-auto mt-8" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
               </div>
               <div>
-                <img src={EyeMed} className="insurancebg w-[45%] h-auto m-auto mt-8" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+                <img src={EyeMed} className="insurancebg scale-75 h-auto m-auto mt-8" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+              </div>
+              <div>
+                <img src={Avesis} className="insurancebg scale-90 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+              </div>
+              <div>
+                <img src={BCBS} className="insurancebg scale-125 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
               </div>
           </div>
         </div>

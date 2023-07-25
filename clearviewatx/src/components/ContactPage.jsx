@@ -18,8 +18,6 @@ function ContactPage() {
   }
 
   const [formDetails, setFormDetails] = useState(formInitialDetails);
-  // const [buttonText, setButtonText] = useState('Submit');
-  // const [status, setStatus] = useState({});
 
   const onFormUpdate = (category, value) => {
     setFormDetails({
@@ -70,12 +68,6 @@ function ContactPage() {
     }
   }, []);
 
-  const { isLoaded } = useLoadScript({
-    googleMapsApiKey: process.env.REACT_APP_API_KEY
-  })
-
-  if (!isLoaded) return <div>Loading ...</div>
-
   return (
     <>
       {/* Banner */}
@@ -113,7 +105,7 @@ function ContactPage() {
       <Border />
 
       {/* Information + Google Maps API */}
-      <div className="grid md:flex h-fit w-full pb-10" id="informationBackground">
+      <div className="grid md:flex h-fit w-full pb-10 pt-10" id="informationBackground">
         <div className="h-fit w-full text-center md:w-1/2 py-14 px-0 md:px-32">
           <h1 className="poppins informationTitle">Address</h1>
           <p className="poppins informationContent">
@@ -137,21 +129,14 @@ function ContactPage() {
           </p>
         </div>
         <div className="mapcontainer mr-0 md:mr-10">
-          <Map />
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://maps.google.com/maps?q=5017+W+US+Hwy+290+Service+Rd,+Austin,+TX+78735&z=14&output=embed"
+          ></iframe>
         </div>
       </div>
-
     </>
-  )
-}
-
-function Map() {
-  const center = useMemo(() => ({ lat: 30.232531448374512, lng: -97.82296529141712 }), [])
-
-  return (
-    <GoogleMap zoom={17} center={center} mapContainerClassName='mapcontainer'>
-      <MarkerF position={center} />
-    </GoogleMap>
   )
 }
 

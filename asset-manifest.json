@@ -1,29 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.654f3224.css",
-    "main.js": "/static/js/main.471d7632.js",
+    "main.css": "/static/css/main.3bcd49f5.css",
+    "main.js": "/static/js/main.84d9d2a9.js",
     "static/js/787.88ec0c9a.chunk.js": "/static/js/787.88ec0c9a.chunk.js",
     "static/media/clearviewaustintexas-eyeglasses.png": "/static/media/clearviewaustintexas-eyeglasses.a9d99081adc594c5dba8.png",
     "static/media/EyeTreatments.png": "/static/media/EyeTreatments.15b1400a423210ad9dad.png",
     "static/media/clearviewaustintexas-phoropter.png": "/static/media/clearviewaustintexas-phoropter.fd5190fee8af30f9c1ba.png",
+    "static/media/ClearViewVisionAustinTexas-technician.jpg": "/static/media/ClearViewVisionAustinTexas-technician.42e3b3eebc8f37ea5885.jpg",
     "static/media/LensFittings.png": "/static/media/LensFittings.c34a76a7964fa2229acf.png",
-    "static/media/ClearViewVisionAustinTexas-technician.jpg": "/static/media/ClearViewVisionAustinTexas-technician.297c57e4e533e9603c5a.jpg",
     "static/media/ComprehensiveEyeExams.png": "/static/media/ComprehensiveEyeExams.5446878fadb6bc3edfc9.png",
     "static/media/DrMicaelaLee2.jpg": "/static/media/DrMicaelaLee2.fcb1ae0b022687bdcffc.jpg",
     "static/media/ambetter.png": "/static/media/ambetter.20462ce13c7cc72a7c19.png",
+    "static/media/humana.jpg": "/static/media/humana.4148085c9a517bdb381c.jpg",
     "static/media/superior.png": "/static/media/superior.506d4403b6599fda1777.png",
     "static/media/Spectera.png": "/static/media/Spectera.99b572a36242b75a56ce.png",
     "static/media/ClearViewLogo.png": "/static/media/ClearViewLogo.2c3d668d15179ddb8455.png",
     "static/media/Avesis.png": "/static/media/Avesis.324408c7faf77a967041.png",
     "static/media/EyeMed_Vision.webp": "/static/media/EyeMed_Vision.991e9af23ab439998941.webp",
+    "static/media/medicaid.png": "/static/media/medicaid.9002589494c8c70bb6ee.png",
     "static/media/BCBS.webp": "/static/media/BCBS.82fcf78c2ddb623a4dd3.webp",
     "index.html": "/index.html",
-    "main.654f3224.css.map": "/static/css/main.654f3224.css.map",
-    "main.471d7632.js.map": "/static/js/main.471d7632.js.map",
+    "main.3bcd49f5.css.map": "/static/css/main.3bcd49f5.css.map",
+    "main.84d9d2a9.js.map": "/static/js/main.84d9d2a9.js.map",
     "787.88ec0c9a.chunk.js.map": "/static/js/787.88ec0c9a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.654f3224.css",
-    "static/js/main.471d7632.js"
+    "static/css/main.3bcd49f5.css",
+    "static/js/main.84d9d2a9.js"
   ]
 }

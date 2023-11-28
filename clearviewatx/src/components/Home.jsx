@@ -50,7 +50,8 @@ function Home() {
         <div className="lg:mx-14 lg:my-20 md:mx-10 md:my-16 mx-8 my-12">
           <h1 className="poppins lg:text-3xl lg:mb-4 md:text-2xl mb-2 text-xl text-center" id="missionTitle">Our Mission</h1>
           <p className="text-left poppins lg:text-2xl md:text-xl text-lg" id="missionContent">
-            Here at ClearView Vision in Austin, TX, we are committed to providing comprehensive and personalized eye care to patients of all ages.
+            Here at ClearView Vision in Austin and Sunset Valley in Texas, we are committed to providing comprehensive and personalized eye care to patients of all ages.
+            We have quality eye care you can trust.
             With a team of experienced and friendly optometrists, ClearView Vision offers a range of services, including routine eye exams, contact lens fittings, consultation for eye diseases, infections, and surgical co-managements.
           </p>
         </div>

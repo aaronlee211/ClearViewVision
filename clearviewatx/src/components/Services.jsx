@@ -19,6 +19,7 @@ import Medicare from '../images/Medicare.png'
 import Tricare from '../images/Tricare.png'
 import SuperiorHP from '../images/SuperiorHP.png'
 import Unum from '../images/Unum.png'
+import UHC from '../images/unitedhealthcare.png'
 
 function Services() {
 
@@ -183,6 +184,11 @@ function Services() {
                 <img src={Unum} className="insurancebg scale-150 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
               </div>
           </div>
+          <div className='grid grid-cols-3 items-center justify-between gap-x-16 mt-10 pb-10'>
+              <div>
+                <img src={UHC} className="insurancebg scale-90 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+              </div>
+          </div>
         </div>
 
 
@@ -198,32 +204,32 @@ function Services() {
               <img src={Davis} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div>
-                <img src={Superior} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
-              </div>
-              <div>
-                <img src={Ambetter} className="insurancebg m-auto mt-8" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
-              </div>
-              <div>
-                <img src={EyeMed} className="insurancebg scale-75 h-auto m-auto mt-8" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
-              </div>
-              <div>
-                <img src={Avesis} className="insurancebg scale-90 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
-              </div>
-              <div>
-                <img src={BCBS} className="insurancebg scale-125 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
-              </div>
-              <div>
-                <img src={Medicare} className="insurancebg scale-125 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
-              </div>
-              <div>
-                <img src={Tricare} className="insurancebg  m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
-              </div>
-              <div>
-                <img src={SuperiorHP} className="insurancebg scale-150 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
-              </div>
-              <div>
-                <img src={Unum} className="insurancebg scale-150 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
-              </div>
+              <img src={Superior} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div>
+              <img src={Ambetter} className="insurancebg m-auto mt-8" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div>
+              <img src={EyeMed} className="insurancebg scale-75 h-auto m-auto mt-8" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div>
+              <img src={Avesis} className="insurancebg scale-90 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div>
+              <img src={BCBS} className="insurancebg scale-125 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div>
+              <img src={Medicare} className="insurancebg scale-125 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div>
+              <img src={Tricare} className="insurancebg  m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div>
+              <img src={SuperiorHP} className="insurancebg scale-150 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div>
+              <img src={Unum} className="insurancebg scale-150 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
           </div>
         </div>
         <p className='text-center md:text-left md:ml-14 poppins lg:text-xl md:text-lg text-base mt-10'>

@@ -20,6 +20,7 @@ import Tricare from '../images/Tricare.png'
 import SuperiorHP from '../images/SuperiorHP.png'
 import Unum from '../images/Unum.png'
 import UHC from '../images/unitedhealthcare.png'
+import March from '../images/march.png'
 
 function Services() {
 
@@ -187,6 +188,9 @@ function Services() {
           <div className='grid grid-cols-3 items-center justify-between gap-x-16 mt-10 pb-10'>
               <div>
                 <img src={UHC} className="insurancebg scale-90 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+              </div>
+              <div>
+                <img src={March} className="insurancebg scale-90 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
               </div>
           </div>
         </div>

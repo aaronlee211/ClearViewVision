@@ -187,10 +187,10 @@ function Services() {
           </div>
           <div className='grid grid-cols-3 items-center justify-between gap-x-16 mt-10 pb-10'>
               <div>
-                <img src={UHC} className="insurancebg scale-90 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+                <img src={UHC} className="insurancebg scale-120 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
               </div>
               <div>
-                <img src={March} className="insurancebg scale-90 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+                <img src={March} className="insurancebg scale-130 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
               </div>
           </div>
         </div>
@@ -233,6 +233,12 @@ function Services() {
             </div>
             <div>
               <img src={Unum} className="insurancebg scale-150 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div>
+              <img src={UHC} className="insurancebg scale-90 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div>
+              <img src={March} className="insurancebg scale-90 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
           </div>
         </div>

@@ -6,6 +6,7 @@ import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api"
 import { ExternalLink } from 'react-external-link';
 import '../css/contactForm.css';
 import emailjs from '@emailjs/browser';
+import Exterior from '../images/exterior.jpg'
 
 function ContactPage() {
   // Emailjs Setup
@@ -134,6 +135,13 @@ function ContactPage() {
             height="100%"
             src="https://maps.google.com/maps?q=5017+W+US+Hwy+290+Service+Rd,+Austin,+TX+78735&z=14&output=embed"
           ></iframe>
+        </div>
+      </div>
+
+      {/* Reference Image Exterior */}
+      <div className="grid md:flex h-fit w-full pb-10 pt-0" id="exteriorBackground">
+        <div>
+          <img src={Exterior} className="m-auto w-[40%] h-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor Walmart Exterior Vision Center"/>
         </div>
       </div>
     </>

@@ -6,6 +6,10 @@
     background-color: var(--gray);
 }
 
+#exteriorBackground {
+    background-color: var(--gray);
+}
+
 .informationTitle {
     color: var(--dark-green);
 }

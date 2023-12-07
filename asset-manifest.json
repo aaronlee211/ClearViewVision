@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b5a68a1.css",
-    "main.js": "/static/js/main.530b6d83.js",
+    "main.css": "/static/css/main.5456a6a4.css",
+    "main.js": "/static/js/main.ec397862.js",
     "static/js/787.88ec0c9a.chunk.js": "/static/js/787.88ec0c9a.chunk.js",
     "static/media/clearviewaustintexas-eyeglasses.png": "/static/media/clearviewaustintexas-eyeglasses.a9d99081adc594c5dba8.png",
+    "static/media/exterior.jpg": "/static/media/exterior.72bd89f2f5cbf55709aa.jpg",
     "static/media/EyeTreatments.png": "/static/media/EyeTreatments.15b1400a423210ad9dad.png",
     "static/media/clearviewaustintexas-phoropter.png": "/static/media/clearviewaustintexas-phoropter.fd5190fee8af30f9c1ba.png",
-    "static/media/ClearViewVisionAustinTexas-technician2.jpg": "/static/media/ClearViewVisionAustinTexas-technician2.42e3b3eebc8f37ea5885.jpg",
     "static/media/LensFittings.png": "/static/media/LensFittings.c34a76a7964fa2229acf.png",
     "static/media/ComprehensiveEyeExams.png": "/static/media/ComprehensiveEyeExams.5446878fadb6bc3edfc9.png",
     "static/media/ClearViewVisionAustinTexas-technician.jpg": "/static/media/ClearViewVisionAustinTexas-technician.e6be367f48b0f8cac83c.jpg",
-    "static/media/DrMicaelaLee2.jpg": "/static/media/DrMicaelaLee2.fcb1ae0b022687bdcffc.jpg",
     "static/media/ambetter.png": "/static/media/ambetter.20462ce13c7cc72a7c19.png",
     "static/media/humana.jpg": "/static/media/humana.4148085c9a517bdb381c.jpg",
+    "static/media/unitedhealthcare.png": "/static/media/unitedhealthcare.b8e134ab29563de1f9d3.png",
+    "static/media/DrMicaelaLee.jpg": "/static/media/DrMicaelaLee.f09c81950e8066538567.jpg",
     "static/media/Unum.png": "/static/media/Unum.9e80fb51b6226aa55abb.png",
     "static/media/Medicare.png": "/static/media/Medicare.8a45a7622230a8b9520e.png",
     "static/media/superior.png": "/static/media/superior.506d4403b6599fda1777.png",
@@ -25,12 +26,12 @@
     "static/media/medicaid.png": "/static/media/medicaid.9002589494c8c70bb6ee.png",
     "static/media/BCBS.webp": "/static/media/BCBS.82fcf78c2ddb623a4dd3.webp",
     "index.html": "/index.html",
-    "main.8b5a68a1.css.map": "/static/css/main.8b5a68a1.css.map",
-    "main.530b6d83.js.map": "/static/js/main.530b6d83.js.map",
+    "main.5456a6a4.css.map": "/static/css/main.5456a6a4.css.map",
+    "main.ec397862.js.map": "/static/js/main.ec397862.js.map",
     "787.88ec0c9a.chunk.js.map": "/static/js/787.88ec0c9a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b5a68a1.css",
-    "static/js/main.530b6d83.js"
+    "static/css/main.5456a6a4.css",
+    "static/js/main.ec397862.js"
   ]
 }

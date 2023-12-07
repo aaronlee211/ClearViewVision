@@ -15,7 +15,7 @@ function Booking() {
   return (
     <>
         {/* Banner */}
-        <div className="flex justify-center items-center mx-auto banner hind lg:h-96 lg:text-7xl md:h-64 md:text-4xl h-40 text-2xl" id="topsection">
+        <div className="flex justify-center items-center mx-auto banner hind lg:h-84 lg:text-5xl md:h-64 md:text-2xl h-40 text-xl" id="topsection">
             Schedule An Appointment
         </div>
 

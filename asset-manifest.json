@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e67c6e1.css",
-    "main.js": "/static/js/main.373eaa71.js",
+    "main.css": "/static/css/main.6a68b446.css",
+    "main.js": "/static/js/main.bbc565fe.js",
     "static/js/787.88ec0c9a.chunk.js": "/static/js/787.88ec0c9a.chunk.js",
     "static/media/clearviewaustintexas-eyeglasses.png": "/static/media/clearviewaustintexas-eyeglasses.a9d99081adc594c5dba8.png",
     "static/media/exterior.jpg": "/static/media/exterior.72bd89f2f5cbf55709aa.jpg",
@@ -17,6 +17,7 @@
     "static/media/Unum.png": "/static/media/Unum.9e80fb51b6226aa55abb.png",
     "static/media/Medicare.png": "/static/media/Medicare.8a45a7622230a8b9520e.png",
     "static/media/superior.png": "/static/media/superior.506d4403b6599fda1777.png",
+    "static/media/WellMed.png": "/static/media/WellMed.143c3c0a989c577a57ac.png",
     "static/media/Tricare.png": "/static/media/Tricare.ae8e95fd6d9e8a9393e7.png",
     "static/media/Spectera.png": "/static/media/Spectera.99b572a36242b75a56ce.png",
     "static/media/SuperiorHP.png": "/static/media/SuperiorHP.3d382c38035cd10940aa.png",
@@ -26,12 +27,12 @@
     "static/media/medicaid.png": "/static/media/medicaid.9002589494c8c70bb6ee.png",
     "static/media/BCBS.webp": "/static/media/BCBS.82fcf78c2ddb623a4dd3.webp",
     "index.html": "/index.html",
-    "main.9e67c6e1.css.map": "/static/css/main.9e67c6e1.css.map",
-    "main.373eaa71.js.map": "/static/js/main.373eaa71.js.map",
+    "main.6a68b446.css.map": "/static/css/main.6a68b446.css.map",
+    "main.bbc565fe.js.map": "/static/js/main.bbc565fe.js.map",
     "787.88ec0c9a.chunk.js.map": "/static/js/787.88ec0c9a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e67c6e1.css",
-    "static/js/main.373eaa71.js"
+    "static/css/main.6a68b446.css",
+    "static/js/main.bbc565fe.js"
   ]
 }

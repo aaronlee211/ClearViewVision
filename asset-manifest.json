@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6a68b446.css",
-    "main.js": "/static/js/main.bbc565fe.js",
+    "main.css": "/static/css/main.3533cbdf.css",
+    "main.js": "/static/js/main.7e3ad25a.js",
     "static/js/787.88ec0c9a.chunk.js": "/static/js/787.88ec0c9a.chunk.js",
     "static/media/clearviewaustintexas-eyeglasses.png": "/static/media/clearviewaustintexas-eyeglasses.a9d99081adc594c5dba8.png",
     "static/media/exterior.jpg": "/static/media/exterior.72bd89f2f5cbf55709aa.jpg",
@@ -23,16 +23,17 @@
     "static/media/SuperiorHP.png": "/static/media/SuperiorHP.3d382c38035cd10940aa.png",
     "static/media/ClearViewLogo.png": "/static/media/ClearViewLogo.2c3d668d15179ddb8455.png",
     "static/media/Avesis.png": "/static/media/Avesis.324408c7faf77a967041.png",
+    "static/media/dell.webp": "/static/media/dell.0654e55b3b89848416e0.webp",
     "static/media/EyeMed_Vision.webp": "/static/media/EyeMed_Vision.991e9af23ab439998941.webp",
     "static/media/medicaid.png": "/static/media/medicaid.9002589494c8c70bb6ee.png",
     "static/media/BCBS.webp": "/static/media/BCBS.82fcf78c2ddb623a4dd3.webp",
     "index.html": "/index.html",
-    "main.6a68b446.css.map": "/static/css/main.6a68b446.css.map",
-    "main.bbc565fe.js.map": "/static/js/main.bbc565fe.js.map",
+    "main.3533cbdf.css.map": "/static/css/main.3533cbdf.css.map",
+    "main.7e3ad25a.js.map": "/static/js/main.7e3ad25a.js.map",
     "787.88ec0c9a.chunk.js.map": "/static/js/787.88ec0c9a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a68b446.css",
-    "static/js/main.bbc565fe.js"
+    "static/css/main.3533cbdf.css",
+    "static/js/main.7e3ad25a.js"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.44ab2707.css",
-    "main.js": "/static/js/main.0f652220.js",
+    "main.js": "/static/js/main.41eee88b.js",
     "static/js/787.88ec0c9a.chunk.js": "/static/js/787.88ec0c9a.chunk.js",
     "static/media/clearviewaustintexas-eyeglasses.png": "/static/media/clearviewaustintexas-eyeglasses.a9d99081adc594c5dba8.png",
     "static/media/exterior.jpg": "/static/media/exterior.72bd89f2f5cbf55709aa.jpg",
@@ -32,11 +32,11 @@
     "static/media/BCBS.webp": "/static/media/BCBS.82fcf78c2ddb623a4dd3.webp",
     "index.html": "/index.html",
     "main.44ab2707.css.map": "/static/css/main.44ab2707.css.map",
-    "main.0f652220.js.map": "/static/js/main.0f652220.js.map",
+    "main.41eee88b.js.map": "/static/js/main.41eee88b.js.map",
     "787.88ec0c9a.chunk.js.map": "/static/js/787.88ec0c9a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44ab2707.css",
-    "static/js/main.0f652220.js"
+    "static/js/main.41eee88b.js"
   ]
 }

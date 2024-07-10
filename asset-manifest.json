@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.3533cbdf.css",
-    "main.js": "/static/js/main.7e3ad25a.js",
+    "main.css": "/static/css/main.44ab2707.css",
+    "main.js": "/static/js/main.0f652220.js",
     "static/js/787.88ec0c9a.chunk.js": "/static/js/787.88ec0c9a.chunk.js",
     "static/media/clearviewaustintexas-eyeglasses.png": "/static/media/clearviewaustintexas-eyeglasses.a9d99081adc594c5dba8.png",
     "static/media/exterior.jpg": "/static/media/exterior.72bd89f2f5cbf55709aa.jpg",
+    "static/media/clearviewmap.png": "/static/media/clearviewmap.083a189fe1e8a7078413.png",
     "static/media/EyeTreatments.png": "/static/media/EyeTreatments.15b1400a423210ad9dad.png",
     "static/media/clearviewaustintexas-phoropter.png": "/static/media/clearviewaustintexas-phoropter.fd5190fee8af30f9c1ba.png",
     "static/media/LensFittings.png": "/static/media/LensFittings.c34a76a7964fa2229acf.png",
@@ -24,16 +25,18 @@
     "static/media/ClearViewLogo.png": "/static/media/ClearViewLogo.2c3d668d15179ddb8455.png",
     "static/media/Avesis.png": "/static/media/Avesis.324408c7faf77a967041.png",
     "static/media/dell.webp": "/static/media/dell.0654e55b3b89848416e0.webp",
+    "static/media/Ameriplan.png": "/static/media/Ameriplan.6781a3da62b078eacb72.png",
     "static/media/EyeMed_Vision.webp": "/static/media/EyeMed_Vision.991e9af23ab439998941.webp",
+    "static/media/cigna.png": "/static/media/cigna.798f072a9cba8d775f8f.png",
     "static/media/medicaid.png": "/static/media/medicaid.9002589494c8c70bb6ee.png",
     "static/media/BCBS.webp": "/static/media/BCBS.82fcf78c2ddb623a4dd3.webp",
     "index.html": "/index.html",
-    "main.3533cbdf.css.map": "/static/css/main.3533cbdf.css.map",
-    "main.7e3ad25a.js.map": "/static/js/main.7e3ad25a.js.map",
+    "main.44ab2707.css.map": "/static/css/main.44ab2707.css.map",
+    "main.0f652220.js.map": "/static/js/main.0f652220.js.map",
     "787.88ec0c9a.chunk.js.map": "/static/js/787.88ec0c9a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3533cbdf.css",
-    "static/js/main.7e3ad25a.js"
+    "static/css/main.44ab2707.css",
+    "static/js/main.0f652220.js"
   ]
 }

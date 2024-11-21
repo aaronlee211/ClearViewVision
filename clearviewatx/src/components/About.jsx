@@ -54,7 +54,7 @@ function About() {
               She received her Bachelor of Science in Chemistry from The University of Texas at Austin and her Doctorate of Optometry from the University of Houston College of Optometry.
               Dr. Lee is interested in pediatric optometry & ocular disease, including glaucoma and diabetic retinopathy.
               She is of Taiwanese descent and fluent in Spanish since she was born in Buenos Aires, Argentina.
-              Dr. Lee enjoys being active, traveling, and spending time with family, friends, and her Labrador named Healy.
+              Dr. Lee enjoys being active, traveling, and spending time with family, friends, and her dogs named Healy & Whiskey.
             </p>
           </div>
         </div>
@@ -66,16 +66,32 @@ function About() {
       {/* Technicians */}
       <div className="w-full h-fit" id="doctorBackground">
         <h1 className="poppins lg:text-3xl md:text-2xl text-xl text-center pt-12" id="ourTeamTitle"><b>Meet our Technicians</b></h1>
-        <div className="flex flex-col justify-center lg:px-14 lg:py-20 md:px-10 md:py-16 px-8 py-12">
-          <img class="doctorImage lg:h-80 lg:w-80 md:h-56 md:w-56 h-40 w-40 my-auto mx-auto md:mb-0 mb-10" src={require("../images/ClearViewVisionAustinTexas-technician.jpg")} alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"></img>
-          <div className="my-auto">
-            <h1 className="poppins font-bold doctorName text-center lg:text-3xl md:text-2xl text-xl mb-4 mt-0 lg:mt-6">
-              Amy N.
-            </h1>
-            <p className="poppins lg:text-xl md:text-lg text-center text-base doctorBio">
-              Optometric Technician
-            </p>
+        <div className='grid grid-cols-9'>
+          <div className='col-span-2'></div>
+          <div className="flex flex-col justify-center lg:px-14 lg:py-20 md:px-10 md:py-16 px-8 py-12 col-span-2">
+            <img class="doctorImage lg:h-80 lg:w-80 md:h-56 md:w-56 h-40 w-40 my-auto mx-auto md:mb-0 mb-10" src={require("../images/ClearViewVisionAustinTexas-technician.jpg")} alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"></img>
+            <div className="my-auto">
+              <h1 className="poppins font-bold doctorName text-center lg:text-3xl md:text-2xl text-xl mb-4 mt-0 lg:mt-6">
+                Amy N.
+              </h1>
+              <p className="poppins lg:text-xl md:text-lg text-center text-base doctorBio">
+                Optometric Technician
+              </p>
+            </div>
           </div>
+          <div></div>
+          <div className="flex flex-col justify-center lg:px-14 lg:py-20 md:px-10 md:py-16 px-8 py-12 col-span-2">
+            <img class="doctorImage lg:h-80 lg:w-80 md:h-56 md:w-56 h-40 w-40 my-auto mx-auto md:mb-0 mb-10" src={require("../images/ClearViewVisionAustinTexas-technician2.jpg")} alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"></img>
+            <div className="my-auto">
+              <h1 className="poppins font-bold doctorName text-center lg:text-3xl md:text-2xl text-xl mb-4 mt-0 lg:mt-6">
+                Morgan W.
+              </h1>
+              <p className="poppins lg:text-xl md:text-lg text-center text-base doctorBio">
+                Optometric Technician
+              </p>
+            </div>
+          </div>
+          <div className='col-span-2'></div>
         </div>
       </div>
 

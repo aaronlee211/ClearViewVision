@@ -25,22 +25,22 @@
 
 .badge {
     height: fit-content !important;
-    transition: 1s ease-in;
+    transition: 0.66s ease-in;
     transition: delay
 }
 
 .badge:hover {
-    transition: 1s ease-in;
+    transition: 0.66s ease-in;
     background-color: var(--dark-green);
 }
 
 .badge:not(:hover) {
-    transition-delay: 1s;
+    transition-delay: 0.66s;
     background-color: white;
 }
 
 .badge p {
-    transition: color 1s ease-in;
+    transition: color 0.66s ease-in;
 }
 
 .badge p:hover {

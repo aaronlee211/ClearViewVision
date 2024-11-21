@@ -47,7 +47,7 @@ function Header() {
             <p className={`mr-2 ml-2 2xl:text-3xl ${activeTag === 2 ? 'active' : ''}`} onClick={() => { handleClick(2) }}>Services</p>
           </NavLink>
           <NavLink className="navlink-header" to="/services#insurance">
-            <p className={`mr-2 ml-2 2xl:text-3xl ${activeTag === 3 ? 'active' : ''}`} onClick={() => { handleClick(3) }}>Insurance</p>
+            <p className={`mr-2 ml-2 2xl:text-3xl ${activeTag === 3 ? 'active' : ''}`} onClick={() => { handleClick(3) }}>Insurances</p>
           </NavLink>
           <NavLink className="navlink-header" to="contact">
             <p className={`mr-2 ml-2 2xl:text-3xl ${activeTag === 4 ? 'active' : ''}`} onClick={() => { handleClick(4) }}>Contact Us</p>
@@ -106,7 +106,7 @@ function Header() {
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
                 <NavLink className="navlink-header" to="/services#insurance" onClick={() => { handleScrollToInsurance() }}>
-                  <p className={`mx-1 2xl:text-3xl`} onClick={() => setIsNavOpen((prev) => !prev)}>Insurance</p>
+                  <p className={`mx-1 2xl:text-3xl`} onClick={() => setIsNavOpen((prev) => !prev)}>Insurances</p>
                 </NavLink>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">

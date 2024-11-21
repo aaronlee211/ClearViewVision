@@ -3,6 +3,7 @@ import '../css/Booking.css'
 import { Link } from 'react-router-dom'
 import Border from './Border'
 import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api"
+import clearviewpng from '../images/clearviewmap.png'
 
 function Booking() {
 
@@ -54,10 +55,10 @@ function Booking() {
         </div>
         <Border />
         {/* Information + Google Maps API */}
-        <div className="m-auto w-[80%] booking-map mb-10 mt-10">
-            <Map className="" />
-        </div>
 
+        <div className="m-auto w-[80%] mb-10 mt-10">
+          <img src={clearviewpng} className="m-auto w-auto h-auto sm:h-[400px] md:h-[500px] lg:h-[550px]"/>
+        </div>
     </>
   )
 }

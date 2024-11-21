@@ -3,6 +3,7 @@ import ContactForm from './ContactForm.jsx'
 import Border from './Border.jsx'
 import '../css/ContactPage.css'
 import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api"
+import clearviewpng from '../images/clearviewmap.png'
 import { ExternalLink } from 'react-external-link';
 import '../css/contactForm.css';
 import emailjs from '@emailjs/browser';
@@ -129,13 +130,10 @@ function ContactPage() {
             Saturday:  10AM - 6PM
           </p>
         </div>
-        <div className="mapcontainer mr-0 md:mr-10">
-          <iframe
-            width="100%"
-            height="100%"
-            src="https://maps.google.com/maps?q=5017+W+US+Hwy+290+Service+Rd,+Austin,+TX+78735&z=14&output=embed"
-          ></iframe>
+        <div>
+          <img src={clearviewpng} className="w-full h-auto sm:h-[400px] md:h-[500px] lg:h-[550px]"/>
         </div>
+
       </div>
 
       {/* Reference Image Exterior */}

@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import '../css/Services.css'
 import { NavLink } from 'react-router-dom';
 import Border from './Border.jsx'
-import Spectra from '../images/Spectera.png'
 import Aetna from '../images/aetna.png'
 import Dropdown from '../images/dropdown.png'
 import Ambetter from '../images/ambetter.png'
@@ -21,6 +20,19 @@ import SuperiorHP from '../images/SuperiorHP.png'
 import Unum from '../images/Unum.png'
 import UHC from '../images/unitedhealthcare.png'
 import March from '../images/march.png'
+import WellMed from '../images/WellMed.png'
+import NVA from '../images/NVA.jpg'
+import CEC from '../images/CEC_Logo.png'
+import dell from '../images/dell.webp'
+import devotedHealth from '../images/Devoted-Health.png'
+import PEC from '../images/Premier Eye Care.png'
+import Ameriplan from '../images/Ameriplan.png'
+import Cigna from '../images/cigna.png'
+import Eyetopia from '../images/eyetopia.png'
+import Metlife from '../images/metlife.png'
+import OutlookVision from '../images/OutlookVision.png'
+import UMR from '../images/UMR.png'
+
 
 function Services() {
 
@@ -125,7 +137,7 @@ function Services() {
         {/* Insurance */}
 
         <div className='flex items-center justify-center servicesBackground mt-10 mb-10' id="insurance">
-          <p className='serviceName poppins font-bold lg:text-3xl md:text-2xl text-xl'>Insurance Options at ClearView Vision</p>
+          <p className='serviceName text-center poppins font-bold lg:text-3xl md:text-2xl text-xl'>Insurance Options at ClearView Vision</p>
         </div>
         <p className='text-center md:text-left md:ml-14 poppins lg:text-xl md:text-lg text-base'>We accept the following insurance plans:</p>
 
@@ -138,13 +150,30 @@ function Services() {
                 <img src={Ambetter} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div className='insuranceContainer'>
+                <img src={Ameriplan} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer'>
               <img src={Avesis} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div className='insuranceContainer'>
                 <img src={BCBS} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
+          </div>
+          <div className='grid grid-cols-5 justify-items-center gap-x-16 mt-10 pb-10'>
+            <div className='insuranceContainer'>
+              <img src={CEC} className="insurancebg m-auto"alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer'>
+              <img src={Cigna} className="insurancebg m-auto"alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
             <div className='insuranceContainer'>
               <img src={Davis} className="insurancebg m-auto"alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer'>
+              <img src={dell} className="insurancebg m-auto"alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer'>
+              <img src={devotedHealth} className="insurancebg m-auto"alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
           </div>
           <div className='grid grid-cols-5 justify-items-center gap-x-16 mt-10 pb-10'>
@@ -155,18 +184,35 @@ function Services() {
               <img src={EyeMed} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div className='insuranceContainer'>
+              <img src={Eyetopia} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer'>
               <img src={Humana} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div className='insuranceContainer'>
                 <img src={March} className="insurancebg scale-130 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
               </div>
+          </div>
+          <div className='grid grid-cols-5 justify-items-center gap-x-16 mt-10 pb-10'>
             <div className='insuranceContainer'>
               <img src={Medicaid} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer'>
+              <img src={Medicare} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer'>
+              <img src={Metlife} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer'>
+              <img src={NVA} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer'>
+              <img src={OutlookVision} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
           </div>
           <div className='grid grid-cols-5 justify-items-center gap-x-16 mt-10 pb-10'>
             <div className='insuranceContainer'>
-              <img src={Medicare} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+              <img src={PEC} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div className='insuranceContainer'>
               <img src={require("../images/Spectera.png")} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
@@ -181,12 +227,18 @@ function Services() {
               <img src={Tricare} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
           </div>
-          <div className='grid grid-cols-2 justify-items-center gap-x-16 mt-10 pb-10'>
+          <div className='grid grid-cols-4 justify-items-center gap-x-16 mt-10 pb-10'>
             <div className='insuranceContainer'>
               <img src={UHC} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div className='insuranceContainer'>
+              <img src={UMR} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer'>
               <img src={Unum} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer'>
+              <img src={WellMed} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
           </div>
         </div>
@@ -195,46 +247,91 @@ function Services() {
         <div className='block sm:hidden'>
           <div className='grid grid-cols-1 justify-items-center gap-x-16 mt-10 pb-10'>
             <div className='insuranceContainer mt-6'>
-              <img src={Spectra} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
-            </div>
-            <div className='insuranceContainer mt-6'>
               <img src={Aetna} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div className='insuranceContainer mt-6'>
-              <img src={Davis} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+                <img src={Ambetter} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div className='insuranceContainer mt-6'>
-              <img src={Superior} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
-            </div>
-            <div className='insuranceContainer mt-6'>
-              <img src={Ambetter} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
-            </div>
-            <div className='insuranceContainer mt-6'>
-              <img src={EyeMed} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+                <img src={Ameriplan} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div className='insuranceContainer mt-6'>
               <img src={Avesis} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div className='insuranceContainer mt-6'>
-              <img src={BCBS} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+                <img src={BCBS} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer mt-6'>
+              <img src={CEC} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer mt-6'>
+              <img src={Cigna} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer mt-6'>
+              <img src={Davis} className="insurancebg m-auto"alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer mt-6'>
+              <img src={dell} className="insurancebg m-auto"alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer mt-6'>
+              <img src={devotedHealth} className="insurancebg m-auto"alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer mt-6'>
+              <img src={Envolve} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer mt-6'>
+              <img src={EyeMed} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer mt-6'>
+              <img src={Eyetopia} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer mt-6'>
+              <img src={Humana} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer mt-6'>
+                <img src={March} className="insurancebg scale-130 m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+              </div>
+            <div className='insuranceContainer mt-6'>
+              <img src={Medicaid} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div className='insuranceContainer mt-6'>
               <img src={Medicare} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div className='insuranceContainer mt-6'>
-              <img src={Tricare} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+              <img src={Metlife} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer mt-6'>
+              <img src={NVA} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer mt-6'>
+              <img src={OutlookVision} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer mt-6'>
+              <img src={PEC} className="insurancebg m-auto"alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer mt-6'>
+              <img src={require("../images/Spectera.png")} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div className='insuranceContainer mt-6'>
               <img src={SuperiorHP} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div className='insuranceContainer mt-6'>
-              <img src={Unum} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+              <img src={Superior} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer mt-6'>
+              <img src={Tricare} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div className='insuranceContainer mt-6'>
               <img src={UHC} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
             <div className='insuranceContainer mt-6'>
-              <img src={March} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+              <img src={UMR} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer mt-6'>
+              <img src={Unum} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
+            </div>
+            <div className='insuranceContainer mt-6'>
+              <img src={WellMed} className="insurancebg m-auto" alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"/>
             </div>
           </div>
         </div>

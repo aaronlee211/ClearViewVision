@@ -43,7 +43,7 @@ function Disclaimer() {
                 Message frequency may vary. Message & data rates may apply. Reply STOP to opt-out of further messaging. Reply HELP for more information. 
                 See our{' '}
                 <a 
-                    href="http://www.clearviewatx.com/privacypolicy" 
+                    href="http://www.clearviewatx.com/privacy-statement" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     style={linkStyle}

@@ -6,7 +6,8 @@ import Home from './components/Home.jsx';
 import About from './components/About.jsx';
 import Services from './components/Services.jsx';
 import ContactPage from './components/ContactPage.jsx';
-
+import Disclaimer from './components/Disclaimer.jsx'; 
+import PrivacyStatement from './components/PrivacyStatement.jsx'; 
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <Route path="services" element={<Services/>}/>
       <Route path="contact" element={<ContactPage/>}/>
       <Route path="book" element={<Booking/>}/>
+      <Route path="disclaimer" element={<Disclaimer />}/> 
+      <Route path="privacy-statement" element={<PrivacyStatement />}/>
     </Routes>
     <Footer/>
     </BrowserRouter>

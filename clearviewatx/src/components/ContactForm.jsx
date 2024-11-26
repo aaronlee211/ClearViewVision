@@ -75,7 +75,29 @@ function ContactForm() {
             value={formDetails.message} onChange={(e) => onFormUpdate(e.target.name, e.target.value)}/>
           </div>
           <div className="flex justify-center mb-10">
-            <button id="contactFormSubmit" className="py-2 px-12 rounded-full mx-auto mt-10 poppins" onClick={(e) => handleSubmit(e)}>Submit</button>
+            <button
+              id="contactFormSubmit"
+              className="py-2 px-12 rounded-full mx-auto mt-10 poppins"
+              onClick={(e) => handleSubmit(e)}
+            >
+              Submit
+            </button>
+          </div>
+          <div className="text-center mx-auto max-w-2xl px-4">
+            <p style={{ fontSize: '0.9rem', color: '#555', lineHeight: '1.5' }}>
+              Disclaimer: By providing your contact information and submitting the form, you consent to receive 
+              communications from ClearView Vision. Message and data rates may apply. Reply STOP to opt-out. 
+              See our{' '}
+              <a
+                href="http://www.clearviewatx.com/privacy-statement"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: '#007bff', textDecoration: 'none' }}
+              >
+                Privacy Policy
+              </a>
+              .
+            </p>
           </div>
         </form>
       </div>

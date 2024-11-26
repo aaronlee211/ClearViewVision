@@ -22,13 +22,13 @@ function Footer() {
           <Link className="link link-hover footerText" to="/services#FAQ">
             Frequently Asked Questions
           </Link>
-          <Link className="link link-hover footerText" to="/disclaimer">
+          {/* <Link className="link link-hover footerText" to="/disclaimer">
             Disclaimer
-          </Link>
+          </Link> */}
           <Link className="link link-hover footerText" to="/privacy-statement">
             Privacy Statement
           </Link>
-          
+
           {/* <Link className="link link-hover footerText" to="/#reviews">
             Customer Reviews
           </Link> */}

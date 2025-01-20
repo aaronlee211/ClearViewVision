@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react'
-import '../css/About.css'
-import ReviewsReact from './ReviewsReact.jsx';
-import Border from './Border.jsx'
+import '../../css/About.css'
+import ReviewsReact from '../ReviewsReact.jsx';
+import Border from '../Border.jsx'
+import TechnicianCard from './TechnicianCard.jsx';
 
 function About() {
 
@@ -44,7 +45,7 @@ function About() {
       <div className="w-full h-fit px-[10%]" id="doctorBackground">
         <h1 className="poppins lg:text-3xl md:text-2xl text-xl text-center pt-12" id="ourTeamTitle"><b>Meet the Doctors</b></h1>
         <div className="md:flex lg:px-14 lg:py-20 md:px-10 md:py-16 px-8 py-12">
-          <img class="doctorImage lg:h-80 lg:w-80 md:h-56 md:w-56 h-40 w-40 my-auto mx-auto md:mb-0 mb-10" src={require("../images/DrMicaelaLee.jpg")} alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"></img>
+          <img class="doctorImage lg:h-80 lg:w-80 md:h-56 md:w-56 h-40 w-40 my-auto mx-auto md:mb-0 mb-10" src={require("../../images/DrMicaelaLee.jpg")} alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"></img>
           <div className="lg:pl-14 md:pl-10 pl-8 my-auto">
             <h1 className="poppins font-bold doctorName lg:text-3xl md:text-2xl text-xl lg:mb-4 mb-2">
               Dr. Micaela Lee
@@ -66,32 +67,11 @@ function About() {
       {/* Technicians */}
       <div className="w-full h-fit" id="doctorBackground">
         <h1 className="poppins lg:text-3xl md:text-2xl text-xl text-center pt-12" id="ourTeamTitle"><b>Meet our Technicians</b></h1>
-        <div className='grid grid-cols-9'>
-          <div className='col-span-2'></div>
-          <div className="flex flex-col justify-center lg:px-14 lg:py-20 md:px-10 md:py-16 px-8 py-12 col-span-2">
-            <img class="doctorImage lg:h-80 lg:w-80 md:h-56 md:w-56 h-40 w-40 my-auto mx-auto md:mb-0 mb-10" src={require("../images/ClearViewVisionAustinTexas-technician.jpg")} alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"></img>
-            <div className="my-auto">
-              <h1 className="poppins font-bold doctorName text-center lg:text-3xl md:text-2xl text-xl mb-4 mt-0 lg:mt-6">
-                Amy N.
-              </h1>
-              <p className="poppins lg:text-xl md:text-lg text-center text-base doctorBio">
-                Optometric Technician
-              </p>
-            </div>
-          </div>
-          <div></div>
-          <div className="flex flex-col justify-center lg:px-14 lg:py-20 md:px-10 md:py-16 px-8 py-12 col-span-2">
-            <img class="doctorImage lg:h-80 lg:w-80 md:h-56 md:w-56 h-40 w-40 my-auto mx-auto md:mb-0 mb-10" src={require("../images/ClearViewVisionAustinTexas-technician2.jpg")} alt="ClearView Vision Austin ATX, Austin Sunset Valley Eye Doctor"></img>
-            <div className="my-auto">
-              <h1 className="poppins font-bold doctorName text-center lg:text-3xl md:text-2xl text-xl mb-4 mt-0 lg:mt-6">
-                Morgan W.
-              </h1>
-              <p className="poppins lg:text-xl md:text-lg text-center text-base doctorBio">
-                Optometric Technician
-              </p>
-            </div>
-          </div>
-          <div className='col-span-2'></div>
+        <div className='grid sm:grid-cols-2 lg:grid-cols-4'>
+          <TechnicianCard name="Amy N." imgSrc="ClearViewVisionAustinTexas-technician.jpg"/>
+          <TechnicianCard name="Morgan W." imgSrc="ClearViewVisionAustinTexas-technician2.jpg"/>
+          <TechnicianCard name="Elizha W." imgSrc="ClearViewVisionAustinTexas-technician3.jpg"/>
+          <TechnicianCard name="Dinorah M." imgSrc="ClearViewVisionAustinTexas-technician4.jpg"/>
         </div>
       </div>
 

@@ -67,11 +67,10 @@ function About() {
       {/* Technicians */}
       <div className="w-full h-fit" id="doctorBackground">
         <h1 className="poppins lg:text-3xl md:text-2xl text-xl text-center pt-12" id="ourTeamTitle"><b>Meet our Technicians</b></h1>
-        <div className='grid sm:grid-cols-2 lg:grid-cols-4'>
-          <TechnicianCard name="Amy N." imgSrc="ClearViewVisionAustinTexas-technician.jpg"/>
-          <TechnicianCard name="Morgan W." imgSrc="ClearViewVisionAustinTexas-technician2.jpg"/>
-          <TechnicianCard name="Elizha W." imgSrc="ClearViewVisionAustinTexas-technician3.jpg"/>
-          <TechnicianCard name="Dinorah M." imgSrc="ClearViewVisionAustinTexas-technician4.jpg"/>
+        <div className='grid sm:grid-cols-1 lg:grid-cols-3'>
+          <TechnicianCard name="Amy" imgSrc="ClearViewVisionAustinTexas-technician.jpg"/>
+          <TechnicianCard name="Elaizha" imgSrc="ClearViewVisionAustinTexas-technician3.jpg"/>
+          <TechnicianCard name="Nora" imgSrc="ClearViewVisionAustinTexas-technician4.jpg"/>
         </div>
       </div>
 
